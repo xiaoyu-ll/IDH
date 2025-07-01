@@ -41,21 +41,26 @@ vector<int>pv;
 map<int,int>frontv;
 map<int,int>fronte;
 map<int,bool>fh;
+bool dk[maxn1];
 void readedge()//读数据
 {
-    //ifstream rda("dataset/senate-bills.txt");
-    //ifstream rda("dataset/house-bills.txt");
+    //ifstream rda("dataset/walmart2.txt");
+    //ifstream rda("dataset/trivago2.txt");
+    //ifstream rda("dataset/CA.txt");
+    //ifstream rda("dataset/senate-bills2.txt");
+    ifstream rda("dataset/house-bills2.txt");
     //ifstream rda("dataset/stackoverflow.txt");
     //ifstream rda("dataset/amazon.txt");
-    ifstream rda("dataset/house-committees.txt");
-    //ifstream rda("dataset/senate-committees.txt");
-    //ifstream rda("dataset/contact-high.txt");
-    //ifstream rda("dataset/contact-primary.txt");
+    //ifstream rda("dataset/house-committees2.txt");
+    //ifstream rda("dataset/senate-committees2.txt");
+    //ifstream rda("dataset/contact-high2.txt");
+    //ifstream rda("dataset/contact-primary2.txt");
     //ifstream rda("dataset/mathoverflow.txt");
     //ifstream rda("dataset/wiki_topcats.txt");
-    //ifstream rda("dataset/test.txt");
-    //ifstream rda("dataset/tmathoverflow.txt");
-    //ifstream rda("dataset/email_eu.txt");
+    //ifstream rda("dataset/gptgene3.txt");
+    //ifstream rda("dataset/test1.txt");
+    //ifstream rda("dataset/tmathoverflow3.txt");
+    //ifstream rda("dataset/email_eu3.txt");
     if(!rda)
     {
         cout<<"error!"<<endl;
@@ -197,16 +202,20 @@ void reverse(int vi, int vj)
     //pv.erase(pv.begin());
     reverse(vi, frontv[vj]);
 }
-void reorientation()
+void reorientation(int k)
 {
     while(1)
     {
         bool flag=false;
         for(int i=0;i<=nodenum;i++)
         {
+            if(dk[i])
+            continue;
             for(int j=0;j<=nodenum;j++)
             {
                 if(i==j)
+                continue;
+                if(!dk[j])
                 continue;
                 frontv.erase(frontv.begin(),frontv.end());
                 fronte.erase(fronte.begin(),fronte.end());
@@ -218,6 +227,43 @@ void reorientation()
                     {
                         //pv.insert(pv.begin(),i); 
                         reverse(i,j);
+                        if(vertex[j].indegree==k-2)
+                        dk[j]=false;
+                        if(vertex[j].indegree==k-1)
+                        {
+                            bool jflag=false;
+                            for(int l=1;l<=nodenum;l++)
+                            {
+                                if(l==j)
+                                continue;
+                                if(dk[l]&&vertex[l].indegree==k)
+                                {
+                                    if(bfs(j,l,0))
+                                    {
+                                        jflag=true;
+                                        break;
+                                    }
+                                }
+                            }
+                            if(!jflag)
+                            dk[j]=false;
+                        }
+                        if(vertex[i].indegree==k-1)
+                        {
+                            for(int l=1;l<=nodenum;l++)
+                            {
+                                if(l==i)
+                                continue;
+                                if(dk[l]&&vertex[l].indegree==k)
+                                {
+                                    if(bfs(i,l,0))
+                                    {
+                                        dk[i]=true;
+                                        break;
+                                    }
+                                }
+                            }
+                        }
                         flag=true;
                     } 
                 }
@@ -229,40 +275,6 @@ void reorientation()
 }
 
 
-bool reachk(int vi,int vk, int co)
-{
-    for(int i=0;i<vertex[vi].tedge.size();i++)//遍历顶点vi的每条出边，结点指向边
-    {
-        pe.push_back(vertex[vi].tedge[i]);//把路径上的边依次存储下来
-        co++;
-        for(int l=0;l<pe.size()-1;l++)
-        {
-            if(vertex[vi].tedge[i]==pe[l])
-            {
-                return false;
-            }
-        }
-        if(co==nodenum-1)
-        {
-            return false;
-            break;
-        }
-        for(int j=0;j<hyperedge[vertex[vi].tedge[i]].vharr.size();j++)//遍历这条出边的所有具有入度的顶点，边指向结点
-        {
-            if(hyperedge[vertex[vi].tedge[i]].vharr[j]==vk)
-            {
-                return true;
-                break;
-            } 
-            else
-            {
-                if(reachk(hyperedge[vertex[vi].tedge[i]].vharr[j],vk,co))
-                return true;
-            }
-        }
-    }
-    return false;     
-}
 void finddk(int k)
 {
     vector<int>veck;
@@ -270,7 +282,10 @@ void finddk(int k)
     for(int i=1;i<=nodenum;i++)
     {
         if(vertex[i].indegree>=k)
-        veck.push_back(i);
+        {
+            veck.push_back(i);
+            dk[i]=true;
+        }
     }
     for(int i=1;i<=nodenum;i++)
     {
@@ -285,6 +300,7 @@ void finddk(int k)
                     if(vertex[temp].indegree>=k)
                     {
                         veck1.push_back(i);
+                        dk[i]=true;
                         flag=true;
                         break;
                     }
@@ -294,27 +310,23 @@ void finddk(int k)
             }
             if(!flag)
             {
-            for(int j=0;j<veck.size();j++)
-            {
-                pe.clear();
-                int count=0;
-                fh.erase(fh.begin(),fh.end());
-                if(bfs(i,veck[j],count))
+                for(int j=0;j<veck.size();j++)
                 {
-                    veck1.push_back(i);
-                    break;
-                }     
-            }
+                    pe.clear();
+                    int count=0;
+                    fh.erase(fh.begin(),fh.end());
+                    if(bfs(i,veck[j],count))
+                    {
+                        veck1.push_back(i);
+                        dk[i]=true;
+                        break;
+                    }
+                }
             }
         }
     }
     int vecsize1=veck.size();
     veck.insert(veck.end(), veck1.begin(), veck1.end());
-    int vecsize2=veck.size();
-    for(int i=0;i<veck.size();i++)
-    cout<<veck[i]<<endl;
-    cout<<"k="<<k<<" dk:"<<endl;
-    cout<<vecsize1<<" "<<vecsize2<<endl;
 }
 int main()
 {
@@ -322,11 +334,19 @@ int main()
     readedge();
     cout<<"...."<<endl;
     start_time = clock();
-    orientation();
-    reorientation();
-    //hyperedgerotation();
     int k=3;
-    finddk(k);
+    orientation();
+    reorientation(k);
+    //hyperedgerotation();
+    
+    //vector<int>vec=finddk(k);
+    for(int i=1;i<=nodenum;i++)
+    {
+        if(dk[i])
+        cout<<i<<endl;
+    }
+    //cout<<vec[i]<<endl;
+    cout<<"k="<<k<<" dk:"<<endl;
     int count=0;
     end_time = clock();     //获取结束时间
     double Times = (double)(end_time - start_time) / CLOCKS_PER_SEC;
