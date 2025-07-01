@@ -44,23 +44,14 @@ map<int,bool>fh;
 bool dk[maxn1];
 void readedge()//读数据
 {
-    //ifstream rda("dataset/walmart2.txt");
-    //ifstream rda("dataset/trivago2.txt");
-    //ifstream rda("dataset/CA.txt");
-    //ifstream rda("dataset/senate-bills2.txt");
-    ifstream rda("dataset/house-bills2.txt");
-    //ifstream rda("dataset/stackoverflow.txt");
-    //ifstream rda("dataset/amazon.txt");
-    //ifstream rda("dataset/house-committees2.txt");
-    //ifstream rda("dataset/senate-committees2.txt");
-    //ifstream rda("dataset/contact-high2.txt");
-    //ifstream rda("dataset/contact-primary2.txt");
-    //ifstream rda("dataset/mathoverflow.txt");
-    //ifstream rda("dataset/wiki_topcats.txt");
-    //ifstream rda("dataset/gptgene3.txt");
-    //ifstream rda("dataset/test1.txt");
-    //ifstream rda("dataset/tmathoverflow3.txt");
-    //ifstream rda("dataset/email_eu3.txt");
+    //ifstream rda("dataset/walmart.txt");
+    //ifstream rda("dataset/trivago.txt");
+    //ifstream rda("dataset/senate-bill.txt");
+    ifstream rda("dataset/house-bills.txt");
+    //ifstream rda("dataset/house-committees.txt");
+    //ifstream rda("dataset/senate-committees.txt");
+    //ifstream rda("dataset/contact-high.txt");
+    //ifstream rda("dataset/contact-primary.txt");
     if(!rda)
     {
         cout<<"error!"<<endl;
