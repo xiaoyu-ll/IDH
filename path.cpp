@@ -110,239 +110,253 @@ void orientation()
         }
     }
 }
-bool bfs(int vi, int vj, int co)
+
+void reverse(int vi, int vj,int ee)
+{  
+    std::vector<int>::iterator pos;
+    //翻转vi到ee的入边,处理顶点
+    vertex[vi].indegree--;  //1
+    pos = find(vertex[vi].hedge.begin(),vertex[vi].hedge.end(),ee);
+    if (pos != vertex[vi].hedge.end()) //0
+    {
+        vertex[vi].hedge.erase(pos);
+    }
+    vertex[vi].tedge.push_back(ee);//1
+    //翻转vi到ee的入边,处理边   1
+    pos = find(hyperedge[ee].vharr.begin(),hyperedge[ee].vharr.end(),vi);
+    if (pos != hyperedge[ee].vharr.end()) 
+    {
+        hyperedge[ee].vharr.erase(pos);
+    }
+    hyperedge[ee].vtarr.push_back(vi);
+    //翻转vj到ee的出边,处理边   1
+    pos = find(hyperedge[ee].vtarr.begin(),hyperedge[ee].vtarr.end(),vj);
+    if (pos != hyperedge[ee].vtarr.end()) 
+    {
+        hyperedge[ee].vtarr.erase(pos);
+    }
+    hyperedge[ee].vharr.push_back(vj);
+    //翻转vj到ee的出边,处理顶点
+    vertex[vj].indegree++;//1
+    pos = find(vertex[vj].tedge.begin(),vertex[vj].tedge.end(),ee);
+    if (pos != vertex[vj].tedge.end()) //1
+    {
+        vertex[vj].tedge.erase(pos);
+    }
+    vertex[vj].hedge.push_back(ee);//0
+}
+
+void reachout(int vi,int k)
 {
     queue<int>q;
-    queue<int>q1;
-    for(int i=0;i<vertex[vi].tedge.size();i++)//遍历顶点vi的每条出边，结点指向边
+    for(int i=0;i<vertex[vi].hedge.size();i++)
     {
-        //pe.push_back(vertex[vi].tedge[i]);//把路径上的边依次存储下来
-        for(int j=0;j<hyperedge[vertex[vi].tedge[i]].vharr.size();j++)//遍历这条出边的所有具有入度的顶点，边指向结点
+        int ee=vertex[vi].hedge[i];
+        for(int j=0;j<hyperedge[ee].vtarr.size();j++)
         {
-            //
-            if(!fh[hyperedge[vertex[vi].tedge[i]].vharr[j]])
+            int vv=hyperedge[ee].vtarr[j];
+            if(!dk[vv]&&(vertex[vi].indegree-vertex[vv].indegree)>=2)
             {
-                fh[hyperedge[vertex[vi].tedge[i]].vharr[j]]=true;
-                q.push(hyperedge[vertex[vi].tedge[i]].vharr[j]);
-                fronte[hyperedge[vertex[vi].tedge[i]].vharr[j]]=vertex[vi].tedge[i];
-                frontv[hyperedge[vertex[vi].tedge[i]].vharr[j]]=vi;
+                reverse(vi,vv,ee);
+                if(vertex[vv].indegree>=k)
+                {
+                    dk[vv]=true;
+                }
+                q.push(vv);
+                i--;
+                break;
             }
-                //if(bfs(hyperedge[vertex[vi].tedge[i]].vharr[j],vj,co))
-            //pv.pop_back();
         }
     }
     while(!q.empty())
     {
-        if(q.front()==vj)
-        {
-            return true;
-            break;
-        }
-        q1.push(q.front());
+        reachout(q.front(),k);
         q.pop();
     }
-    while(!q1.empty())
+}
+
+void reachin(int vi,int k)
+{
+    queue<int>q;
+    for(int i=0;i<vertex[vi].tedge.size();i++)
     {
-        if(bfs(q1.front(),vj,co++))
+        int ee=vertex[vi].tedge[i];
+        for(int j=0;j<hyperedge[ee].vharr.size();j++)
         {
-            return true;
-            break;
+            int vv=hyperedge[ee].vharr[j];
+            if(!dk[vv]&&(vertex[vv].indegree-vertex[vi].indegree)>=2)
+            {
+                reverse(vv,vi,ee);
+                q.push(vv);
+                i--;
+                break;
+            }
         }
-        q1.pop();
     }
+    while(!q.empty())
+    {
+        reachin(q.front(),k);
+        q.pop();
+    }
+}
+bool outk(int vi,int k)
+{
+    bool flag=false;
+    int initd=vertex[vi].indegree;
+    for(int i=0;i<vertex[vi].hedge.size();i++)
+    {
+        int ee=vertex[vi].hedge[i];
+        for(int j=0;j<hyperedge[ee].vtarr.size();j++)
+        {
+            int vv=hyperedge[ee].vtarr[j];
+            if(dk[vv]&&(vertex[vi].indegree-vertex[vv].indegree)>=2)
+            {
+                flag=true;
+                reverse(vi,vv,ee);
+                i--;
+                break;
+            }
+        }
+    }
+    for(int i=0;i<vertex[vi].tedge.size();i++)
+    {
+        int ee=vertex[vi].tedge[i];
+        for(int j=0;j<hyperedge[ee].vharr.size();j++)
+        {
+            int vv=hyperedge[ee].vharr[j];
+            if(dk[vv]&&(vertex[vv].indegree-vertex[vi].indegree)>=2)
+            {
+                flag=true;
+                reverse(vv,vi,ee);
+                i--;
+                break;
+            }
+        }
+    }
+    if(initd>vertex[vi].indegree)//变小了
+    {
+        reachin(vi,k);
+    }
+    else if(initd<vertex[vi].indegree)
+    {
+        reachout(vi,k);
+    }
+    if(vertex[vi].indegree<k)
+    {
+        dk[vi]=false;
+        cout<<"!!!!!"<<endl;
+    }
+    if(flag)
+    return true;
     return false;
 }
-void reverse(int vi, int vj)
-{
-    if(vi==vj)
-    return;
-    //int i=0;    
-    std::vector<int>::iterator pos;
-    //翻转vj到fronte[vj]的入边,处理顶点
-    vertex[vj].indegree--;  //1
-    pos = find(vertex[vj].hedge.begin(),vertex[vj].hedge.end(),fronte[vj]);
-    if (pos != vertex[vj].hedge.end()) //0
-    {
-        vertex[vj].hedge.erase(pos);
-    }
-    vertex[vj].tedge.push_back(fronte[vj]);//1
-    //翻转vj到fronte[vj]的入边,处理边   1
-    pos = find(hyperedge[fronte[vj]].vharr.begin(),hyperedge[fronte[vj]].vharr.end(),vj);
-    if (pos != hyperedge[fronte[vj]].vharr.end()) 
-    {
-        hyperedge[fronte[vj]].vharr.erase(pos);
-    }
-    hyperedge[fronte[vj]].vtarr.push_back(vj);
-    //翻转frontv[vj]到fronte[vj]的出边,处理边   1
-    pos = find(hyperedge[fronte[vj]].vtarr.begin(),hyperedge[fronte[vj]].vtarr.end(),frontv[vj]);
-    if (pos != hyperedge[fronte[vj]].vtarr.end()) 
-    {
-        hyperedge[fronte[vj]].vtarr.erase(pos);
-    }
-    hyperedge[fronte[vj]].vharr.push_back(frontv[vj]);
-    //翻转frontv[vj]到fronte[vj]的出边,处理顶点
-    vertex[frontv[vj]].indegree++;//1
-    pos = find(vertex[frontv[vj]].tedge.begin(),vertex[frontv[vj]].tedge.end(),fronte[vj]);
-    if (pos != vertex[frontv[vj]].tedge.end()) //1
-    {
-        vertex[frontv[vj]].tedge.erase(pos);
-    }
-    vertex[frontv[vj]].hedge.push_back(fronte[vj]);//0
-    //相应的把路径的第一条和相关顶点边去掉
-    //pe.erase(pe.begin());
-    //pv.erase(pv.begin());
-    reverse(vi, frontv[vj]);
-}
+
 void reorientation(int k)
 {
+    for(int i=1;i<=nodenum;i++)
+    {
+        if(vertex[i].indegree>=k)
+        dk[i]=true;
+    }
+    for(int i=1;i<=nodenum;i++)
+    {
+        if(dk[i])
+        {
+            reachout(i,k);
+        }
+    }
+    cout<<"1111"<<endl;
     while(1)
     {
         bool flag=false;
-        for(int i=0;i<=nodenum;i++)
+        for(int i=1;i<=nodenum;i++)
         {
             if(dk[i])
-            continue;
-            for(int j=0;j<=nodenum;j++)
             {
-                if(i==j)
-                continue;
-                if(!dk[j])
-                continue;
-                frontv.erase(frontv.begin(),frontv.end());
-                fronte.erase(fronte.begin(),fronte.end());
-                fh.erase(fh.begin(),fh.end());
-                if(vertex[j].indegree>(vertex[i].indegree+1))
-                {
-                    int count=0;
-                    if(bfs(i,j,count))
-                    {
-                        //pv.insert(pv.begin(),i); 
-                        reverse(i,j);
-                        if(vertex[j].indegree==k-2)
-                        dk[j]=false;
-                        if(vertex[j].indegree==k-1)
-                        {
-                            bool jflag=false;
-                            for(int l=1;l<=nodenum;l++)
-                            {
-                                if(l==j)
-                                continue;
-                                if(dk[l]&&vertex[l].indegree==k)
-                                {
-                                    if(bfs(j,l,0))
-                                    {
-                                        jflag=true;
-                                        break;
-                                    }
-                                }
-                            }
-                            if(!jflag)
-                            dk[j]=false;
-                        }
-                        if(vertex[i].indegree==k-1)
-                        {
-                            for(int l=1;l<=nodenum;l++)
-                            {
-                                if(l==i)
-                                continue;
-                                if(dk[l]&&vertex[l].indegree==k)
-                                {
-                                    if(bfs(i,l,0))
-                                    {
-                                        dk[i]=true;
-                                        break;
-                                    }
-                                }
-                            }
-                        }
-                        flag=true;
-                    } 
-                }
+                if(outk(i,k))
+                flag=true;
             }
         }
         if(!flag)
         break;
     }
+    
+    
+}
+
+bool reachdk(int vi, int k)
+{
+    queue<int>q;
+    for(int i=0;i<vertex[vi].tedge.size();i++)//遍历顶点vi的每条出边，结点指向边
+    {
+        for(int j=0;j<hyperedge[vertex[vi].tedge[i]].vharr.size();j++)//遍历这条出边的所有具有入度的顶点，边指向结点
+        {
+            int vv=hyperedge[vertex[vi].tedge[i]].vharr[j];
+            if(vertex[vv].indegree>=k)
+            {
+                dk[vi]=true;
+                return true;
+            }
+            if(!fh[vv]&&vertex[vv].indegree==k-1)
+            {
+                fh[vv]=true;
+                q.push(vv);
+            }
+        }
+    }
+
+    while(!q.empty())
+    {
+        if(reachdk(q.front(),k))
+        {
+            dk[q.front()]=true;
+            return true;
+            break;
+        }
+        q.pop();
+    }
+    return false;
 }
 
 
 void finddk(int k)
 {
-    vector<int>veck;
-    vector<int>veck1;
     for(int i=1;i<=nodenum;i++)
     {
-        if(vertex[i].indegree>=k)
-        {
-            veck.push_back(i);
-            dk[i]=true;
-        }
+        fh.clear();
+        if(!dk[i]&&vertex[i].indegree==k-1&&reachdk(i,k))
+        dk[i]=true;
     }
-    for(int i=1;i<=nodenum;i++)
+    int co=0;
+    for(int i=0;i<vm;i++)
     {
-        if(vertex[i].indegree==k-1)
+        if(dk[i])
         {
-            bool flag=false;
-            for(int j=0;j<vertex[i].tedge.size();j++)
-            {
-                for(int l=0;l<hyperedge[vertex[i].tedge[j]].vharr.size();l++)
-                {
-                    int temp=hyperedge[vertex[i].tedge[j]].vharr[l];
-                    if(vertex[temp].indegree>=k)
-                    {
-                        veck1.push_back(i);
-                        dk[i]=true;
-                        flag=true;
-                        break;
-                    }
-                }
-                if(flag)
-                break;
-            }
-            if(!flag)
-            {
-                for(int j=0;j<veck.size();j++)
-                {
-                    pe.clear();
-                    int count=0;
-                    fh.erase(fh.begin(),fh.end());
-                    if(bfs(i,veck[j],count))
-                    {
-                        veck1.push_back(i);
-                        dk[i]=true;
-                        break;
-                    }
-                }
-            }
-        }
+            //cout<<i<<endl;
+            co++;
+        }  
     }
-    int vecsize1=veck.size();
-    veck.insert(veck.end(), veck1.begin(), veck1.end());
+    
+    cout<<"k="<<k<<" dk:"<<endl;
+    cout<<co<<endl;
 }
+
+
 int main()
 {
     clock_t start_time, end_time;
     readedge();
     cout<<"...."<<endl;
     start_time = clock();
-    int k=3;
+    int k=5;
     orientation();
     reorientation(k);
-    //hyperedgerotation();
-    
-    //vector<int>vec=finddk(k);
-    for(int i=1;i<=nodenum;i++)
-    {
-        if(dk[i])
-        cout<<i<<endl;
-    }
-    //cout<<vec[i]<<endl;
-    cout<<"k="<<k<<" dk:"<<endl;
-    int count=0;
+    double Times1 = (double)(end_time - start_time) / CLOCKS_PER_SEC;
+    cout<<Times1<<"seconds"<<endl;
+    finddk(k);
     end_time = clock();     //获取结束时间
-    double Times = (double)(end_time - start_time) / CLOCKS_PER_SEC;
-    cout<<Times<<"seconds"<<endl;
-    system("pause");
+    double Times2 = (double)(end_time - start_time) / CLOCKS_PER_SEC;
+    cout<<Times2<<"seconds"<<endl;
     return 0;
 
 }
