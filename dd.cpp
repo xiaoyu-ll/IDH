@@ -56,31 +56,11 @@ vector<int> dkv[maxn];
 int edgenum=0;
 int nodenum=0;
 int deltamax=0;
-map<int,int>frontv;
-map<int,int>fronte;
+
 map<int,bool>fh;
 
-int cnt,head[vm+em];
-int dep[vm+em];
-int edgeflag=0;
 
 
-void addedge(int cu,int cv,int cw)
-{
-	edge[cnt].u=cu;	
-    edge[cnt].v=cv;	
-    edge[cnt].cap=cw;  
-    edge[cnt].flow=0; 
-    edge[cnt].next=head[cu];
-	head[cu]=cnt++;
-
-	edge[cnt].u=cv;	
-    edge[cnt].v=cu;	
-    edge[cnt].cap=0;
-    edge[cnt].flow=0; 	
-    edge[cnt].next=head[cv];
-	head[cv]=cnt++;
-}
 
 void readedge()//读数据
 {
@@ -159,263 +139,223 @@ void orientation(int delta)
     }
 }
 
-int BFS()
-{
-	queue<int> q;
-	while (!q.empty()) q.pop();
-	memset(dep,-1,sizeof(dep));
-	dep[src] = 0;
-	q.push(src);
-	while (!q.empty())
-	{
-		int u=q.front();
-		q.pop();
-		for (int i=head[u];i!=-1;i=edge[i].next)
-		{
-			int v=edge[i].v;
-			if (edge[i].cap>edge[i].flow&& dep[v]==-1)
-			{
-				dep[v]=dep[u]+1;
-				q.push(v);
-			}
-		}
-	}
-	if (dep[des]==-1) return 0;
-	return 1;
-}
 
-int DFS(int u,int minflow)
-{
-	if (u==des)	
-    return minflow;
-	int aug;
-	for (int i=head[u];i!=-1;i=edge[i].next)
-	{
-		int v=edge[i].v;
-		if (edge[i].cap>edge[i].flow && dep[v]==dep[u]+1 && (aug=DFS(v, min(minflow,edge[i].cap-edge[i].flow))))
-		{
-			edge[i].flow+=aug;
-			edge[i^1].flow-=aug;
-			return aug;
-		}
-	}
-	dep[u]=-1;
-	return 0;
-}
-
-int Dinic()
-{
-	int maxflow = 0;
-	while(BFS())
-	{
-		while(true)
-		{
-			int minflow = DFS(src,INF);
-			if (minflow==0)	break;
-			maxflow += minflow;
-		}
-	}
-	return maxflow;
-}
-
-bool reachbfs(int vi, int vj, int co)
+bool reachdk(int vi, int k)
 {
     queue<int>q;
-    queue<int>q1;
     for(int i=0;i<vertex[vi].tedge.size();i++)//遍历顶点vi的每条出边，结点指向边
     {
-        //pe.push_back(vertex[vi].tedge[i]);//把路径上的边依次存储下来
         for(int j=0;j<hyperedge[vertex[vi].tedge[i]].vharr.size();j++)//遍历这条出边的所有具有入度的顶点，边指向结点
         {
-            //
-            if(!fh[hyperedge[vertex[vi].tedge[i]].vharr[j]])
+            int vv=hyperedge[vertex[vi].tedge[i]].vharr[j];
+            if(vertex[vv].indegree>=k)
             {
-                fh[hyperedge[vertex[vi].tedge[i]].vharr[j]]=true;
-                q.push(hyperedge[vertex[vi].tedge[i]].vharr[j]);
-                fronte[hyperedge[vertex[vi].tedge[i]].vharr[j]]=vertex[vi].tedge[i];
-                frontv[hyperedge[vertex[vi].tedge[i]].vharr[j]]=vi;
+                return true;
             }
-                //if(bfs(hyperedge[vertex[vi].tedge[i]].vharr[j],vj,co))
-            //pv.pop_back();
+            if(!fh[vv]&&vertex[vv].indegree==k-1)
+            {
+                fh[vv]=true;
+                q.push(vv);
+            }
         }
     }
+
     while(!q.empty())
     {
-        if(q.front()==vj)
+        if(reachdk(q.front(),k))
         {
             return true;
             break;
         }
-        q1.push(q.front());
         q.pop();
-    }
-    while(!q1.empty())
-    {
-        if(reachbfs(q1.front(),vj,co++))
-        {
-            return true;
-            break;
-        }
-        q1.pop();
     }
     return false;
 }
 
-
-void reversevte(int vi, int e)
-{  
-    std::vector<int>::iterator pos;
-    //翻转vi到e的出边,处理边   1
-    pos = find(hyperedge[e].vtarr.begin(),hyperedge[e].vtarr.end(),vi);
-    if (pos != hyperedge[e].vtarr.end()) 
-    {
-        hyperedge[e].vtarr.erase(pos);
-    }
-    hyperedge[e].vharr.push_back(vi);
-    //翻转vi到e的出边,处理顶点
-    vertex[vi].indegree++;//1
-    pos = find(vertex[vi].tedge.begin(),vertex[vi].tedge.end(),e);
-    if (pos != vertex[vi].tedge.end()) //1
-    {
-        vertex[vi].tedge.erase(pos);
-    }
-    vertex[vi].hedge.push_back(e);//0
-}
-
-void reverseetv(int e, int vj)
-{ 
-    std::vector<int>::iterator pos;
-    //翻转vj到e的入边,处理顶点
-    vertex[vj].indegree--;  //1
-    pos = find(vertex[vj].hedge.begin(),vertex[vj].hedge.end(),e);
-    if (pos != vertex[vj].hedge.end()) //0
-    {
-        vertex[vj].hedge.erase(pos);
-    }
-    vertex[vj].tedge.push_back(e);//1
-    //翻转vj到e的入边,处理边   1
-    pos = find(hyperedge[e].vharr.begin(),hyperedge[e].vharr.end(),vj);
-    if (pos != hyperedge[e].vharr.end()) 
-    {
-        hyperedge[e].vharr.erase(pos);
-    }
-    hyperedge[e].vtarr.push_back(vj);
-}
-
-
-void flow(int d)
-{
-    cnt=0;
-    edgeflag=0;
-    memset(head,-1,sizeof(head));
-    memset(edge, 0, sizeof(edge));
-    for(int i=0;i<edgenum;i++)
-    {
-        for(int j=0;j<hyperedge[i].vtarr.size();j++)
-        {
-            addedge(hyperedge[i].vtarr[j],vm+i,1);
-            edgeflag+=2;
-        }
-        for(int j=0;j<hyperedge[i].vharr.size();j++)
-        {
-            addedge(vm+i,hyperedge[i].vharr[j],1);
-            edgeflag+=2;
-        }
-    }
-    for(int i=1;i<=nodenum;i++)
-    {
-        if(vertex[i].indegree<d)
-        {
-            addedge(src,i,d-vertex[i].indegree);
-        }
-        else if(vertex[i].indegree>d)
-        {
-            addedge(i,des,vertex[i].indegree-d);
-        }
-    }
-    int macf=Dinic();
-    for (int i=0;i<edgeflag;i++)
-    {
-        if(i%2==0)
-        {
-            if(!(edge[i].cap-edge[i].flow))
-            {
-                if(edge[i].v>=vm)
-                {
-                    reversevte(edge[i].u,edge[i].v-vm);
-                }
-                else
-                {
-                    reverseetv(edge[i].u-vm,edge[i].v);
-                }
-            }
-        }
-    }
-}
-
-
 void finddk(int k)
 {
+    //memset(dk,false,sizeof(dk));
     vector<int>veck;
-    vector<int>veck1;
     for(int i=1;i<=nodenum;i++)
     {
-        if(vertex[i].indegree>=k)
-        veck.push_back(i);
-    }
-    for(int i=1;i<=nodenum;i++)
-    {
-        if(vertex[i].indegree==k-1)
+        if(dk[i])
         {
-            bool flag=false;
-            for(int j=0;j<vertex[i].tedge.size();j++)
-            {
-                for(int l=0;l<hyperedge[vertex[i].tedge[j]].vharr.size();l++)
-                {
-                    int temp=hyperedge[vertex[i].tedge[j]].vharr[l];
-                    if(vertex[temp].indegree>=k)
-                    {
-                        veck1.push_back(i);
-                        flag=true;
-                        break;
-                    }
-                }
-                if(flag)
-                break;
-            }
-            if(!flag)
-            {
-                for(int j=0;j<veck.size();j++)
-                {
-                    int count=0;
-                    
-                    if(reachbfs(i,veck[j],count))
-                    {
-                        veck1.push_back(i);
-                        break;
-                    }   
-                    frontv.erase(frontv.begin(),frontv.end());
-                    fronte.erase(fronte.begin(),fronte.end());
-                    fh.erase(fh.begin(),fh.end());  
-                }
-            }
+            veck.push_back(i);
+        }
+        fh.clear();
+        if(!dk[i]&&vertex[i].indegree==k-1&&reachdk(i,k))
+        {
+            veck.push_back(i);
         }
     }
-    int vecsize1=veck.size();
-    veck.insert(veck.end(), veck1.begin(), veck1.end());
     dkv[k].clear();
     dkv[k].insert(dkv[k].end(),veck.begin(),veck.end());
 }
+
+void reverse(int vi, int vj,int ee)
+{  
+    std::vector<int>::iterator pos;
+    //翻转vi到ee的入边,处理顶点
+    vertex[vi].indegree--;  //1
+    pos = find(vertex[vi].hedge.begin(),vertex[vi].hedge.end(),ee);
+    if (pos != vertex[vi].hedge.end()) //0
+    {
+        vertex[vi].hedge.erase(pos);
+    }
+    vertex[vi].tedge.push_back(ee);//1
+    //翻转vi到ee的入边,处理边   1
+    pos = find(hyperedge[ee].vharr.begin(),hyperedge[ee].vharr.end(),vi);
+    if (pos != hyperedge[ee].vharr.end()) 
+    {
+        hyperedge[ee].vharr.erase(pos);
+    }
+    hyperedge[ee].vtarr.push_back(vi);
+    //翻转vj到ee的出边,处理边   1
+    pos = find(hyperedge[ee].vtarr.begin(),hyperedge[ee].vtarr.end(),vj);
+    if (pos != hyperedge[ee].vtarr.end()) 
+    {
+        hyperedge[ee].vtarr.erase(pos);
+    }
+    hyperedge[ee].vharr.push_back(vj);
+    //翻转vj到ee的出边,处理顶点
+    vertex[vj].indegree++;//1
+    pos = find(vertex[vj].tedge.begin(),vertex[vj].tedge.end(),ee);
+    if (pos != vertex[vj].tedge.end()) //1
+    {
+        vertex[vj].tedge.erase(pos);
+    }
+    vertex[vj].hedge.push_back(ee);//0
+}
+
+void reachout(int vi,int k)
+{
+    queue<int>q;
+    for(int i=0;i<vertex[vi].hedge.size();i++)
+    {
+        int ee=vertex[vi].hedge[i];
+        for(int j=0;j<hyperedge[ee].vtarr.size();j++)
+        {
+            int vv=hyperedge[ee].vtarr[j];
+            if(!dk[vv]&&(vertex[vi].indegree-vertex[vv].indegree)>=2)
+            {
+                reverse(vi,vv,ee);
+                if(vertex[vv].indegree>=k)
+                {
+                    dk[vv]=true;
+                }
+                q.push(vv);
+                i--;
+                break;
+            }
+        }
+    }
+    while(!q.empty())
+    {
+        reachout(q.front(),k);
+        q.pop();
+    }
+}
+
+void reachin(int vi,int k)
+{
+    queue<int>q;
+    for(int i=0;i<vertex[vi].tedge.size();i++)
+    {
+        int ee=vertex[vi].tedge[i];
+        for(int j=0;j<hyperedge[ee].vharr.size();j++)
+        {
+            int vv=hyperedge[ee].vharr[j];
+            if(!dk[vv]&&(vertex[vv].indegree-vertex[vi].indegree)>=2)
+            {
+                reverse(vv,vi,ee);
+                q.push(vv);
+                i--;
+                break;
+            }
+        }
+    }
+    while(!q.empty())
+    {
+        reachin(q.front(),k);
+        q.pop();
+    }
+}
+
+void outk(int vi,int k)
+{
+    int initd=vertex[vi].indegree;
+    for(int i=0;i<vertex[vi].hedge.size();i++)
+    {
+        int ee=vertex[vi].hedge[i];
+        for(int j=0;j<hyperedge[ee].vtarr.size();j++)
+        {
+            int vv=hyperedge[ee].vtarr[j];
+            if(dk[vv]&&(vertex[vi].indegree-vertex[vv].indegree)>=2)
+            {
+                reverse(vi,vv,ee);
+                i--;
+                break;
+            }
+        }
+    }
+    for(int i=0;i<vertex[vi].tedge.size();i++)
+    {
+        int ee=vertex[vi].tedge[i];
+        for(int j=0;j<hyperedge[ee].vharr.size();j++)
+        {
+            int vv=hyperedge[ee].vharr[j];
+            if(dk[vv]&&(vertex[vv].indegree-vertex[vi].indegree)>=2)
+            {
+                reverse(vv,vi,ee);
+                i--;
+                break;
+            }
+        }
+    }
+    if(initd>vertex[vi].indegree)//变小了
+    {
+        reachin(vi,k);
+        if(vertex[vi].indegree<k)
+        dk[vi]=false;
+    }
+    else if(initd<vertex[vi].indegree)
+    {
+        reachout(vi,k);
+        if(vertex[vi].indegree<k)
+        dk[vi]=false;
+    }
+    else
+    {
+        dk[vi]=false;
+    } 
+}
+
+void peelk(int k)
+{
+    while(1)
+    {
+        bool flag=false;
+        for(int i=1;i<=nodenum;i++)
+        {
+            if(dk[i]&&vertex[i].indegree<k)
+            {
+                flag=true;
+                outk(i,k);
+            }
+        }
+        if(!flag)
+        break;
+    }
+}
 int getlayer(int delta)
 {
-    
+    memset(dk,true,sizeof(dk));
     int k;
-    
-    for(k=1;k<maxn;k++)
+    for(k=2;k<maxn;k++)
     {
         if(!dkv[k-1].size())
         break;
-        flow(k-1);
+        peelk(k);
         finddk(k);
     }
     cout<<"**********************"<<endl;
@@ -432,10 +372,6 @@ void hypergraphdecomposition()
 {
     int total_layers=0;
     int maxk=vm;
-    for(int i=1;i<=nodenum;i++)
-    {
-        dkv[0].push_back(i);
-    }
     for(int i=1;i<=deltamax;i++)
     {
         for(int j=1;j<=nodenum;j++)
@@ -452,6 +388,8 @@ void hypergraphdecomposition()
             hyperedge[j].vharr.clear();
         }
         orientation(i);
+        for(int i=1;i<=nodenum;i++)
+        dkv[1].push_back(i);
         maxk=getlayer(i);
         total_layers+=maxk;
     }
@@ -472,6 +410,7 @@ int main()
     end_time = clock();     //获取结束时间
     double Times = (double)(end_time - start_time) / CLOCKS_PER_SEC;
     cout<<Times<<"seconds"<<endl;
+    std::this_thread::sleep_for(std::chrono::seconds(300)); // 暂停3秒
     return 0;
 
 }
