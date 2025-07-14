@@ -1,4 +1,4 @@
-# On Temporal-Constraint Subgraph Matching
+# Density Decomposition on Hypergraphs
 # ABSTRACT
 Mining dense subhypergraphs is a fundamental task in hypergraph analysis, with broad applications in community detection, pattern discovery, and task scheduling. However, existing models—such as $k$-core, neighbor-$k$-core, and $(k, h)$-core—either incur high computational costs or fail to capture the intrinsic structural density of hypergraphs.
 In this paper, we propose a novel model, the $(k, \delta)$-dense subhypergraph, which jointly considers vertex-level connectivity and local edge constraints to better characterize hypergraph cohesion. We show that $(k, \delta)$-dense subhypergraphs naturally induce a hierarchical and nested decomposition, effectively revealing multi-scale dense regions.
