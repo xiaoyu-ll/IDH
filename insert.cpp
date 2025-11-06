@@ -609,7 +609,7 @@ int main()
 
     
 
-    int delta = 9; // 你当前用的 delta
+    int delta = 9;
     hypergraphdecomposition(delta);
 
 
