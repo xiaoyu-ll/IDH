@@ -13,7 +13,7 @@
 #include<queue>
 #include <cstring>
 #include <unordered_set>
-#include "ext_metrics.hpp"   // 你给的头文件
+#include "ext_metrics.hpp"  
 // kdelta_global.cpp
 // 一次性收集“所有 δ 的所有层序”，并用 ext_metrics.hpp 计算全局指标（主表 + 扩展表）
 
