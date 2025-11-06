@@ -553,7 +553,7 @@ int main()
         reset_state();
 
         // 2) 重读初始图
-        int dmax = readedge();  // 你原有的读图函数
+        int dmax = readedge();  
         (void)dmax;
 
         // 3) 应用前缀删除 (如果有批次)
