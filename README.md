@@ -7,7 +7,7 @@ Extensive experiments on nine real-world hypergraph datasets show that our metho
 
 # Datasets
 
-Because some datasets used in the paper can download  them at https://pan.quark.cn/s/1308697e75fa](https://www.cs.cornell.edu/~arb/data/
+Some datasets used in the paper can download  them at https://pan.quark.cn/s/1308697e75fa](https://www.cs.cornell.edu/~arb/data/
 
 # Compile
 All experiments are compiled in the same way, first in the ` IDH ` directory.
