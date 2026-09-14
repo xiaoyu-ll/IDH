@@ -38,11 +38,26 @@ int edgenum=0;
 int nodenum=0;
 map<int,bool>fh;
 bool dk[vm];
-void readedge()//读数据
+int path_parent[vm];
+int path_parent_edge[vm];
+int path_label[vm];
+unsigned int path_seen[vm];
+unsigned int path_search_id = 0;
+
+unsigned int next_path_search_id()
+{
+    ++path_search_id;
+    if (path_search_id == 0) {
+        fill(path_seen, path_seen + vm, 0);
+        path_search_id = 1;
+    }
+    return path_search_id;
+}
+void readedge(const string &path)//读数据
 {
     //ifstream rda("dataset/hb8.txt");
     //ifstream rda("dataset/walmart.txt");
-    ifstream rda("dataset/trivago.txt");
+    ifstream rda(path);
     //ifstream rda("dataset/senate-bills2.txt");
     //ifstream rda("dataset/house-bills2.txt");
     //ifstream rda("dataset/stackoverflow.txt");
@@ -92,18 +107,18 @@ void readedge()//读数据
     cout<<"read edge successful!"<<endl;
     rda.close();
 }
-void orientation()
+void orientation(int delta)
 {
     for(int i=0;i<edgenum;i++)
     {
         int j=0;
-        for(j=0;j<1&&j<hyperedge[i].v;j++)//为每条边的前一半顶点分配出度，起始顶点集
+        for(j=0;j<delta&&j<hyperedge[i].v;j++)//assign min(delta, |e|) targets
         {
             hyperedge[i].vharr.push_back(hyperedge[i].varr[j]);
             vertex[hyperedge[i].varr[j]].indegree++;
             vertex[hyperedge[i].varr[j]].hedge.push_back(i);//边指向结点
         }
-        for(j;j<hyperedge[i].v;j++)//为每条边的前一半顶点分配出度，起始顶点集
+        for(;j<hyperedge[i].v;j++)//assign the remaining vertices as sources
         {
             hyperedge[i].vtarr.push_back(hyperedge[i].varr[j]);
             vertex[hyperedge[i].varr[j]].tedge.push_back(i);//结点指向边
@@ -147,58 +162,189 @@ void reverse(int vi, int vj,int ee)
     vertex[vj].hedge.push_back(ee);//0
 }
 
+// Find and reverse complete reversible hyperpaths ending at vi.  The previous
+// implementation only tested one-edge indegree gaps while recursively walking
+// predecessors; it could therefore miss a path whose endpoints differ by two
+// although no individual arc on the path does.
+bool reverse_path_to(int vi, int k)
+{
+    const unsigned int search_id = next_path_search_id();
+    queue<int> q;
+    path_seen[vi] = search_id;
+    path_parent[vi] = vi;
+    q.push(vi);
+    int source = -1;
+    while (!q.empty() && source == -1)
+    {
+        int cur = q.front(); q.pop();
+        for (int ee : vertex[cur].hedge)
+        {
+            for (int pred : hyperedge[ee].vtarr)
+            {
+                if (path_seen[pred] == search_id) continue;
+                path_seen[pred] = search_id;
+                path_parent[pred] = cur;
+                path_parent_edge[pred] = ee;
+                if (!dk[pred] && vertex[vi].indegree - vertex[pred].indegree >= 2) {
+                    source = pred;
+                    break;
+                }
+                q.push(pred);
+            }
+            if (source != -1) break;
+        }
+    }
+    if (source == -1) return false;
+    int cur = source;
+    while (cur != vi)
+    {
+        int next = path_parent[cur];
+        reverse(next, cur, path_parent_edge[cur]);
+        cur = next;
+    }
+    if (vertex[source].indegree >= k) dk[source] = true;
+    return true;
+}
+
 void reachout(int vi,int k)
 {
-    queue<int>q;
-    for(int i=0;i<vertex[vi].hedge.size();i++)
-    {
-        int ee=vertex[vi].hedge[i];
-        for(int j=0;j<hyperedge[ee].vtarr.size();j++)
-        {
-            int vv=hyperedge[ee].vtarr[j];
-            if(!dk[vv]&&(vertex[vi].indegree-vertex[vv].indegree)>=2)
-            {
-                reverse(vi,vv,ee);
-                if(vertex[vv].indegree>=k)
-                {
-                    dk[vv]=true;
-                }
+    // Fast path used by Algorithm 4: consume adjacent cross-boundary
+    // reversals and recursively continue only from vertices whose state
+    // changed.  The set-wise cleanup below handles the non-local paths that
+    // cannot be exposed by these local updates alone.
+    queue<int> q;
+    for (int i = 0; i < (int)vertex[vi].hedge.size(); ++i) {
+        int ee = vertex[vi].hedge[i];
+        for (int j = 0; j < (int)hyperedge[ee].vtarr.size(); ++j) {
+            int vv = hyperedge[ee].vtarr[j];
+            if (!dk[vv] && vertex[vi].indegree - vertex[vv].indegree >= 2) {
+                reverse(vi, vv, ee);
+                if (vertex[vv].indegree >= k) dk[vv] = true;
                 q.push(vv);
-                i--;
+                --i;
                 break;
             }
         }
     }
-    while(!q.empty())
-    {
-        reachout(q.front(),k);
-        q.pop();
+    while (!q.empty()) {
+        int v = q.front(); q.pop();
+        reachout(v, k);
     }
+}
+
+bool reverse_path_from(int vi)
+{
+    const unsigned int search_id = next_path_search_id();
+    queue<int> q;
+    path_seen[vi] = search_id;
+    path_parent[vi] = vi;
+    q.push(vi);
+    int target = -1;
+    while (!q.empty() && target == -1)
+    {
+        int cur = q.front(); q.pop();
+        for (int ee : vertex[cur].tedge)
+        {
+            for (int next : hyperedge[ee].vharr)
+            {
+                if (path_seen[next] == search_id) continue;
+                path_seen[next] = search_id;
+                path_parent[next] = cur;
+                path_parent_edge[next] = ee;
+                if (!dk[next] && vertex[next].indegree - vertex[vi].indegree >= 2) {
+                    target = next;
+                    break;
+                }
+                q.push(next);
+            }
+            if (target != -1) break;
+        }
+    }
+    if (target == -1) return false;
+    vector<pair<int,int> > steps;
+    for (int cur = target; cur != vi; cur = path_parent[cur])
+        steps.push_back(make_pair(cur, path_parent_edge[cur]));
+    reverse(steps.begin(), steps.end());
+    int cur = vi;
+    for (const auto &step : steps)
+    {
+        int next = step.first;
+        reverse(next, cur, step.second);
+        cur = next;
+    }
+    return true;
 }
 
 void reachin(int vi,int k)
 {
-    queue<int>q;
-    for(int i=0;i<vertex[vi].tedge.size();i++)
-    {
-        int ee=vertex[vi].tedge[i];
-        for(int j=0;j<hyperedge[ee].vharr.size();j++)
-        {
-            int vv=hyperedge[ee].vharr[j];
-            if(!dk[vv]&&(vertex[vv].indegree-vertex[vi].indegree)>=2)
-            {
-                reverse(vv,vi,ee);
-                q.push(vv);
-                i--;
-                break;
+    (void)k;
+    while (reverse_path_from(vi)) {}
+}
+
+// Exhaust cross-boundary paths set-wise.  Running a full backward BFS once for
+// every member of S repeats the same failed traversal |S| times on dense data.
+// This multi-source search propagates the minimum outside endpoint indegree
+// through the oriented incidence graph and returns one reversible path into S.
+// Repeating only after a successful reversal is equivalent to exhausting all
+// per-vertex REACHOUT calls, but a no-path certificate costs one graph scan.
+bool reverse_one_crossing_path(int k)
+{
+    const int INF_LABEL = 0x3f3f3f3f;
+    priority_queue<pair<int,int>, vector<pair<int,int> >,
+                   greater<pair<int,int> > > pq;
+    fill(path_label, path_label + nodenum + 1, INF_LABEL);
+    for (int v = 1; v <= nodenum; ++v) {
+        if (!dk[v]) {
+            path_label[v] = vertex[v].indegree;
+            path_parent[v] = v;
+            path_parent_edge[v] = -1;
+            pq.push(make_pair(path_label[v], v));
+        }
+    }
+
+    int target = -1;
+    while (!pq.empty()) {
+        int label = pq.top().first;
+        int cur = pq.top().second;
+        pq.pop();
+        if (label != path_label[cur]) continue;
+        if (dk[cur] && vertex[cur].indegree - label >= 2) {
+            target = cur;
+            break;
+        }
+        for (int ee : vertex[cur].tedge) {
+            for (int next : hyperedge[ee].vharr) {
+                if (label < path_label[next]) {
+                    path_label[next] = label;
+                    path_parent[next] = cur;
+                    path_parent_edge[next] = ee;
+                    pq.push(make_pair(label, next));
+                }
             }
         }
     }
-    while(!q.empty())
-    {
-        reachin(q.front(),k);
-        q.pop();
+    if (target == -1) return false;
+
+    vector<pair<int,int> > steps;
+    int source = target;
+    while (path_parent[source] != source) {
+        steps.push_back(make_pair(source, path_parent_edge[source]));
+        source = path_parent[source];
     }
+    reverse(steps.begin(), steps.end());
+    int cur = source;
+    for (const auto &step : steps) {
+        reverse(step.first, cur, step.second);
+        cur = step.first;
+    }
+    if (vertex[source].indegree >= k) {
+        dk[source] = true;
+        // A promoted endpoint may expose a whole local cascade.  Consume it
+        // now instead of rebuilding the global reachability forest once per
+        // adjacent transfer.
+        reachout(source, k);
+    }
+    return true;
 }
 void outk(int vi,int k)
 {
@@ -258,11 +404,9 @@ void reorientation(int k)
     }
     for(int i=1;i<=nodenum;i++)
     {
-        if(dk[i])
-        {
-            reachout(i,k);
-        }
+        if(dk[i]) reachout(i,k);
     }
+    while (reverse_one_crossing_path(k)) {}
     cout<<"1111"<<endl;
     while(1)
     {
@@ -276,7 +420,9 @@ void reorientation(int k)
                 outk(i,k);
             }
         }
-        if(!flag)
+        bool repaired = false;
+        while (reverse_one_crossing_path(k)) repaired = true;
+        if(!flag && !repaired)
         break;
     }
 }
@@ -322,11 +468,6 @@ void finddk(int k)
         fh.clear();
         if(!dk[i]&&vertex[i].indegree==k-1)
         {
-            if(i==269)
-            {
-                cout<<i<<endl;
-            }
-            
             if(reachdk(i,k))
             dk[i]=true;
         }
@@ -337,7 +478,6 @@ void finddk(int k)
     {
         if(dk[i])
         {
-            cout<<i<<endl;
             co++;
         }  
     }
@@ -347,14 +487,20 @@ void finddk(int k)
 }
 
 
-int main()
+int main(int argc, char **argv)
 {
     clock_t start_time, end_time;
-    readedge();
+    const string input = argc > 1 ? argv[1] : "dataset/trivago.txt";
+    const int k = argc > 2 ? stoi(argv[2]) : 5;
+    const int delta = argc > 3 ? stoi(argv[3]) : 1;
+    if (k < 0 || delta < 1) {
+        cerr << "usage: " << argv[0] << " [dataset] [k>=0] [delta>=1]" << endl;
+        return 2;
+    }
+    readedge(input);
     cout<<"...."<<endl;
     start_time = clock();
-    int k=5;
-    orientation();
+    orientation(delta);
     cout<<"wanchengorientation"<<endl;
     reorientation(k);
     cout<<"wanchengreorientation"<<endl;
