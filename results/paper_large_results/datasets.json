@@ -1,0 +1,24 @@
+{
+  "TC": {
+    "n": 172738,
+    "m": 233202,
+    "L": 726861,
+    "max_size": 85,
+    "min_size": 2,
+    "active_vertices": 172738,
+    "removed_incidences": 0,
+    "ordered_pair_initializations": 2654184,
+    "sha256": "fd8240ee24b2896085e0e22439e2b70981c847e93e8f1d2332f9ebc15a1b15f8"
+  },
+  "SA": {
+    "n": 15211989,
+    "m": 1103243,
+    "L": 26109177,
+    "max_size": 61315,
+    "min_size": 2,
+    "active_vertices": 15211989,
+    "removed_incidences": 0,
+    "ordered_pair_initializations": 29346823202,
+    "sha256": "f0f350d3e77caa6f938fb6dc9dec5e25f218058b55c200bcf0ddc459e9faf31c"
+  }
+}

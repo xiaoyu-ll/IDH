@@ -1,0 +1,5 @@
+{
+  "verified/paper_baselines.cpp": "52c8c6caa04465cc142524074b80abbf56e27377093b46b4c77f4d675accbd10",
+  "verified/hgd_optimized.hpp": "9114ed9fd2550e639b8aceaa557a42e6f8b923c7e096b8f336a270f4e26ca0df",
+  "scripts/paper_sa_pair_single.py": "e3517b7175fc97dfca0d8025ccd4097bd292f150116bc83ccf33fe16d1120f29"
+}

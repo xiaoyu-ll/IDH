@@ -1,0 +1,22 @@
+{
+  "n": 1930378,
+  "m": 3700681,
+  "L": 10326773,
+  "max_size": 280,
+  "min_size": 1,
+  "declared_nodes": 1930378,
+  "active_vertices": 1930378,
+  "removed_incidences": 0,
+  "ordered_pair_initializations": 29278848,
+  "sha256": "c58d20a5c14d53e831f457e84ad9eb122f31fa15861abfff8247bf4bd608127e",
+  "dataset": "DBLP",
+  "raw_md5": "40c82ca508836dc484863c4af6224bd8",
+  "raw_sha256": "a66a0a220bc463a33f03a70cc4002b572da73ca956232e7f00f4ed01916b3aec",
+  "source_url": "https://zenodo.org/records/21905305/files/coauth-dblp.json?download=1",
+  "doi": "10.5281/zenodo.21905305",
+  "converter_sha256": "73fd66ae128300a187c34ae797c5413c5dbf7b6a2dde1cf844ea9a61b9528412",
+  "mappings": {
+    "nodes": "89a3234551b1af202e0f6f4a34b04ee9be8173636ea6daf9bcef2d2657292af0",
+    "edges": "eedac269d5e1e32db58baa81790357d1b24032c13ffbf7d518d77c141a3366ae"
+  }
+}

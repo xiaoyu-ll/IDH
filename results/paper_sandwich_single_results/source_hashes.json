@@ -1,0 +1,9 @@
+{
+  "hgd_flow.cpp": "8e5c4cfe10431491eaf90ae92a8c1b724cd252ae4762812e539c17c9156a7436",
+  "hgd_reverse.cpp": "066fd71776f2fc8f0201fec3a049d8b65aba7d4e1e1a0a2b0de34fa33aeb1f97",
+  "verified/hgd_sandwich_cli.cpp": "6b613d2ab7b2215d9909a4300839434b072a67436f76dfa69e24235ad9052b08",
+  "verified/hgd_sandwich.hpp": "8654015353af100478a3500d1d5b2f4ffdbd0a408915b522835f00fb136bcaf2",
+  "verified/hgd_optimized.hpp": "9114ed9fd2550e639b8aceaa557a42e6f8b923c7e096b8f336a270f4e26ca0df",
+  "verified/hgd_exact.cpp": "2d643db7f8e901942f3fd856bf532baecf20383fa1aeef580fde38b37ee570de",
+  "scripts/paper_sandwich_single.py": "ef1d0612cbdee547255e736d6f848cfad39131121fd8470e5a40526e875cd6ae"
+}

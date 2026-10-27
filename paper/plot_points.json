@@ -1,0 +1,3288 @@
+{
+  "summary": "retained methods use one median point from three launches except the single DBLP Flow completion run; Sandwich executions and scalability use one launch",
+  "pair_inches": [
+    3.3,
+    1.7
+  ],
+  "points": [
+    {
+      "figure": "compact_small_time",
+      "panel": 0,
+      "dataset": "HC",
+      "method": "hgd_flow",
+      "condition": "wall_s",
+      "value": 0.008844333002343774,
+      "replicates": 3,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_small_time",
+      "panel": 0,
+      "dataset": "CP",
+      "method": "hgd_flow",
+      "condition": "wall_s",
+      "value": 0.009523499989882112,
+      "replicates": 3,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_small_time",
+      "panel": 0,
+      "dataset": "CH",
+      "method": "hgd_flow",
+      "condition": "wall_s",
+      "value": 0.007172040990553796,
+      "replicates": 3,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_small_time",
+      "panel": 0,
+      "dataset": "SB",
+      "method": "hgd_flow",
+      "condition": "wall_s",
+      "value": 1.0020194579847157,
+      "replicates": 3,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_small_time",
+      "panel": 0,
+      "dataset": "HB",
+      "method": "hgd_flow",
+      "condition": "wall_s",
+      "value": 3.9383035830105655,
+      "replicates": 3,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_small_time",
+      "panel": 0,
+      "dataset": "TC",
+      "method": "hgd_flow",
+      "condition": "wall_s",
+      "value": 10.25796729204012,
+      "replicates": 3,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_small_time",
+      "panel": 0,
+      "dataset": "SA",
+      "method": "hgd_flow",
+      "condition": "wall_s",
+      "value": 139.46012566698482,
+      "replicates": 3,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_small_time",
+      "panel": 0,
+      "dataset": "TM",
+      "method": "hgd_flow",
+      "condition": "wall_s",
+      "value": 17.518284083984327,
+      "replicates": 3,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_small_time",
+      "panel": 0,
+      "dataset": "DBLP",
+      "method": "hgd_flow",
+      "condition": "wall_s",
+      "value": 591.7345517079812,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_small_time",
+      "panel": 0,
+      "dataset": "HC",
+      "method": "hgd_flow_sandwich",
+      "condition": "wall_s",
+      "value": 0.014434666954912245,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_small_time",
+      "panel": 0,
+      "dataset": "CP",
+      "method": "hgd_flow_sandwich",
+      "condition": "wall_s",
+      "value": 0.011593041010200977,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_small_time",
+      "panel": 0,
+      "dataset": "CH",
+      "method": "hgd_flow_sandwich",
+      "condition": "wall_s",
+      "value": 0.014100875006988645,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_small_time",
+      "panel": 0,
+      "dataset": "SB",
+      "method": "hgd_flow_sandwich",
+      "condition": "wall_s",
+      "value": 0.27401062508579344,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_small_time",
+      "panel": 0,
+      "dataset": "HB",
+      "method": "hgd_flow_sandwich",
+      "condition": "wall_s",
+      "value": 1.2697251250501722,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_small_time",
+      "panel": 0,
+      "dataset": "TC",
+      "method": "hgd_flow_sandwich",
+      "condition": "wall_s",
+      "value": 0.9518960419809446,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_small_time",
+      "panel": 0,
+      "dataset": "SA",
+      "method": "hgd_flow_sandwich",
+      "condition": "wall_s",
+      "value": 114.08399362501223,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_small_time",
+      "panel": 0,
+      "dataset": "TM",
+      "method": "hgd_flow_sandwich",
+      "condition": "wall_s",
+      "value": 1.4849814999615774,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_small_time",
+      "panel": 0,
+      "dataset": "DBLP",
+      "method": "hgd_flow_sandwich",
+      "condition": "wall_s",
+      "value": 18.389609250007197,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_small_time",
+      "panel": 0,
+      "dataset": "HC",
+      "method": "hgd_reverse",
+      "condition": "wall_s",
+      "value": 0.006373540963977575,
+      "replicates": 3,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_small_time",
+      "panel": 0,
+      "dataset": "CP",
+      "method": "hgd_reverse",
+      "condition": "wall_s",
+      "value": 0.0051020829705521464,
+      "replicates": 3,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_small_time",
+      "panel": 0,
+      "dataset": "CH",
+      "method": "hgd_reverse",
+      "condition": "wall_s",
+      "value": 0.0045168750220909715,
+      "replicates": 3,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_small_time",
+      "panel": 0,
+      "dataset": "SB",
+      "method": "hgd_reverse",
+      "condition": "wall_s",
+      "value": 0.3217462920001708,
+      "replicates": 3,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_small_time",
+      "panel": 0,
+      "dataset": "HB",
+      "method": "hgd_reverse",
+      "condition": "wall_s",
+      "value": 1.6459261249983683,
+      "replicates": 3,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_small_time",
+      "panel": 0,
+      "dataset": "TC",
+      "method": "hgd_reverse",
+      "condition": "wall_s",
+      "value": 1.5387434169533662,
+      "replicates": 3,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_small_time",
+      "panel": 0,
+      "dataset": "SA",
+      "method": "hgd_reverse",
+      "condition": "wall_s",
+      "value": 42.84253625001293,
+      "replicates": 3,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_small_time",
+      "panel": 0,
+      "dataset": "TM",
+      "method": "hgd_reverse",
+      "condition": "wall_s",
+      "value": 0.7548498330288567,
+      "replicates": 3,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_small_time",
+      "panel": 0,
+      "dataset": "DBLP",
+      "method": "hgd_reverse",
+      "condition": "wall_s",
+      "value": 54.68158733303426,
+      "replicates": 3,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_small_time",
+      "panel": 0,
+      "dataset": "HC",
+      "method": "hgd_reverse_sandwich",
+      "condition": "wall_s",
+      "value": 0.013878957950510085,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_small_time",
+      "panel": 0,
+      "dataset": "CP",
+      "method": "hgd_reverse_sandwich",
+      "condition": "wall_s",
+      "value": 0.013850249932147563,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_small_time",
+      "panel": 0,
+      "dataset": "CH",
+      "method": "hgd_reverse_sandwich",
+      "condition": "wall_s",
+      "value": 0.014204457984305918,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_small_time",
+      "panel": 0,
+      "dataset": "SB",
+      "method": "hgd_reverse_sandwich",
+      "condition": "wall_s",
+      "value": 0.2621549169998616,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_small_time",
+      "panel": 0,
+      "dataset": "HB",
+      "method": "hgd_reverse_sandwich",
+      "condition": "wall_s",
+      "value": 1.279638584004715,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_small_time",
+      "panel": 0,
+      "dataset": "TC",
+      "method": "hgd_reverse_sandwich",
+      "condition": "wall_s",
+      "value": 0.8014397919178009,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_small_time",
+      "panel": 0,
+      "dataset": "SA",
+      "method": "hgd_reverse_sandwich",
+      "condition": "wall_s",
+      "value": 79.53587016602978,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_small_time",
+      "panel": 0,
+      "dataset": "TM",
+      "method": "hgd_reverse_sandwich",
+      "condition": "wall_s",
+      "value": 1.3117619170807302,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_small_time",
+      "panel": 0,
+      "dataset": "DBLP",
+      "method": "hgd_reverse_sandwich",
+      "condition": "wall_s",
+      "value": 14.20899416692555,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_small_memory",
+      "panel": 0,
+      "dataset": "HC",
+      "method": "hgd_flow",
+      "condition": "peak_rss_mib",
+      "value": 3.59375,
+      "replicates": 3,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_small_memory",
+      "panel": 0,
+      "dataset": "CP",
+      "method": "hgd_flow",
+      "condition": "peak_rss_mib",
+      "value": 4.671875,
+      "replicates": 3,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_small_memory",
+      "panel": 0,
+      "dataset": "CH",
+      "method": "hgd_flow",
+      "condition": "peak_rss_mib",
+      "value": 3.4375,
+      "replicates": 3,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_small_memory",
+      "panel": 0,
+      "dataset": "SB",
+      "method": "hgd_flow",
+      "condition": "peak_rss_mib",
+      "value": 30.6875,
+      "replicates": 3,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_small_memory",
+      "panel": 0,
+      "dataset": "HB",
+      "method": "hgd_flow",
+      "condition": "peak_rss_mib",
+      "value": 147.5625,
+      "replicates": 3,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_small_memory",
+      "panel": 0,
+      "dataset": "TC",
+      "method": "hgd_flow",
+      "condition": "peak_rss_mib",
+      "value": 172.703125,
+      "replicates": 3,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_small_memory",
+      "panel": 0,
+      "dataset": "SA",
+      "method": "hgd_flow",
+      "condition": "peak_rss_mib",
+      "value": 4801.875,
+      "replicates": 3,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_small_memory",
+      "panel": 0,
+      "dataset": "TM",
+      "method": "hgd_flow",
+      "condition": "peak_rss_mib",
+      "value": 218.4375,
+      "replicates": 3,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_small_memory",
+      "panel": 0,
+      "dataset": "DBLP",
+      "method": "hgd_flow",
+      "condition": "peak_rss_mib",
+      "value": 1705.625,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_small_memory",
+      "panel": 0,
+      "dataset": "HC",
+      "method": "hgd_flow_sandwich",
+      "condition": "peak_rss_mib",
+      "value": 4.484375,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_small_memory",
+      "panel": 0,
+      "dataset": "CP",
+      "method": "hgd_flow_sandwich",
+      "condition": "peak_rss_mib",
+      "value": 4.21875,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_small_memory",
+      "panel": 0,
+      "dataset": "CH",
+      "method": "hgd_flow_sandwich",
+      "condition": "peak_rss_mib",
+      "value": 3.078125,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_small_memory",
+      "panel": 0,
+      "dataset": "SB",
+      "method": "hgd_flow_sandwich",
+      "condition": "peak_rss_mib",
+      "value": 40.21875,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_small_memory",
+      "panel": 0,
+      "dataset": "HB",
+      "method": "hgd_flow_sandwich",
+      "condition": "peak_rss_mib",
+      "value": 177.6875,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_small_memory",
+      "panel": 0,
+      "dataset": "TC",
+      "method": "hgd_flow_sandwich",
+      "condition": "peak_rss_mib",
+      "value": 123.546875,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_small_memory",
+      "panel": 0,
+      "dataset": "SA",
+      "method": "hgd_flow_sandwich",
+      "condition": "peak_rss_mib",
+      "value": 4059.296875,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_small_memory",
+      "panel": 0,
+      "dataset": "TM",
+      "method": "hgd_flow_sandwich",
+      "condition": "peak_rss_mib",
+      "value": 298.078125,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_small_memory",
+      "panel": 0,
+      "dataset": "DBLP",
+      "method": "hgd_flow_sandwich",
+      "condition": "peak_rss_mib",
+      "value": 1464.46875,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_small_memory",
+      "panel": 0,
+      "dataset": "HC",
+      "method": "hgd_reverse",
+      "condition": "peak_rss_mib",
+      "value": 3.359375,
+      "replicates": 3,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_small_memory",
+      "panel": 0,
+      "dataset": "CP",
+      "method": "hgd_reverse",
+      "condition": "peak_rss_mib",
+      "value": 3.453125,
+      "replicates": 3,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_small_memory",
+      "panel": 0,
+      "dataset": "CH",
+      "method": "hgd_reverse",
+      "condition": "peak_rss_mib",
+      "value": 2.625,
+      "replicates": 3,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_small_memory",
+      "panel": 0,
+      "dataset": "SB",
+      "method": "hgd_reverse",
+      "condition": "peak_rss_mib",
+      "value": 22.5625,
+      "replicates": 3,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_small_memory",
+      "panel": 0,
+      "dataset": "HB",
+      "method": "hgd_reverse",
+      "condition": "peak_rss_mib",
+      "value": 117.34375,
+      "replicates": 3,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_small_memory",
+      "panel": 0,
+      "dataset": "TC",
+      "method": "hgd_reverse",
+      "condition": "peak_rss_mib",
+      "value": 71.515625,
+      "replicates": 3,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_small_memory",
+      "panel": 0,
+      "dataset": "SA",
+      "method": "hgd_reverse",
+      "condition": "peak_rss_mib",
+      "value": 3766.46875,
+      "replicates": 3,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_small_memory",
+      "panel": 0,
+      "dataset": "TM",
+      "method": "hgd_reverse",
+      "condition": "peak_rss_mib",
+      "value": 146.8125,
+      "replicates": 3,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_small_memory",
+      "panel": 0,
+      "dataset": "DBLP",
+      "method": "hgd_reverse",
+      "condition": "peak_rss_mib",
+      "value": 854.703125,
+      "replicates": 3,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_small_memory",
+      "panel": 0,
+      "dataset": "HC",
+      "method": "hgd_reverse_sandwich",
+      "condition": "peak_rss_mib",
+      "value": 4.515625,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_small_memory",
+      "panel": 0,
+      "dataset": "CP",
+      "method": "hgd_reverse_sandwich",
+      "condition": "peak_rss_mib",
+      "value": 4.171875,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_small_memory",
+      "panel": 0,
+      "dataset": "CH",
+      "method": "hgd_reverse_sandwich",
+      "condition": "peak_rss_mib",
+      "value": 3.046875,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_small_memory",
+      "panel": 0,
+      "dataset": "SB",
+      "method": "hgd_reverse_sandwich",
+      "condition": "peak_rss_mib",
+      "value": 41.734375,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_small_memory",
+      "panel": 0,
+      "dataset": "HB",
+      "method": "hgd_reverse_sandwich",
+      "condition": "peak_rss_mib",
+      "value": 173.1875,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_small_memory",
+      "panel": 0,
+      "dataset": "TC",
+      "method": "hgd_reverse_sandwich",
+      "condition": "peak_rss_mib",
+      "value": 120.15625,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_small_memory",
+      "panel": 0,
+      "dataset": "SA",
+      "method": "hgd_reverse_sandwich",
+      "condition": "peak_rss_mib",
+      "value": 4116.546875,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_small_memory",
+      "panel": 0,
+      "dataset": "TM",
+      "method": "hgd_reverse_sandwich",
+      "condition": "peak_rss_mib",
+      "value": 277.65625,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_small_memory",
+      "panel": 0,
+      "dataset": "DBLP",
+      "method": "hgd_reverse_sandwich",
+      "condition": "peak_rss_mib",
+      "value": 1456.40625,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_large_methods",
+      "panel": 0,
+      "dataset": "TC",
+      "method": "core",
+      "condition": "wall_s",
+      "value": 0.22264883399475366,
+      "replicates": 3,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_large_methods",
+      "panel": 0,
+      "dataset": "SA",
+      "method": "core",
+      "condition": "wall_s",
+      "value": 13.554786457971204,
+      "replicates": 3,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_large_methods",
+      "panel": 0,
+      "dataset": "TM",
+      "method": "core",
+      "condition": "wall_s",
+      "value": 0.3492369999876246,
+      "replicates": 3,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_large_methods",
+      "panel": 0,
+      "dataset": "DBLP",
+      "method": "core",
+      "condition": "wall_s",
+      "value": 3.6651432079961523,
+      "replicates": 3,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_large_methods",
+      "panel": 0,
+      "dataset": "TC",
+      "method": "neighbor",
+      "condition": "wall_s",
+      "value": 0.6828099580015987,
+      "replicates": 3,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_large_methods",
+      "panel": 0,
+      "dataset": "SA",
+      "method": "neighbor",
+      "condition": "wall_s",
+      "value": 118.34331699996255,
+      "replicates": 1,
+      "status": "oom"
+    },
+    {
+      "figure": "compact_large_methods",
+      "panel": 0,
+      "dataset": "TM",
+      "method": "neighbor",
+      "condition": "wall_s",
+      "value": 1.0645653340034187,
+      "replicates": 3,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_large_methods",
+      "panel": 0,
+      "dataset": "DBLP",
+      "method": "neighbor",
+      "condition": "wall_s",
+      "value": 8.445579707971774,
+      "replicates": 3,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_large_methods",
+      "panel": 0,
+      "dataset": "TC",
+      "method": "cocore",
+      "condition": "wall_s",
+      "value": 0.6870379999745637,
+      "replicates": 3,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_large_methods",
+      "panel": 0,
+      "dataset": "SA",
+      "method": "cocore",
+      "condition": "wall_s",
+      "value": 124.59415575000457,
+      "replicates": 1,
+      "status": "oom"
+    },
+    {
+      "figure": "compact_large_methods",
+      "panel": 0,
+      "dataset": "TM",
+      "method": "cocore",
+      "condition": "wall_s",
+      "value": 1.0467518749646842,
+      "replicates": 3,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_large_methods",
+      "panel": 0,
+      "dataset": "DBLP",
+      "method": "cocore",
+      "condition": "wall_s",
+      "value": 8.543888042040635,
+      "replicates": 3,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_large_methods",
+      "panel": 0,
+      "dataset": "TC",
+      "method": "abcore",
+      "condition": "wall_s",
+      "value": 0.12431312497938052,
+      "replicates": 3,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_large_methods",
+      "panel": 0,
+      "dataset": "SA",
+      "method": "abcore",
+      "condition": "wall_s",
+      "value": 10.013631084002554,
+      "replicates": 3,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_large_methods",
+      "panel": 0,
+      "dataset": "TM",
+      "method": "abcore",
+      "condition": "wall_s",
+      "value": 0.18074704200262204,
+      "replicates": 3,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_large_methods",
+      "panel": 0,
+      "dataset": "DBLP",
+      "method": "abcore",
+      "condition": "wall_s",
+      "value": 2.0512397079728544,
+      "replicates": 3,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_large_methods",
+      "panel": 0,
+      "dataset": "TC",
+      "method": "hgd_flow",
+      "condition": "wall_s",
+      "value": 10.25796729204012,
+      "replicates": 3,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_large_methods",
+      "panel": 0,
+      "dataset": "SA",
+      "method": "hgd_flow",
+      "condition": "wall_s",
+      "value": 139.46012566698482,
+      "replicates": 3,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_large_methods",
+      "panel": 0,
+      "dataset": "TM",
+      "method": "hgd_flow",
+      "condition": "wall_s",
+      "value": 17.518284083984327,
+      "replicates": 3,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_large_methods",
+      "panel": 0,
+      "dataset": "DBLP",
+      "method": "hgd_flow",
+      "condition": "wall_s",
+      "value": 591.7345517079812,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_large_methods",
+      "panel": 0,
+      "dataset": "TC",
+      "method": "hgd_flow_sandwich",
+      "condition": "wall_s",
+      "value": 0.9518960419809446,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_large_methods",
+      "panel": 0,
+      "dataset": "SA",
+      "method": "hgd_flow_sandwich",
+      "condition": "wall_s",
+      "value": 114.08399362501223,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_large_methods",
+      "panel": 0,
+      "dataset": "TM",
+      "method": "hgd_flow_sandwich",
+      "condition": "wall_s",
+      "value": 1.4849814999615774,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_large_methods",
+      "panel": 0,
+      "dataset": "DBLP",
+      "method": "hgd_flow_sandwich",
+      "condition": "wall_s",
+      "value": 18.389609250007197,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_large_methods",
+      "panel": 0,
+      "dataset": "TC",
+      "method": "hgd_reverse",
+      "condition": "wall_s",
+      "value": 1.5387434169533662,
+      "replicates": 3,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_large_methods",
+      "panel": 0,
+      "dataset": "SA",
+      "method": "hgd_reverse",
+      "condition": "wall_s",
+      "value": 42.84253625001293,
+      "replicates": 3,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_large_methods",
+      "panel": 0,
+      "dataset": "TM",
+      "method": "hgd_reverse",
+      "condition": "wall_s",
+      "value": 0.7548498330288567,
+      "replicates": 3,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_large_methods",
+      "panel": 0,
+      "dataset": "DBLP",
+      "method": "hgd_reverse",
+      "condition": "wall_s",
+      "value": 54.68158733303426,
+      "replicates": 3,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_large_methods",
+      "panel": 0,
+      "dataset": "TC",
+      "method": "hgd_reverse_sandwich",
+      "condition": "wall_s",
+      "value": 0.8014397919178009,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_large_methods",
+      "panel": 0,
+      "dataset": "SA",
+      "method": "hgd_reverse_sandwich",
+      "condition": "wall_s",
+      "value": 79.53587016602978,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_large_methods",
+      "panel": 0,
+      "dataset": "TM",
+      "method": "hgd_reverse_sandwich",
+      "condition": "wall_s",
+      "value": 1.3117619170807302,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_large_methods",
+      "panel": 0,
+      "dataset": "DBLP",
+      "method": "hgd_reverse_sandwich",
+      "condition": "wall_s",
+      "value": 14.20899416692555,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_large_methods_memory",
+      "panel": 0,
+      "dataset": "TC",
+      "method": "core",
+      "condition": "peak_rss_mib",
+      "value": 45.734375,
+      "replicates": 3,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_large_methods_memory",
+      "panel": 0,
+      "dataset": "SA",
+      "method": "core",
+      "condition": "peak_rss_mib",
+      "value": 1579.546875,
+      "replicates": 3,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_large_methods_memory",
+      "panel": 0,
+      "dataset": "TM",
+      "method": "core",
+      "condition": "peak_rss_mib",
+      "value": 136.75,
+      "replicates": 3,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_large_methods_memory",
+      "panel": 0,
+      "dataset": "DBLP",
+      "method": "core",
+      "condition": "peak_rss_mib",
+      "value": 691.734375,
+      "replicates": 3,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_large_methods_memory",
+      "panel": 0,
+      "dataset": "TC",
+      "method": "neighbor",
+      "condition": "peak_rss_mib",
+      "value": 145.875,
+      "replicates": 3,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_large_methods_memory",
+      "panel": 0,
+      "dataset": "SA",
+      "method": "neighbor",
+      "condition": "peak_rss_mib",
+      "value": 2529.265625,
+      "replicates": 1,
+      "status": "oom"
+    },
+    {
+      "figure": "compact_large_methods_memory",
+      "panel": 0,
+      "dataset": "TM",
+      "method": "neighbor",
+      "condition": "peak_rss_mib",
+      "value": 237.828125,
+      "replicates": 3,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_large_methods_memory",
+      "panel": 0,
+      "dataset": "DBLP",
+      "method": "neighbor",
+      "condition": "peak_rss_mib",
+      "value": 1442.0,
+      "replicates": 3,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_large_methods_memory",
+      "panel": 0,
+      "dataset": "TC",
+      "method": "cocore",
+      "condition": "peak_rss_mib",
+      "value": 148.703125,
+      "replicates": 3,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_large_methods_memory",
+      "panel": 0,
+      "dataset": "SA",
+      "method": "cocore",
+      "condition": "peak_rss_mib",
+      "value": 6026.5,
+      "replicates": 1,
+      "status": "oom"
+    },
+    {
+      "figure": "compact_large_methods_memory",
+      "panel": 0,
+      "dataset": "TM",
+      "method": "cocore",
+      "condition": "peak_rss_mib",
+      "value": 238.359375,
+      "replicates": 3,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_large_methods_memory",
+      "panel": 0,
+      "dataset": "DBLP",
+      "method": "cocore",
+      "condition": "peak_rss_mib",
+      "value": 1447.140625,
+      "replicates": 3,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_large_methods_memory",
+      "panel": 0,
+      "dataset": "TC",
+      "method": "abcore",
+      "condition": "peak_rss_mib",
+      "value": 42.15625,
+      "replicates": 3,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_large_methods_memory",
+      "panel": 0,
+      "dataset": "SA",
+      "method": "abcore",
+      "condition": "peak_rss_mib",
+      "value": 1374.328125,
+      "replicates": 3,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_large_methods_memory",
+      "panel": 0,
+      "dataset": "TM",
+      "method": "abcore",
+      "condition": "peak_rss_mib",
+      "value": 123.0625,
+      "replicates": 3,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_large_methods_memory",
+      "panel": 0,
+      "dataset": "DBLP",
+      "method": "abcore",
+      "condition": "peak_rss_mib",
+      "value": 619.4375,
+      "replicates": 3,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_large_methods_memory",
+      "panel": 0,
+      "dataset": "TC",
+      "method": "hgd_flow",
+      "condition": "peak_rss_mib",
+      "value": 172.703125,
+      "replicates": 3,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_large_methods_memory",
+      "panel": 0,
+      "dataset": "SA",
+      "method": "hgd_flow",
+      "condition": "peak_rss_mib",
+      "value": 4801.875,
+      "replicates": 3,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_large_methods_memory",
+      "panel": 0,
+      "dataset": "TM",
+      "method": "hgd_flow",
+      "condition": "peak_rss_mib",
+      "value": 218.4375,
+      "replicates": 3,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_large_methods_memory",
+      "panel": 0,
+      "dataset": "DBLP",
+      "method": "hgd_flow",
+      "condition": "peak_rss_mib",
+      "value": 1705.625,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_large_methods_memory",
+      "panel": 0,
+      "dataset": "TC",
+      "method": "hgd_flow_sandwich",
+      "condition": "peak_rss_mib",
+      "value": 123.546875,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_large_methods_memory",
+      "panel": 0,
+      "dataset": "SA",
+      "method": "hgd_flow_sandwich",
+      "condition": "peak_rss_mib",
+      "value": 4059.296875,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_large_methods_memory",
+      "panel": 0,
+      "dataset": "TM",
+      "method": "hgd_flow_sandwich",
+      "condition": "peak_rss_mib",
+      "value": 298.078125,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_large_methods_memory",
+      "panel": 0,
+      "dataset": "DBLP",
+      "method": "hgd_flow_sandwich",
+      "condition": "peak_rss_mib",
+      "value": 1464.46875,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_large_methods_memory",
+      "panel": 0,
+      "dataset": "TC",
+      "method": "hgd_reverse",
+      "condition": "peak_rss_mib",
+      "value": 71.515625,
+      "replicates": 3,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_large_methods_memory",
+      "panel": 0,
+      "dataset": "SA",
+      "method": "hgd_reverse",
+      "condition": "peak_rss_mib",
+      "value": 3766.46875,
+      "replicates": 3,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_large_methods_memory",
+      "panel": 0,
+      "dataset": "TM",
+      "method": "hgd_reverse",
+      "condition": "peak_rss_mib",
+      "value": 146.8125,
+      "replicates": 3,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_large_methods_memory",
+      "panel": 0,
+      "dataset": "DBLP",
+      "method": "hgd_reverse",
+      "condition": "peak_rss_mib",
+      "value": 854.703125,
+      "replicates": 3,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_large_methods_memory",
+      "panel": 0,
+      "dataset": "TC",
+      "method": "hgd_reverse_sandwich",
+      "condition": "peak_rss_mib",
+      "value": 120.15625,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_large_methods_memory",
+      "panel": 0,
+      "dataset": "SA",
+      "method": "hgd_reverse_sandwich",
+      "condition": "peak_rss_mib",
+      "value": 4116.546875,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_large_methods_memory",
+      "panel": 0,
+      "dataset": "TM",
+      "method": "hgd_reverse_sandwich",
+      "condition": "peak_rss_mib",
+      "value": 277.65625,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_large_methods_memory",
+      "panel": 0,
+      "dataset": "DBLP",
+      "method": "hgd_reverse_sandwich",
+      "condition": "peak_rss_mib",
+      "value": 1456.40625,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_hierarchy_quality",
+      "panel": 0,
+      "dataset": "HC",
+      "method": "core",
+      "condition": "total",
+      "value": 3,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_hierarchy_quality",
+      "panel": 0,
+      "dataset": "CP",
+      "method": "core",
+      "condition": "total",
+      "value": 75,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_hierarchy_quality",
+      "panel": 0,
+      "dataset": "CH",
+      "method": "core",
+      "condition": "total",
+      "value": 40,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_hierarchy_quality",
+      "panel": 0,
+      "dataset": "SB",
+      "method": "core",
+      "condition": "total",
+      "value": 192,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_hierarchy_quality",
+      "panel": 0,
+      "dataset": "HB",
+      "method": "core",
+      "condition": "total",
+      "value": 181,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_hierarchy_quality",
+      "panel": 0,
+      "dataset": "HC",
+      "method": "neighbor",
+      "condition": "total",
+      "value": 81,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_hierarchy_quality",
+      "panel": 0,
+      "dataset": "CP",
+      "method": "neighbor",
+      "condition": "total",
+      "value": 48,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_hierarchy_quality",
+      "panel": 0,
+      "dataset": "CH",
+      "method": "neighbor",
+      "condition": "total",
+      "value": 25,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_hierarchy_quality",
+      "panel": 0,
+      "dataset": "SB",
+      "method": "neighbor",
+      "condition": "total",
+      "value": 102,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_hierarchy_quality",
+      "panel": 0,
+      "dataset": "HB",
+      "method": "neighbor",
+      "condition": "total",
+      "value": 438,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_hierarchy_quality",
+      "panel": 0,
+      "dataset": "HC",
+      "method": "cocore",
+      "condition": "total",
+      "value": 3,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_hierarchy_quality",
+      "panel": 0,
+      "dataset": "CP",
+      "method": "cocore",
+      "condition": "total",
+      "value": 75,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_hierarchy_quality",
+      "panel": 0,
+      "dataset": "CH",
+      "method": "cocore",
+      "condition": "total",
+      "value": 40,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_hierarchy_quality",
+      "panel": 0,
+      "dataset": "SB",
+      "method": "cocore",
+      "condition": "total",
+      "value": 184,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_hierarchy_quality",
+      "panel": 0,
+      "dataset": "HB",
+      "method": "cocore",
+      "condition": "total",
+      "value": 83,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_hierarchy_quality",
+      "panel": 0,
+      "dataset": "HC",
+      "method": "abcore",
+      "condition": "total",
+      "value": 21,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_hierarchy_quality",
+      "panel": 0,
+      "dataset": "CP",
+      "method": "abcore",
+      "condition": "total",
+      "value": 2,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_hierarchy_quality",
+      "panel": 0,
+      "dataset": "CH",
+      "method": "abcore",
+      "condition": "total",
+      "value": 2,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_hierarchy_quality",
+      "panel": 0,
+      "dataset": "SB",
+      "method": "abcore",
+      "condition": "total",
+      "value": 953,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_hierarchy_quality",
+      "panel": 0,
+      "dataset": "HB",
+      "method": "abcore",
+      "condition": "total",
+      "value": 2322,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_hierarchy_quality",
+      "panel": 0,
+      "dataset": "HC",
+      "method": "hgd_reverse",
+      "condition": "total",
+      "value": 13,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_hierarchy_quality",
+      "panel": 0,
+      "dataset": "CP",
+      "method": "hgd_reverse",
+      "condition": "total",
+      "value": 262,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_hierarchy_quality",
+      "panel": 0,
+      "dataset": "CH",
+      "method": "hgd_reverse",
+      "condition": "total",
+      "value": 149,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_hierarchy_quality",
+      "panel": 0,
+      "dataset": "SB",
+      "method": "hgd_reverse",
+      "condition": "total",
+      "value": 993,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_hierarchy_quality",
+      "panel": 0,
+      "dataset": "HB",
+      "method": "hgd_reverse",
+      "condition": "total",
+      "value": 352,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_hierarchy_quality",
+      "panel": 1,
+      "dataset": "HC",
+      "method": "core",
+      "condition": "nonempty",
+      "value": 2,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_hierarchy_quality",
+      "panel": 1,
+      "dataset": "CP",
+      "method": "core",
+      "condition": "nonempty",
+      "value": 27,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_hierarchy_quality",
+      "panel": 1,
+      "dataset": "CH",
+      "method": "core",
+      "condition": "nonempty",
+      "value": 34,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_hierarchy_quality",
+      "panel": 1,
+      "dataset": "SB",
+      "method": "core",
+      "condition": "nonempty",
+      "value": 37,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_hierarchy_quality",
+      "panel": 1,
+      "dataset": "HB",
+      "method": "core",
+      "condition": "nonempty",
+      "value": 58,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_hierarchy_quality",
+      "panel": 1,
+      "dataset": "HC",
+      "method": "neighbor",
+      "condition": "nonempty",
+      "value": 48,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_hierarchy_quality",
+      "panel": 1,
+      "dataset": "CP",
+      "method": "neighbor",
+      "condition": "nonempty",
+      "value": 25,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_hierarchy_quality",
+      "panel": 1,
+      "dataset": "CH",
+      "method": "neighbor",
+      "condition": "nonempty",
+      "value": 21,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_hierarchy_quality",
+      "panel": 1,
+      "dataset": "SB",
+      "method": "neighbor",
+      "condition": "nonempty",
+      "value": 11,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_hierarchy_quality",
+      "panel": 1,
+      "dataset": "HB",
+      "method": "neighbor",
+      "condition": "nonempty",
+      "value": 43,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_hierarchy_quality",
+      "panel": 1,
+      "dataset": "HC",
+      "method": "cocore",
+      "condition": "nonempty",
+      "value": 3,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_hierarchy_quality",
+      "panel": 1,
+      "dataset": "CP",
+      "method": "cocore",
+      "condition": "nonempty",
+      "value": 27,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_hierarchy_quality",
+      "panel": 1,
+      "dataset": "CH",
+      "method": "cocore",
+      "condition": "nonempty",
+      "value": 33,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_hierarchy_quality",
+      "panel": 1,
+      "dataset": "SB",
+      "method": "cocore",
+      "condition": "nonempty",
+      "value": 36,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_hierarchy_quality",
+      "panel": 1,
+      "dataset": "HB",
+      "method": "cocore",
+      "condition": "nonempty",
+      "value": 56,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_hierarchy_quality",
+      "panel": 1,
+      "dataset": "HC",
+      "method": "abcore",
+      "condition": "nonempty",
+      "value": 20,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_hierarchy_quality",
+      "panel": 1,
+      "dataset": "CP",
+      "method": "abcore",
+      "condition": "nonempty",
+      "value": 2,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_hierarchy_quality",
+      "panel": 1,
+      "dataset": "CH",
+      "method": "abcore",
+      "condition": "nonempty",
+      "value": 2,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_hierarchy_quality",
+      "panel": 1,
+      "dataset": "SB",
+      "method": "abcore",
+      "condition": "nonempty",
+      "value": 189,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_hierarchy_quality",
+      "panel": 1,
+      "dataset": "HB",
+      "method": "abcore",
+      "condition": "nonempty",
+      "value": 862,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_hierarchy_quality",
+      "panel": 1,
+      "dataset": "HC",
+      "method": "hgd_reverse",
+      "condition": "nonempty",
+      "value": 10,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_hierarchy_quality",
+      "panel": 1,
+      "dataset": "CP",
+      "method": "hgd_reverse",
+      "condition": "nonempty",
+      "value": 144,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_hierarchy_quality",
+      "panel": 1,
+      "dataset": "CH",
+      "method": "hgd_reverse",
+      "condition": "nonempty",
+      "value": 106,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_hierarchy_quality",
+      "panel": 1,
+      "dataset": "SB",
+      "method": "hgd_reverse",
+      "condition": "nonempty",
+      "value": 114,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_hierarchy_quality",
+      "panel": 1,
+      "dataset": "HB",
+      "method": "hgd_reverse",
+      "condition": "nonempty",
+      "value": 175,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_hierarchy_quality",
+      "panel": 2,
+      "dataset": "HC",
+      "method": "core",
+      "condition": "consistency",
+      "value": 0.046511627906976744,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_hierarchy_quality",
+      "panel": 2,
+      "dataset": "CP",
+      "method": "core",
+      "condition": "consistency",
+      "value": 0.9814229951501622,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_hierarchy_quality",
+      "panel": 2,
+      "dataset": "CH",
+      "method": "core",
+      "condition": "consistency",
+      "value": 0.9597945653443044,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_hierarchy_quality",
+      "panel": 2,
+      "dataset": "SB",
+      "method": "core",
+      "condition": "consistency",
+      "value": 0.953285976980883,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_hierarchy_quality",
+      "panel": 2,
+      "dataset": "HB",
+      "method": "core",
+      "condition": "consistency",
+      "value": 0.9629930857143051,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_hierarchy_quality",
+      "panel": 2,
+      "dataset": "HC",
+      "method": "neighbor",
+      "condition": "consistency",
+      "value": 0.9465359596656542,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_hierarchy_quality",
+      "panel": 2,
+      "dataset": "CP",
+      "method": "neighbor",
+      "condition": "consistency",
+      "value": 0.9703325194552558,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_hierarchy_quality",
+      "panel": 2,
+      "dataset": "CH",
+      "method": "neighbor",
+      "condition": "consistency",
+      "value": 0.9810710874258332,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_hierarchy_quality",
+      "panel": 2,
+      "dataset": "SB",
+      "method": "neighbor",
+      "condition": "consistency",
+      "value": 0.9148676270040509,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_hierarchy_quality",
+      "panel": 2,
+      "dataset": "HB",
+      "method": "neighbor",
+      "condition": "consistency",
+      "value": 0.9780895195648446,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_hierarchy_quality",
+      "panel": 2,
+      "dataset": "HC",
+      "method": "cocore",
+      "condition": "consistency",
+      "value": 0.5163055515431653,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_hierarchy_quality",
+      "panel": 2,
+      "dataset": "CP",
+      "method": "cocore",
+      "condition": "consistency",
+      "value": 0.9814229951501622,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_hierarchy_quality",
+      "panel": 2,
+      "dataset": "CH",
+      "method": "cocore",
+      "condition": "consistency",
+      "value": 0.9585384386577839,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_hierarchy_quality",
+      "panel": 2,
+      "dataset": "SB",
+      "method": "cocore",
+      "condition": "consistency",
+      "value": 0.9801116194886615,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_hierarchy_quality",
+      "panel": 2,
+      "dataset": "HB",
+      "method": "cocore",
+      "condition": "consistency",
+      "value": 0.9887817822443699,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_hierarchy_quality",
+      "panel": 2,
+      "dataset": "HC",
+      "method": "abcore",
+      "condition": "consistency",
+      "value": 0.8665536393355847,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_hierarchy_quality",
+      "panel": 2,
+      "dataset": "CP",
+      "method": "abcore",
+      "condition": "consistency",
+      "value": 0.15289256198347106,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_hierarchy_quality",
+      "panel": 2,
+      "dataset": "CH",
+      "method": "abcore",
+      "condition": "consistency",
+      "value": 0.08256880733944955,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_hierarchy_quality",
+      "panel": 2,
+      "dataset": "SB",
+      "method": "abcore",
+      "condition": "consistency",
+      "value": 0.9895420876601175,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_hierarchy_quality",
+      "panel": 2,
+      "dataset": "HB",
+      "method": "abcore",
+      "condition": "consistency",
+      "value": 0.9951013238155922,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_hierarchy_quality",
+      "panel": 2,
+      "dataset": "HC",
+      "method": "hgd_reverse",
+      "condition": "consistency",
+      "value": 0.567812228305907,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_hierarchy_quality",
+      "panel": 2,
+      "dataset": "CP",
+      "method": "hgd_reverse",
+      "condition": "consistency",
+      "value": 0.9649089843593334,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_hierarchy_quality",
+      "panel": 2,
+      "dataset": "CH",
+      "method": "hgd_reverse",
+      "condition": "consistency",
+      "value": 0.949732386300258,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_hierarchy_quality",
+      "panel": 2,
+      "dataset": "SB",
+      "method": "hgd_reverse",
+      "condition": "consistency",
+      "value": 0.9580587416743205,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_hierarchy_quality",
+      "panel": 2,
+      "dataset": "HB",
+      "method": "hgd_reverse",
+      "condition": "consistency",
+      "value": 0.9737212138825072,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_scalability",
+      "panel": 0,
+      "dataset": "HB",
+      "method": "flow",
+      "condition": "vertices0.2",
+      "value": 1.5524637920316309,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_scalability",
+      "panel": 0,
+      "dataset": "HB",
+      "method": "flow",
+      "condition": "vertices0.4",
+      "value": 3.431894041947089,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_scalability",
+      "panel": 0,
+      "dataset": "HB",
+      "method": "flow",
+      "condition": "vertices0.6",
+      "value": 4.093977749929763,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_scalability",
+      "panel": 0,
+      "dataset": "HB",
+      "method": "flow",
+      "condition": "vertices0.8",
+      "value": 4.201302167028189,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_scalability",
+      "panel": 0,
+      "dataset": "HB",
+      "method": "flow",
+      "condition": "vertices1.0",
+      "value": 3.9975042920559645,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_scalability",
+      "panel": 0,
+      "dataset": "HB",
+      "method": "reverse",
+      "condition": "vertices0.2",
+      "value": 0.3693095000926405,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_scalability",
+      "panel": 0,
+      "dataset": "HB",
+      "method": "reverse",
+      "condition": "vertices0.4",
+      "value": 1.2167652089847252,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_scalability",
+      "panel": 0,
+      "dataset": "HB",
+      "method": "reverse",
+      "condition": "vertices0.6",
+      "value": 1.7032273749355227,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_scalability",
+      "panel": 0,
+      "dataset": "HB",
+      "method": "reverse",
+      "condition": "vertices0.8",
+      "value": 1.8321287500439212,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_scalability",
+      "panel": 0,
+      "dataset": "HB",
+      "method": "reverse",
+      "condition": "vertices1.0",
+      "value": 1.6394045409979299,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_scalability",
+      "panel": 0,
+      "dataset": "HB",
+      "method": "flow_s",
+      "condition": "vertices0.2",
+      "value": 0.25558529200498015,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_scalability",
+      "panel": 0,
+      "dataset": "HB",
+      "method": "flow_s",
+      "condition": "vertices0.4",
+      "value": 0.5259589160559699,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_scalability",
+      "panel": 0,
+      "dataset": "HB",
+      "method": "flow_s",
+      "condition": "vertices0.6",
+      "value": 0.8245382499881089,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_scalability",
+      "panel": 0,
+      "dataset": "HB",
+      "method": "flow_s",
+      "condition": "vertices0.8",
+      "value": 1.2279873340157792,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_scalability",
+      "panel": 0,
+      "dataset": "HB",
+      "method": "flow_s",
+      "condition": "vertices1.0",
+      "value": 1.3193192499456927,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_scalability",
+      "panel": 0,
+      "dataset": "HB",
+      "method": "reverse_s",
+      "condition": "vertices0.2",
+      "value": 0.24428733403328806,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_scalability",
+      "panel": 0,
+      "dataset": "HB",
+      "method": "reverse_s",
+      "condition": "vertices0.4",
+      "value": 0.5055717499926686,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_scalability",
+      "panel": 0,
+      "dataset": "HB",
+      "method": "reverse_s",
+      "condition": "vertices0.6",
+      "value": 0.8004266660427675,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_scalability",
+      "panel": 0,
+      "dataset": "HB",
+      "method": "reverse_s",
+      "condition": "vertices0.8",
+      "value": 1.1621302920393646,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_scalability",
+      "panel": 0,
+      "dataset": "HB",
+      "method": "reverse_s",
+      "condition": "vertices1.0",
+      "value": 1.5503098749322817,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_scalability",
+      "panel": 1,
+      "dataset": "HB",
+      "method": "flow",
+      "condition": "edges0.2",
+      "value": 0.9015269168885425,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_scalability",
+      "panel": 1,
+      "dataset": "HB",
+      "method": "flow",
+      "condition": "edges0.4",
+      "value": 0.9864929999457672,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_scalability",
+      "panel": 1,
+      "dataset": "HB",
+      "method": "flow",
+      "condition": "edges0.6",
+      "value": 1.8848932910477743,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_scalability",
+      "panel": 1,
+      "dataset": "HB",
+      "method": "flow",
+      "condition": "edges0.8",
+      "value": 3.2004181670490652,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_scalability",
+      "panel": 1,
+      "dataset": "HB",
+      "method": "flow",
+      "condition": "edges1.0",
+      "value": 4.321767500019632,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_scalability",
+      "panel": 1,
+      "dataset": "HB",
+      "method": "reverse",
+      "condition": "edges0.2",
+      "value": 0.5818440000293776,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_scalability",
+      "panel": 1,
+      "dataset": "HB",
+      "method": "reverse",
+      "condition": "edges0.4",
+      "value": 0.4033314170083031,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_scalability",
+      "panel": 1,
+      "dataset": "HB",
+      "method": "reverse",
+      "condition": "edges0.6",
+      "value": 0.7297729579731822,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_scalability",
+      "panel": 1,
+      "dataset": "HB",
+      "method": "reverse",
+      "condition": "edges0.8",
+      "value": 1.3864872499834746,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_scalability",
+      "panel": 1,
+      "dataset": "HB",
+      "method": "reverse",
+      "condition": "edges1.0",
+      "value": 1.7703045830130577,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_scalability",
+      "panel": 1,
+      "dataset": "HB",
+      "method": "flow_s",
+      "condition": "edges0.2",
+      "value": 0.6124012089567259,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_scalability",
+      "panel": 1,
+      "dataset": "HB",
+      "method": "flow_s",
+      "condition": "edges0.4",
+      "value": 0.4056917499983683,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_scalability",
+      "panel": 1,
+      "dataset": "HB",
+      "method": "flow_s",
+      "condition": "edges0.6",
+      "value": 0.659722457989119,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_scalability",
+      "panel": 1,
+      "dataset": "HB",
+      "method": "flow_s",
+      "condition": "edges0.8",
+      "value": 1.0154864171054214,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_scalability",
+      "panel": 1,
+      "dataset": "HB",
+      "method": "flow_s",
+      "condition": "edges1.0",
+      "value": 1.1975613330723718,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_scalability",
+      "panel": 1,
+      "dataset": "HB",
+      "method": "reverse_s",
+      "condition": "edges0.2",
+      "value": 0.595713666989468,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_scalability",
+      "panel": 1,
+      "dataset": "HB",
+      "method": "reverse_s",
+      "condition": "edges0.4",
+      "value": 0.39583512500394136,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_scalability",
+      "panel": 1,
+      "dataset": "HB",
+      "method": "reverse_s",
+      "condition": "edges0.6",
+      "value": 0.6342741249827668,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_scalability",
+      "panel": 1,
+      "dataset": "HB",
+      "method": "reverse_s",
+      "condition": "edges0.8",
+      "value": 0.9592764170374721,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_scalability",
+      "panel": 1,
+      "dataset": "HB",
+      "method": "reverse_s",
+      "condition": "edges1.0",
+      "value": 1.1424029999179766,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_search_scalability",
+      "panel": 0,
+      "dataset": "HC",
+      "method": "path",
+      "condition": "vertices0.2",
+      "value": 0.24942570901475847,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_search_scalability",
+      "panel": 0,
+      "dataset": "HC",
+      "method": "path",
+      "condition": "vertices0.4",
+      "value": 0.7470211670733988,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_search_scalability",
+      "panel": 0,
+      "dataset": "HC",
+      "method": "path",
+      "condition": "vertices0.6",
+      "value": 1.2964805830270052,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_search_scalability",
+      "panel": 0,
+      "dataset": "HC",
+      "method": "path",
+      "condition": "vertices0.8",
+      "value": 1.8012974169105291,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_search_scalability",
+      "panel": 0,
+      "dataset": "HC",
+      "method": "path",
+      "condition": "vertices1.0",
+      "value": 2.2167994999326766,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_search_scalability",
+      "panel": 0,
+      "dataset": "HC",
+      "method": "flow",
+      "condition": "vertices0.2",
+      "value": 0.0037899159360677004,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_search_scalability",
+      "panel": 0,
+      "dataset": "HC",
+      "method": "flow",
+      "condition": "vertices0.4",
+      "value": 0.00442762509919703,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_search_scalability",
+      "panel": 0,
+      "dataset": "HC",
+      "method": "flow",
+      "condition": "vertices0.6",
+      "value": 0.0050576250068843365,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_search_scalability",
+      "panel": 0,
+      "dataset": "HC",
+      "method": "flow",
+      "condition": "vertices0.8",
+      "value": 0.005319749936461449,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_search_scalability",
+      "panel": 0,
+      "dataset": "HC",
+      "method": "flow",
+      "condition": "vertices1.0",
+      "value": 0.005548832938075066,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_search_scalability",
+      "panel": 0,
+      "dataset": "HC",
+      "method": "flow+",
+      "condition": "vertices0.2",
+      "value": 0.003974458202719688,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_search_scalability",
+      "panel": 0,
+      "dataset": "HC",
+      "method": "flow+",
+      "condition": "vertices0.4",
+      "value": 0.0035790828987956047,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_search_scalability",
+      "panel": 0,
+      "dataset": "HC",
+      "method": "flow+",
+      "condition": "vertices0.6",
+      "value": 0.004284584196284413,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_search_scalability",
+      "panel": 0,
+      "dataset": "HC",
+      "method": "flow+",
+      "condition": "vertices0.8",
+      "value": 0.005042291944846511,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_search_scalability",
+      "panel": 0,
+      "dataset": "HC",
+      "method": "flow+",
+      "condition": "vertices1.0",
+      "value": 0.005225332919508219,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_search_scalability",
+      "panel": 1,
+      "dataset": "HC",
+      "method": "path",
+      "condition": "edges0.2",
+      "value": 0.6688269160222262,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_search_scalability",
+      "panel": 1,
+      "dataset": "HC",
+      "method": "path",
+      "condition": "edges0.4",
+      "value": 0.19295283290557563,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_search_scalability",
+      "panel": 1,
+      "dataset": "HC",
+      "method": "path",
+      "condition": "edges0.6",
+      "value": 0.5806396659463644,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_search_scalability",
+      "panel": 1,
+      "dataset": "HC",
+      "method": "path",
+      "condition": "edges0.8",
+      "value": 1.2026277920231223,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_search_scalability",
+      "panel": 1,
+      "dataset": "HC",
+      "method": "path",
+      "condition": "edges1.0",
+      "value": 2.0075819578487426,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_search_scalability",
+      "panel": 1,
+      "dataset": "HC",
+      "method": "flow",
+      "condition": "edges0.2",
+      "value": 0.4172410408500582,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_search_scalability",
+      "panel": 1,
+      "dataset": "HC",
+      "method": "flow",
+      "condition": "edges0.4",
+      "value": 0.0041201249696314335,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_search_scalability",
+      "panel": 1,
+      "dataset": "HC",
+      "method": "flow",
+      "condition": "edges0.6",
+      "value": 0.009844334097579122,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_search_scalability",
+      "panel": 1,
+      "dataset": "HC",
+      "method": "flow",
+      "condition": "edges0.8",
+      "value": 0.0051887910813093185,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_search_scalability",
+      "panel": 1,
+      "dataset": "HC",
+      "method": "flow",
+      "condition": "edges1.0",
+      "value": 0.006836666027083993,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_search_scalability",
+      "panel": 1,
+      "dataset": "HC",
+      "method": "flow+",
+      "condition": "edges0.2",
+      "value": 0.38595383311621845,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_search_scalability",
+      "panel": 1,
+      "dataset": "HC",
+      "method": "flow+",
+      "condition": "edges0.4",
+      "value": 0.004294958198443055,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_search_scalability",
+      "panel": 1,
+      "dataset": "HC",
+      "method": "flow+",
+      "condition": "edges0.6",
+      "value": 0.006366916932165623,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_search_scalability",
+      "panel": 1,
+      "dataset": "HC",
+      "method": "flow+",
+      "condition": "edges0.8",
+      "value": 0.004541332833468914,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_search_scalability",
+      "panel": 1,
+      "dataset": "HC",
+      "method": "flow+",
+      "condition": "edges1.0",
+      "value": 0.004942124942317605,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_dynamic_selected",
+      "panel": 0,
+      "dataset": "SB",
+      "method": "insert_warm_s",
+      "condition": 0.01,
+      "value": 0.119095,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_dynamic_selected",
+      "panel": 0,
+      "dataset": "SB",
+      "method": "insert_warm_s",
+      "condition": 0.05,
+      "value": 0.138779,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_dynamic_selected",
+      "panel": 0,
+      "dataset": "SB",
+      "method": "insert_warm_s",
+      "condition": 0.1,
+      "value": 0.182242,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_dynamic_selected",
+      "panel": 0,
+      "dataset": "SB",
+      "method": "insert_warm_s",
+      "condition": 0.15,
+      "value": 0.204372,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_dynamic_selected",
+      "panel": 0,
+      "dataset": "SB",
+      "method": "insert_warm_s",
+      "condition": 0.2,
+      "value": 0.26612,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_dynamic_selected",
+      "panel": 0,
+      "dataset": "SB",
+      "method": "insert_fresh_s",
+      "condition": 0.01,
+      "value": 0.310562,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_dynamic_selected",
+      "panel": 0,
+      "dataset": "SB",
+      "method": "insert_fresh_s",
+      "condition": 0.05,
+      "value": 0.310015,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_dynamic_selected",
+      "panel": 0,
+      "dataset": "SB",
+      "method": "insert_fresh_s",
+      "condition": 0.1,
+      "value": 0.362932,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_dynamic_selected",
+      "panel": 0,
+      "dataset": "SB",
+      "method": "insert_fresh_s",
+      "condition": 0.15,
+      "value": 0.380121,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_dynamic_selected",
+      "panel": 0,
+      "dataset": "SB",
+      "method": "insert_fresh_s",
+      "condition": 0.2,
+      "value": 0.414316,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_dynamic_selected",
+      "panel": 0,
+      "dataset": "SB",
+      "method": "delete_warm_s",
+      "condition": 0.01,
+      "value": 0.0879013,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_dynamic_selected",
+      "panel": 0,
+      "dataset": "SB",
+      "method": "delete_warm_s",
+      "condition": 0.05,
+      "value": 0.153076,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_dynamic_selected",
+      "panel": 0,
+      "dataset": "SB",
+      "method": "delete_warm_s",
+      "condition": 0.1,
+      "value": 0.168115,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_dynamic_selected",
+      "panel": 0,
+      "dataset": "SB",
+      "method": "delete_warm_s",
+      "condition": 0.15,
+      "value": 0.135124,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_dynamic_selected",
+      "panel": 0,
+      "dataset": "SB",
+      "method": "delete_warm_s",
+      "condition": 0.2,
+      "value": 0.167748,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_dynamic_selected",
+      "panel": 0,
+      "dataset": "SB",
+      "method": "delete_fresh_s",
+      "condition": 0.01,
+      "value": 0.292035,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_dynamic_selected",
+      "panel": 0,
+      "dataset": "SB",
+      "method": "delete_fresh_s",
+      "condition": 0.05,
+      "value": 0.29977,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_dynamic_selected",
+      "panel": 0,
+      "dataset": "SB",
+      "method": "delete_fresh_s",
+      "condition": 0.1,
+      "value": 0.304984,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_dynamic_selected",
+      "panel": 0,
+      "dataset": "SB",
+      "method": "delete_fresh_s",
+      "condition": 0.15,
+      "value": 0.271624,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_dynamic_selected",
+      "panel": 0,
+      "dataset": "SB",
+      "method": "delete_fresh_s",
+      "condition": 0.2,
+      "value": 0.262688,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_dynamic_selected",
+      "panel": 1,
+      "dataset": "TC",
+      "method": "insert_warm_s",
+      "condition": 0.01,
+      "value": 0.574653,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_dynamic_selected",
+      "panel": 1,
+      "dataset": "TC",
+      "method": "insert_warm_s",
+      "condition": 0.05,
+      "value": 0.938097,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_dynamic_selected",
+      "panel": 1,
+      "dataset": "TC",
+      "method": "insert_warm_s",
+      "condition": 0.1,
+      "value": 1.27065,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_dynamic_selected",
+      "panel": 1,
+      "dataset": "TC",
+      "method": "insert_warm_s",
+      "condition": 0.15,
+      "value": 1.27232,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_dynamic_selected",
+      "panel": 1,
+      "dataset": "TC",
+      "method": "insert_warm_s",
+      "condition": 0.2,
+      "value": 1.43266,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_dynamic_selected",
+      "panel": 1,
+      "dataset": "TC",
+      "method": "insert_fresh_s",
+      "condition": 0.01,
+      "value": 1.23646,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_dynamic_selected",
+      "panel": 1,
+      "dataset": "TC",
+      "method": "insert_fresh_s",
+      "condition": 0.05,
+      "value": 1.36793,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_dynamic_selected",
+      "panel": 1,
+      "dataset": "TC",
+      "method": "insert_fresh_s",
+      "condition": 0.1,
+      "value": 1.44031,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_dynamic_selected",
+      "panel": 1,
+      "dataset": "TC",
+      "method": "insert_fresh_s",
+      "condition": 0.15,
+      "value": 1.58601,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_dynamic_selected",
+      "panel": 1,
+      "dataset": "TC",
+      "method": "insert_fresh_s",
+      "condition": 0.2,
+      "value": 1.55587,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_dynamic_selected",
+      "panel": 1,
+      "dataset": "TC",
+      "method": "delete_warm_s",
+      "condition": 0.01,
+      "value": 0.593817,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_dynamic_selected",
+      "panel": 1,
+      "dataset": "TC",
+      "method": "delete_warm_s",
+      "condition": 0.05,
+      "value": 0.809042,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_dynamic_selected",
+      "panel": 1,
+      "dataset": "TC",
+      "method": "delete_warm_s",
+      "condition": 0.1,
+      "value": 0.846614,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_dynamic_selected",
+      "panel": 1,
+      "dataset": "TC",
+      "method": "delete_warm_s",
+      "condition": 0.15,
+      "value": 1.01008,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_dynamic_selected",
+      "panel": 1,
+      "dataset": "TC",
+      "method": "delete_warm_s",
+      "condition": 0.2,
+      "value": 0.949841,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_dynamic_selected",
+      "panel": 1,
+      "dataset": "TC",
+      "method": "delete_fresh_s",
+      "condition": 0.01,
+      "value": 1.2138,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_dynamic_selected",
+      "panel": 1,
+      "dataset": "TC",
+      "method": "delete_fresh_s",
+      "condition": 0.05,
+      "value": 1.12882,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_dynamic_selected",
+      "panel": 1,
+      "dataset": "TC",
+      "method": "delete_fresh_s",
+      "condition": 0.1,
+      "value": 0.981477,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_dynamic_selected",
+      "panel": 1,
+      "dataset": "TC",
+      "method": "delete_fresh_s",
+      "condition": 0.15,
+      "value": 1.03002,
+      "replicates": 1,
+      "status": "ok"
+    },
+    {
+      "figure": "compact_dynamic_selected",
+      "panel": 1,
+      "dataset": "TC",
+      "method": "delete_fresh_s",
+      "condition": 0.2,
+      "value": 1.0055,
+      "replicates": 1,
+      "status": "ok"
+    }
+  ],
+  "figures": [
+    "compact_small_time",
+    "compact_small_memory",
+    "compact_large_methods",
+    "compact_large_methods_memory",
+    "compact_hierarchy_quality",
+    "compact_scalability",
+    "compact_search_scalability",
+    "compact_dynamic_selected"
+  ],
+  "legends": {
+    "compact_small_time": [
+      "Flow",
+      "Flow-S",
+      "Reverse",
+      "Reverse-S"
+    ],
+    "compact_small_memory": [
+      "Flow",
+      "Flow-S",
+      "Reverse",
+      "Reverse-S"
+    ],
+    "compact_large_methods": [
+      "Degree",
+      "Neighbor",
+      "CoCore",
+      "BiCore",
+      "Flow",
+      "Flow-S",
+      "Reverse",
+      "Reverse-S"
+    ],
+    "compact_large_methods_memory": [
+      "Degree",
+      "Neighbor",
+      "CoCore",
+      "BiCore",
+      "Flow",
+      "Flow-S",
+      "Reverse",
+      "Reverse-S"
+    ],
+    "compact_hierarchy_quality": [
+      "Degree",
+      "Neighbor",
+      "CoCore",
+      "BiCore",
+      "$(k,\\delta)$-dense"
+    ],
+    "compact_scalability": [
+      "Flow",
+      "Reverse",
+      "Flow-S",
+      "Reverse-S"
+    ],
+    "compact_search_scalability": [
+      "DSM-PATH",
+      "DSM-FLOW",
+      "DSM-FLOW+"
+    ],
+    "compact_dynamic_selected": [
+      "Insertion (inc.)",
+      "Insertion (full)",
+      "Deletion (inc.)",
+      "Deletion (full)"
+    ]
+  },
+  "source_sha256": "8eb9b824a263041cbd9b14ec2a757629e55c2b8da5d98d28c815c42a859ff57d"
+}

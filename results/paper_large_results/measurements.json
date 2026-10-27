@@ -1,0 +1,638 @@
+[
+  {
+    "key": "SA_abcore_0",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_large_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset_large/stackoverflow-answers.txt",
+      "abcore",
+      "5",
+      "15211989"
+    ],
+    "status": "ok",
+    "wall_s": 10.013631084002554,
+    "returncode": 0,
+    "timeout_s": 180,
+    "peak_rss_mib": 1376.0625,
+    "output_sha256": "4bdd8dc2d87d2202d530520458ff058d825553dbfe536324c75bb60eed7dfa58",
+    "dataset": "SA",
+    "method": "abcore",
+    "trial": 0,
+    "input_sha256": "f0f350d3e77caa6f938fb6dc9dec5e25f218058b55c200bcf0ddc459e9faf31c"
+  },
+  {
+    "key": "SA_abcore_1",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_large_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset_large/stackoverflow-answers.txt",
+      "abcore",
+      "5",
+      "15211989"
+    ],
+    "status": "ok",
+    "wall_s": 9.890797584026586,
+    "returncode": 0,
+    "timeout_s": 180,
+    "peak_rss_mib": 1373.921875,
+    "output_sha256": "4bdd8dc2d87d2202d530520458ff058d825553dbfe536324c75bb60eed7dfa58",
+    "dataset": "SA",
+    "method": "abcore",
+    "trial": 1,
+    "input_sha256": "f0f350d3e77caa6f938fb6dc9dec5e25f218058b55c200bcf0ddc459e9faf31c"
+  },
+  {
+    "key": "SA_abcore_2",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_large_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset_large/stackoverflow-answers.txt",
+      "abcore",
+      "5",
+      "15211989"
+    ],
+    "status": "ok",
+    "wall_s": 10.20469491701806,
+    "returncode": 0,
+    "timeout_s": 180,
+    "peak_rss_mib": 1374.328125,
+    "output_sha256": "4bdd8dc2d87d2202d530520458ff058d825553dbfe536324c75bb60eed7dfa58",
+    "dataset": "SA",
+    "method": "abcore",
+    "trial": 2,
+    "input_sha256": "f0f350d3e77caa6f938fb6dc9dec5e25f218058b55c200bcf0ddc459e9faf31c"
+  },
+  {
+    "key": "SA_cocore_0",
+    "dataset": "SA",
+    "method": "cocore",
+    "trial": 0,
+    "status": "not_run_pair_budget",
+    "input_sha256": "f0f350d3e77caa6f938fb6dc9dec5e25f218058b55c200bcf0ddc459e9faf31c"
+  },
+  {
+    "key": "SA_cocore_1",
+    "dataset": "SA",
+    "method": "cocore",
+    "trial": 1,
+    "status": "not_run_pair_budget",
+    "input_sha256": "f0f350d3e77caa6f938fb6dc9dec5e25f218058b55c200bcf0ddc459e9faf31c"
+  },
+  {
+    "key": "SA_cocore_2",
+    "dataset": "SA",
+    "method": "cocore",
+    "trial": 2,
+    "status": "not_run_pair_budget",
+    "input_sha256": "f0f350d3e77caa6f938fb6dc9dec5e25f218058b55c200bcf0ddc459e9faf31c"
+  },
+  {
+    "key": "SA_core_0",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_large_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset_large/stackoverflow-answers.txt",
+      "core",
+      "1",
+      "15211989"
+    ],
+    "status": "ok",
+    "wall_s": 13.427373208047356,
+    "returncode": 0,
+    "timeout_s": 180,
+    "peak_rss_mib": 1579.546875,
+    "output_sha256": "45d0157e76d9268b6d52771fd99b7f566d3d43cdc81611d51df19131d867e341",
+    "dataset": "SA",
+    "method": "core",
+    "trial": 0,
+    "input_sha256": "f0f350d3e77caa6f938fb6dc9dec5e25f218058b55c200bcf0ddc459e9faf31c"
+  },
+  {
+    "key": "SA_core_1",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_large_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset_large/stackoverflow-answers.txt",
+      "core",
+      "1",
+      "15211989"
+    ],
+    "status": "ok",
+    "wall_s": 13.554786457971204,
+    "returncode": 0,
+    "timeout_s": 180,
+    "peak_rss_mib": 1549.78125,
+    "output_sha256": "45d0157e76d9268b6d52771fd99b7f566d3d43cdc81611d51df19131d867e341",
+    "dataset": "SA",
+    "method": "core",
+    "trial": 1,
+    "input_sha256": "f0f350d3e77caa6f938fb6dc9dec5e25f218058b55c200bcf0ddc459e9faf31c"
+  },
+  {
+    "key": "SA_core_2",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_large_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset_large/stackoverflow-answers.txt",
+      "core",
+      "1",
+      "15211989"
+    ],
+    "status": "ok",
+    "wall_s": 13.715643249975983,
+    "returncode": 0,
+    "timeout_s": 180,
+    "peak_rss_mib": 1579.84375,
+    "output_sha256": "45d0157e76d9268b6d52771fd99b7f566d3d43cdc81611d51df19131d867e341",
+    "dataset": "SA",
+    "method": "core",
+    "trial": 2,
+    "input_sha256": "f0f350d3e77caa6f938fb6dc9dec5e25f218058b55c200bcf0ddc459e9faf31c"
+  },
+  {
+    "key": "SA_hgd_flow_0",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_large_build/hgd_flow",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset_large/stackoverflow-answers.txt",
+      "5",
+      "15211989"
+    ],
+    "status": "ok",
+    "wall_s": 141.42834441701416,
+    "returncode": 0,
+    "timeout_s": 180,
+    "peak_rss_mib": 4801.875,
+    "output_sha256": "d3d73ee4d0fec7ec0ee31803b0ef0b49ff6a333d0bd74e5669cb229f7135140b",
+    "dataset": "SA",
+    "method": "hgd_flow",
+    "trial": 0,
+    "input_sha256": "f0f350d3e77caa6f938fb6dc9dec5e25f218058b55c200bcf0ddc459e9faf31c"
+  },
+  {
+    "key": "SA_hgd_flow_1",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_large_build/hgd_flow",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset_large/stackoverflow-answers.txt",
+      "5",
+      "15211989"
+    ],
+    "status": "ok",
+    "wall_s": 139.46012566698482,
+    "returncode": 0,
+    "timeout_s": 180,
+    "peak_rss_mib": 4501.15625,
+    "output_sha256": "d3d73ee4d0fec7ec0ee31803b0ef0b49ff6a333d0bd74e5669cb229f7135140b",
+    "dataset": "SA",
+    "method": "hgd_flow",
+    "trial": 1,
+    "input_sha256": "f0f350d3e77caa6f938fb6dc9dec5e25f218058b55c200bcf0ddc459e9faf31c"
+  },
+  {
+    "key": "SA_hgd_flow_2",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_large_build/hgd_flow",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset_large/stackoverflow-answers.txt",
+      "5",
+      "15211989"
+    ],
+    "status": "ok",
+    "wall_s": 135.0444401249988,
+    "returncode": 0,
+    "timeout_s": 180,
+    "peak_rss_mib": 4936.328125,
+    "output_sha256": "d3d73ee4d0fec7ec0ee31803b0ef0b49ff6a333d0bd74e5669cb229f7135140b",
+    "dataset": "SA",
+    "method": "hgd_flow",
+    "trial": 2,
+    "input_sha256": "f0f350d3e77caa6f938fb6dc9dec5e25f218058b55c200bcf0ddc459e9faf31c"
+  },
+  {
+    "key": "SA_hgd_reverse_0",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_large_build/hgd_reverse",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset_large/stackoverflow-answers.txt",
+      "5",
+      "15211989"
+    ],
+    "status": "ok",
+    "wall_s": 42.63986966700759,
+    "returncode": 0,
+    "timeout_s": 180,
+    "peak_rss_mib": 3766.46875,
+    "output_sha256": "d3d73ee4d0fec7ec0ee31803b0ef0b49ff6a333d0bd74e5669cb229f7135140b",
+    "dataset": "SA",
+    "method": "hgd_reverse",
+    "trial": 0,
+    "input_sha256": "f0f350d3e77caa6f938fb6dc9dec5e25f218058b55c200bcf0ddc459e9faf31c"
+  },
+  {
+    "key": "SA_hgd_reverse_1",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_large_build/hgd_reverse",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset_large/stackoverflow-answers.txt",
+      "5",
+      "15211989"
+    ],
+    "status": "ok",
+    "wall_s": 43.720312541001476,
+    "returncode": 0,
+    "timeout_s": 180,
+    "peak_rss_mib": 3686.078125,
+    "output_sha256": "d3d73ee4d0fec7ec0ee31803b0ef0b49ff6a333d0bd74e5669cb229f7135140b",
+    "dataset": "SA",
+    "method": "hgd_reverse",
+    "trial": 1,
+    "input_sha256": "f0f350d3e77caa6f938fb6dc9dec5e25f218058b55c200bcf0ddc459e9faf31c"
+  },
+  {
+    "key": "SA_hgd_reverse_2",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_large_build/hgd_reverse",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset_large/stackoverflow-answers.txt",
+      "5",
+      "15211989"
+    ],
+    "status": "ok",
+    "wall_s": 42.84253625001293,
+    "returncode": 0,
+    "timeout_s": 180,
+    "peak_rss_mib": 3785.046875,
+    "output_sha256": "d3d73ee4d0fec7ec0ee31803b0ef0b49ff6a333d0bd74e5669cb229f7135140b",
+    "dataset": "SA",
+    "method": "hgd_reverse",
+    "trial": 2,
+    "input_sha256": "f0f350d3e77caa6f938fb6dc9dec5e25f218058b55c200bcf0ddc459e9faf31c"
+  },
+  {
+    "key": "SA_neighbor_0",
+    "dataset": "SA",
+    "method": "neighbor",
+    "trial": 0,
+    "status": "not_run_pair_budget",
+    "input_sha256": "f0f350d3e77caa6f938fb6dc9dec5e25f218058b55c200bcf0ddc459e9faf31c"
+  },
+  {
+    "key": "SA_neighbor_1",
+    "dataset": "SA",
+    "method": "neighbor",
+    "trial": 1,
+    "status": "not_run_pair_budget",
+    "input_sha256": "f0f350d3e77caa6f938fb6dc9dec5e25f218058b55c200bcf0ddc459e9faf31c"
+  },
+  {
+    "key": "SA_neighbor_2",
+    "dataset": "SA",
+    "method": "neighbor",
+    "trial": 2,
+    "status": "not_run_pair_budget",
+    "input_sha256": "f0f350d3e77caa6f938fb6dc9dec5e25f218058b55c200bcf0ddc459e9faf31c"
+  },
+  {
+    "key": "TC_abcore_0",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_large_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset_large/trivago.txt",
+      "abcore",
+      "5",
+      "172738"
+    ],
+    "status": "ok",
+    "wall_s": 0.12431312497938052,
+    "returncode": 0,
+    "timeout_s": 180,
+    "peak_rss_mib": 42.15625,
+    "output_sha256": "e50b237b42358ba9bff454782d0dcf7151a17938e143abbda2ccac09542b24c4",
+    "dataset": "TC",
+    "method": "abcore",
+    "trial": 0,
+    "input_sha256": "fd8240ee24b2896085e0e22439e2b70981c847e93e8f1d2332f9ebc15a1b15f8"
+  },
+  {
+    "key": "TC_abcore_1",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_large_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset_large/trivago.txt",
+      "abcore",
+      "5",
+      "172738"
+    ],
+    "status": "ok",
+    "wall_s": 0.12269229197409004,
+    "returncode": 0,
+    "timeout_s": 180,
+    "peak_rss_mib": 42.171875,
+    "output_sha256": "e50b237b42358ba9bff454782d0dcf7151a17938e143abbda2ccac09542b24c4",
+    "dataset": "TC",
+    "method": "abcore",
+    "trial": 1,
+    "input_sha256": "fd8240ee24b2896085e0e22439e2b70981c847e93e8f1d2332f9ebc15a1b15f8"
+  },
+  {
+    "key": "TC_abcore_2",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_large_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset_large/trivago.txt",
+      "abcore",
+      "5",
+      "172738"
+    ],
+    "status": "ok",
+    "wall_s": 0.133002916991245,
+    "returncode": 0,
+    "timeout_s": 180,
+    "peak_rss_mib": 42.140625,
+    "output_sha256": "e50b237b42358ba9bff454782d0dcf7151a17938e143abbda2ccac09542b24c4",
+    "dataset": "TC",
+    "method": "abcore",
+    "trial": 2,
+    "input_sha256": "fd8240ee24b2896085e0e22439e2b70981c847e93e8f1d2332f9ebc15a1b15f8"
+  },
+  {
+    "key": "TC_cocore_0",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_large_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset_large/trivago.txt",
+      "cocore",
+      "5",
+      "172738"
+    ],
+    "status": "ok",
+    "wall_s": 1.2297511670039967,
+    "returncode": 0,
+    "timeout_s": 180,
+    "peak_rss_mib": 149.5,
+    "output_sha256": "8c6391d90d32069088ed657bb1c498a9009a209f9699c4ea9db5fa7ae4070786",
+    "dataset": "TC",
+    "method": "cocore",
+    "trial": 0,
+    "input_sha256": "fd8240ee24b2896085e0e22439e2b70981c847e93e8f1d2332f9ebc15a1b15f8"
+  },
+  {
+    "key": "TC_cocore_1",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_large_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset_large/trivago.txt",
+      "cocore",
+      "5",
+      "172738"
+    ],
+    "status": "ok",
+    "wall_s": 0.6780481669702567,
+    "returncode": 0,
+    "timeout_s": 180,
+    "peak_rss_mib": 148.59375,
+    "output_sha256": "8c6391d90d32069088ed657bb1c498a9009a209f9699c4ea9db5fa7ae4070786",
+    "dataset": "TC",
+    "method": "cocore",
+    "trial": 1,
+    "input_sha256": "fd8240ee24b2896085e0e22439e2b70981c847e93e8f1d2332f9ebc15a1b15f8"
+  },
+  {
+    "key": "TC_cocore_2",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_large_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset_large/trivago.txt",
+      "cocore",
+      "5",
+      "172738"
+    ],
+    "status": "ok",
+    "wall_s": 0.6870379999745637,
+    "returncode": 0,
+    "timeout_s": 180,
+    "peak_rss_mib": 148.703125,
+    "output_sha256": "8c6391d90d32069088ed657bb1c498a9009a209f9699c4ea9db5fa7ae4070786",
+    "dataset": "TC",
+    "method": "cocore",
+    "trial": 2,
+    "input_sha256": "fd8240ee24b2896085e0e22439e2b70981c847e93e8f1d2332f9ebc15a1b15f8"
+  },
+  {
+    "key": "TC_core_0",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_large_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset_large/trivago.txt",
+      "core",
+      "1",
+      "172738"
+    ],
+    "status": "ok",
+    "wall_s": 0.21681000001262873,
+    "returncode": 0,
+    "timeout_s": 180,
+    "peak_rss_mib": 45.734375,
+    "output_sha256": "80ca609f87d09491cf566a3ebdccdb8e99c86abf70c2e6b534c0cd8f85511845",
+    "dataset": "TC",
+    "method": "core",
+    "trial": 0,
+    "input_sha256": "fd8240ee24b2896085e0e22439e2b70981c847e93e8f1d2332f9ebc15a1b15f8"
+  },
+  {
+    "key": "TC_core_1",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_large_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset_large/trivago.txt",
+      "core",
+      "1",
+      "172738"
+    ],
+    "status": "ok",
+    "wall_s": 0.22808354097651318,
+    "returncode": 0,
+    "timeout_s": 180,
+    "peak_rss_mib": 47.484375,
+    "output_sha256": "80ca609f87d09491cf566a3ebdccdb8e99c86abf70c2e6b534c0cd8f85511845",
+    "dataset": "TC",
+    "method": "core",
+    "trial": 1,
+    "input_sha256": "fd8240ee24b2896085e0e22439e2b70981c847e93e8f1d2332f9ebc15a1b15f8"
+  },
+  {
+    "key": "TC_core_2",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_large_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset_large/trivago.txt",
+      "core",
+      "1",
+      "172738"
+    ],
+    "status": "ok",
+    "wall_s": 0.22264883399475366,
+    "returncode": 0,
+    "timeout_s": 180,
+    "peak_rss_mib": 45.734375,
+    "output_sha256": "80ca609f87d09491cf566a3ebdccdb8e99c86abf70c2e6b534c0cd8f85511845",
+    "dataset": "TC",
+    "method": "core",
+    "trial": 2,
+    "input_sha256": "fd8240ee24b2896085e0e22439e2b70981c847e93e8f1d2332f9ebc15a1b15f8"
+  },
+  {
+    "key": "TC_hgd_flow_0",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_large_build/hgd_flow",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset_large/trivago.txt",
+      "5",
+      "172738"
+    ],
+    "status": "ok",
+    "wall_s": 10.007046375016216,
+    "returncode": 0,
+    "timeout_s": 180,
+    "peak_rss_mib": 173.46875,
+    "output_sha256": "5bed9551f0ee5df841506d09fd6b530f8c47673af8cdbb8241ece5365cd31a83",
+    "dataset": "TC",
+    "method": "hgd_flow",
+    "trial": 0,
+    "input_sha256": "fd8240ee24b2896085e0e22439e2b70981c847e93e8f1d2332f9ebc15a1b15f8"
+  },
+  {
+    "key": "TC_hgd_flow_1",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_large_build/hgd_flow",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset_large/trivago.txt",
+      "5",
+      "172738"
+    ],
+    "status": "ok",
+    "wall_s": 10.25796729204012,
+    "returncode": 0,
+    "timeout_s": 180,
+    "peak_rss_mib": 170.703125,
+    "output_sha256": "5bed9551f0ee5df841506d09fd6b530f8c47673af8cdbb8241ece5365cd31a83",
+    "dataset": "TC",
+    "method": "hgd_flow",
+    "trial": 1,
+    "input_sha256": "fd8240ee24b2896085e0e22439e2b70981c847e93e8f1d2332f9ebc15a1b15f8"
+  },
+  {
+    "key": "TC_hgd_flow_2",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_large_build/hgd_flow",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset_large/trivago.txt",
+      "5",
+      "172738"
+    ],
+    "status": "ok",
+    "wall_s": 10.44514954200713,
+    "returncode": 0,
+    "timeout_s": 180,
+    "peak_rss_mib": 172.703125,
+    "output_sha256": "5bed9551f0ee5df841506d09fd6b530f8c47673af8cdbb8241ece5365cd31a83",
+    "dataset": "TC",
+    "method": "hgd_flow",
+    "trial": 2,
+    "input_sha256": "fd8240ee24b2896085e0e22439e2b70981c847e93e8f1d2332f9ebc15a1b15f8"
+  },
+  {
+    "key": "TC_hgd_reverse_0",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_large_build/hgd_reverse",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset_large/trivago.txt",
+      "5",
+      "172738"
+    ],
+    "status": "ok",
+    "wall_s": 1.9319641669862904,
+    "returncode": 0,
+    "timeout_s": 180,
+    "peak_rss_mib": 71.859375,
+    "output_sha256": "5bed9551f0ee5df841506d09fd6b530f8c47673af8cdbb8241ece5365cd31a83",
+    "dataset": "TC",
+    "method": "hgd_reverse",
+    "trial": 0,
+    "input_sha256": "fd8240ee24b2896085e0e22439e2b70981c847e93e8f1d2332f9ebc15a1b15f8"
+  },
+  {
+    "key": "TC_hgd_reverse_1",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_large_build/hgd_reverse",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset_large/trivago.txt",
+      "5",
+      "172738"
+    ],
+    "status": "ok",
+    "wall_s": 1.5387434169533662,
+    "returncode": 0,
+    "timeout_s": 180,
+    "peak_rss_mib": 71.15625,
+    "output_sha256": "5bed9551f0ee5df841506d09fd6b530f8c47673af8cdbb8241ece5365cd31a83",
+    "dataset": "TC",
+    "method": "hgd_reverse",
+    "trial": 1,
+    "input_sha256": "fd8240ee24b2896085e0e22439e2b70981c847e93e8f1d2332f9ebc15a1b15f8"
+  },
+  {
+    "key": "TC_hgd_reverse_2",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_large_build/hgd_reverse",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset_large/trivago.txt",
+      "5",
+      "172738"
+    ],
+    "status": "ok",
+    "wall_s": 1.5215996670303866,
+    "returncode": 0,
+    "timeout_s": 180,
+    "peak_rss_mib": 71.515625,
+    "output_sha256": "5bed9551f0ee5df841506d09fd6b530f8c47673af8cdbb8241ece5365cd31a83",
+    "dataset": "TC",
+    "method": "hgd_reverse",
+    "trial": 2,
+    "input_sha256": "fd8240ee24b2896085e0e22439e2b70981c847e93e8f1d2332f9ebc15a1b15f8"
+  },
+  {
+    "key": "TC_neighbor_0",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_large_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset_large/trivago.txt",
+      "neighbor",
+      "1",
+      "172738"
+    ],
+    "status": "ok",
+    "wall_s": 0.6783633750164881,
+    "returncode": 0,
+    "timeout_s": 180,
+    "peak_rss_mib": 145.859375,
+    "output_sha256": "8c0860f5aa393abd031f4d9dbac42a88114de0c55afd1b6864e79a1177fb66b6",
+    "dataset": "TC",
+    "method": "neighbor",
+    "trial": 0,
+    "input_sha256": "fd8240ee24b2896085e0e22439e2b70981c847e93e8f1d2332f9ebc15a1b15f8"
+  },
+  {
+    "key": "TC_neighbor_1",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_large_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset_large/trivago.txt",
+      "neighbor",
+      "1",
+      "172738"
+    ],
+    "status": "ok",
+    "wall_s": 0.7149345420184545,
+    "returncode": 0,
+    "timeout_s": 180,
+    "peak_rss_mib": 145.875,
+    "output_sha256": "8c0860f5aa393abd031f4d9dbac42a88114de0c55afd1b6864e79a1177fb66b6",
+    "dataset": "TC",
+    "method": "neighbor",
+    "trial": 1,
+    "input_sha256": "fd8240ee24b2896085e0e22439e2b70981c847e93e8f1d2332f9ebc15a1b15f8"
+  },
+  {
+    "key": "TC_neighbor_2",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_large_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset_large/trivago.txt",
+      "neighbor",
+      "1",
+      "172738"
+    ],
+    "status": "ok",
+    "wall_s": 0.6828099580015987,
+    "returncode": 0,
+    "timeout_s": 180,
+    "peak_rss_mib": 149.421875,
+    "output_sha256": "8c0860f5aa393abd031f4d9dbac42a88114de0c55afd1b6864e79a1177fb66b6",
+    "dataset": "TC",
+    "method": "neighbor",
+    "trial": 2,
+    "input_sha256": "fd8240ee24b2896085e0e22439e2b70981c847e93e8f1d2332f9ebc15a1b15f8"
+  }
+]

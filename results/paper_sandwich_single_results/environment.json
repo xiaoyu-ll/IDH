@@ -1,0 +1,14 @@
+{
+  "protocol": "one serial launch per dataset/backend/accelerator condition; output checked",
+  "repeats": 1,
+  "timeout_s": 120,
+  "delta": 5,
+  "flags": "-std=c++17 -O3 -DNDEBUG -pthread",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "compiler": "Apple clang version 17.0.0 (clang-1700.0.13.3)\nTarget: arm64-apple-darwin25.6.0\nThread model: posix\nInstalledDir: /Library/Developer/CommandLineTools/usr/bin\n",
+  "binaries": {
+    "sandwich": "391210eec71a0bcbb5d56807bbb895c9000188a898cdddff0a5c59a4e26f36ea",
+    "flow_base": "50d31e0653b82aa789b32199c209137f350ff067392c85ef26580e7e6673fce7",
+    "reverse_base": "d016087ba2179a52cc024043ebb7a586cdc30c6a91cf09cf8d7664bafdfc25c0"
+  }
+}

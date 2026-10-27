@@ -1,0 +1,235 @@
+{
+  "protocol": "one execution per model and case-study condition",
+  "fraud_top50": {
+    "Proposed": {
+      "window": "top50",
+      "N": 50,
+      "tp": 28,
+      "fp": 22,
+      "fn": 1657,
+      "precision": 0.56,
+      "recall": 0.016617,
+      "F1": 0.032277,
+      "hit_rate": 0.56,
+      "ROC_AUC": 0.50698,
+      "PR_AUC(AP)": 0.175204
+    },
+    "Degree": {
+      "window": "top50",
+      "N": 50,
+      "tp": 10,
+      "fp": 40,
+      "fn": 1675,
+      "precision": 0.2,
+      "recall": 0.005935,
+      "F1": 0.011527,
+      "hit_rate": 0.2,
+      "ROC_AUC": 0.500573,
+      "PR_AUC(AP)": 0.170877
+    },
+    "Neighbor": {
+      "window": "top50",
+      "N": 50,
+      "tp": 13,
+      "fp": 37,
+      "fn": 1672,
+      "precision": 0.26,
+      "recall": 0.007715,
+      "F1": 0.014986,
+      "hit_rate": 0.26,
+      "ROC_AUC": 0.501644,
+      "PR_AUC(AP)": 0.171076
+    }
+  },
+  "legislative_prediction": {
+    "Proposed": {
+      "train_bills": 23325,
+      "test_bills": 5832,
+      "positive_pairs": 2069,
+      "negative_pairs": 5557,
+      "auc": 0.274857,
+      "ap": 0.200801
+    },
+    "Degree": {
+      "train_bills": 23325,
+      "test_bills": 5832,
+      "positive_pairs": 2069,
+      "negative_pairs": 5557,
+      "auc": 0.6964,
+      "ap": 0.374266
+    },
+    "Neighbor": {
+      "train_bills": 23325,
+      "test_bills": 5832,
+      "positive_pairs": 2069,
+      "negative_pairs": 5557,
+      "auc": 0.502527,
+      "ap": 0.267249
+    }
+  },
+  "runs": [
+    {
+      "key": "amlsim_score_proposed",
+      "command": [
+        "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_case_study_single_build/reverse",
+        "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_case_study_single_results/inputs/amlsim_alerts_1based.txt",
+        "5",
+        "10000"
+      ],
+      "status": "ok",
+      "output_sha256": "1f1ddcb07143c7b897a9374ff8eb758ffd4552f552e6cd8b104834ab21e0c973"
+    },
+    {
+      "key": "amlsim_eval_proposed",
+      "command": [
+        "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_case_study_single_build/case_a",
+        "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_case_study_single_results/runs/amlsim_proposed.csv",
+        "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_case_study_single_results/inputs/amlsim_accounts.csv",
+        "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_case_study_single_results/inputs/amlsim_transactions.csv",
+        "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_case_study_single_results/runs/amlsim_proposed_evaluation"
+      ],
+      "status": "ok",
+      "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "key": "amlsim_score_degree",
+      "command": [
+        "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_case_study_single_build/baselines",
+        "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_case_study_single_results/inputs/amlsim_alerts_1based.txt",
+        "core",
+        "1",
+        "10000"
+      ],
+      "status": "ok",
+      "output_sha256": "2f73d777f78923ccc4af2caffa6d419c6447eed1fc5d193e55f8a2b4fb9ae7b1"
+    },
+    {
+      "key": "amlsim_eval_degree",
+      "command": [
+        "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_case_study_single_build/case_a",
+        "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_case_study_single_results/runs/amlsim_degree.csv",
+        "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_case_study_single_results/inputs/amlsim_accounts.csv",
+        "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_case_study_single_results/inputs/amlsim_transactions.csv",
+        "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_case_study_single_results/runs/amlsim_degree_evaluation"
+      ],
+      "status": "ok",
+      "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "key": "amlsim_score_neighbor",
+      "command": [
+        "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_case_study_single_build/baselines",
+        "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_case_study_single_results/inputs/amlsim_alerts_1based.txt",
+        "neighbor",
+        "1",
+        "10000"
+      ],
+      "status": "ok",
+      "output_sha256": "aad93901d15081bba0ba4b07f243730ad825e86e7be98e5c44cbc67697630204"
+    },
+    {
+      "key": "amlsim_eval_neighbor",
+      "command": [
+        "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_case_study_single_build/case_a",
+        "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_case_study_single_results/runs/amlsim_neighbor.csv",
+        "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_case_study_single_results/inputs/amlsim_accounts.csv",
+        "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_case_study_single_results/inputs/amlsim_transactions.csv",
+        "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_case_study_single_results/runs/amlsim_neighbor_evaluation"
+      ],
+      "status": "ok",
+      "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "key": "senate_score_proposed",
+      "command": [
+        "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_case_study_single_build/reverse",
+        "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_case_study_single_results/inputs/senate_bills_train80.txt",
+        "10",
+        "294"
+      ],
+      "status": "ok",
+      "output_sha256": "c90be1a7e2b4a99a1ed58d437389535b0f43ccdeb9c9ef0d8e86476578a8df6e"
+    },
+    {
+      "key": "senate_eval_proposed",
+      "command": [
+        "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_case_study_single_build/case_b",
+        "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_case_study_single_results/inputs/senate_bills_train80.txt",
+        "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_case_study_single_results/inputs/senate_bills_test20.txt",
+        "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_case_study_single_results/runs/senate_proposed.scores",
+        "--only_new",
+        "--neg_ratio",
+        "5",
+        "--neg_degmatch",
+        "--seed",
+        "42"
+      ],
+      "status": "ok",
+      "output_sha256": "91c6296ed712d43d9b6f4cea2f31d967d0eab73218d3acbf20548677905327c7"
+    },
+    {
+      "key": "senate_score_degree",
+      "command": [
+        "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_case_study_single_build/baselines",
+        "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_case_study_single_results/inputs/senate_bills_train80.txt",
+        "core",
+        "1",
+        "294"
+      ],
+      "status": "ok",
+      "output_sha256": "8e05bcac4d7597888adec7d4656addd362588c87291ccbfd32b533ca63ba5680"
+    },
+    {
+      "key": "senate_eval_degree",
+      "command": [
+        "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_case_study_single_build/case_b",
+        "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_case_study_single_results/inputs/senate_bills_train80.txt",
+        "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_case_study_single_results/inputs/senate_bills_test20.txt",
+        "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_case_study_single_results/runs/senate_degree.scores",
+        "--only_new",
+        "--neg_ratio",
+        "5",
+        "--neg_degmatch",
+        "--seed",
+        "42"
+      ],
+      "status": "ok",
+      "output_sha256": "c4d3a013a9af0ba4f7d3eab779ce18a83ee8b0c42002efaea748746fe661ffbd"
+    },
+    {
+      "key": "senate_score_neighbor",
+      "command": [
+        "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_case_study_single_build/baselines",
+        "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_case_study_single_results/inputs/senate_bills_train80.txt",
+        "neighbor",
+        "1",
+        "294"
+      ],
+      "status": "ok",
+      "output_sha256": "54805c99e5b9537ce58a630ff0798db786f85ed4705dc8d6dd7de81747373d15"
+    },
+    {
+      "key": "senate_eval_neighbor",
+      "command": [
+        "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_case_study_single_build/case_b",
+        "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_case_study_single_results/inputs/senate_bills_train80.txt",
+        "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_case_study_single_results/inputs/senate_bills_test20.txt",
+        "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_case_study_single_results/runs/senate_neighbor.scores",
+        "--only_new",
+        "--neg_ratio",
+        "5",
+        "--neg_degmatch",
+        "--seed",
+        "42"
+      ],
+      "status": "ok",
+      "output_sha256": "6976710bf7eb7614135af9960e775a8a700767fc382cfba148795f18ad64dc85"
+    }
+  ],
+  "input_sha256": {
+    "accounts": "21f6d56fd98fdf25f4e2df4e7534925a0e006bc2a5ad8b03dc576e2bb4cdf667",
+    "transactions": "cc4885da00fd4c6f854aae4e7bc8dd9c35a9b491f5ef871c51c9194ee1e292f7",
+    "alerts": "75720928faf90dc42a652839ea9ffa38cc9af665965db8ea0d347d420b5677b3",
+    "senate": "cf45aa9f7dcf3c8bc4e41846f7ed805e8fc6eaa60d9e11dd6582f1dbef57c420"
+  }
+}

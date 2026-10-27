@@ -1,0 +1,10 @@
+{
+  "guidelines": "https://link.springer.com/journal/778/submission-guidelines",
+  "download": "https://media.springer.com/full/springer-instructions-for-authors-assets/rar/LaTeX_VLDBJ_Template.rar",
+  "download_date": "2026-10-22",
+  "unmodified_vendor_sha256": {
+    "svjour3.cls": "7334bcfda97ba34d06e28dc546a7bd7801711a1ba7732f03481dafbe0d04f892",
+    "svglov3.clo": "a0b9f3522e6ef83f3dd8d5901c74745d515355ccd61f0a148668283aabdb5467",
+    "spmpsci.bst": "013368de6cc985cad2d30f76e6b2fa275822ccfa1e74751bc9a576812ec2542e"
+  }
+}

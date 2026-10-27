@@ -1,0 +1,289 @@
+\begin{thebibliography}{10}
+\providecommand{\url}[1]{{#1}}
+\providecommand{\urlprefix}{URL }
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{DOI~\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{DOI~\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+
+\bibitem{DBLP:conf/nips/AltmanBNEAA23}
+Altman, E.R., Blanusa, J., von Niederh{\"{a}}usern, L., Egressy, B., Anghel,
+  A., Atasu, K.: Realistic synthetic financial transactions for anti-money
+  laundering models.
+\newblock In: NeurIPS (2023)
+
+\bibitem{DBLP:journals/pvldb/ArafatKRG23}
+Arafat, N.A., Khan, A., Rai, A.K., Ghosh, B.: Neighborhood-based hypergraph
+  core decomposition.
+\newblock VLDB \textbf{16}(9), 2061--2074 (2023)
+
+\bibitem{bahmani2012densest}
+Bahmani, B., Kumar, R., Vassilvitskii, S.: Densest subgraph in streaming and
+  mapreduce.
+\newblock Proc. {VLDB} Endow. \textbf{5}(5), 454--465 (2012)
+
+\bibitem{DBLP:journals/corr/cs-DS-0310049}
+Batagelj, V., Zaversnik, M.: An o(m) algorithm for cores decomposition of
+  networks.
+\newblock CoRR \textbf{cs.DS/0310049} (2003)
+
+\bibitem{bianconi2024nature}
+Bianconi, G., Dorogovtsev, S.N.: Nature of hypergraph k-core percolation
+  problems.
+\newblock Physical Review E \textbf{109}(1), 014,307 (2024)
+
+\bibitem{DBLP:conf/sigmod/BonchiKS19}
+Bonchi, F., Khan, A., Severini, L.: Distance-generalized core decomposition.
+\newblock In: SIGMOD, pp. 1006--1023 (2019)
+
+\bibitem{DBLP:journals/datamine/BuLS23}
+Bu, F., Lee, G., Shin, K.: Hypercore decomposition for non-fragile hyperedges:
+  concepts, algorithms, observations, and applications.
+\newblock Data Min. Knowl. Discov. \textbf{37}(6), 2389--2437 (2023)
+
+\bibitem{DBLP:journals/vldb/ChangW24}
+Chang, L., Wang, Z.: A near-optimal approach to edge connectivity-based
+  hierarchical graph decomposition.
+\newblock {VLDB} J. \textbf{33}(1), 49--71 (2024)
+
+\bibitem{DBLP:conf/sigmod/ChangYQLLL13}
+Chang, L., Yu, J.X., Qin, L., Lin, X., Liu, C., Liang, W.: Efficiently
+  computing k-edge connected components via graph decomposition.
+\newblock In: SIGMOD, pp. 205--216 (2013)
+
+\bibitem{charikar2000greedy}
+Charikar, M.: Greedy approximation algorithms for finding dense components in a
+  graph.
+\newblock In: APPROX, pp. 84--95 (2000)
+
+\bibitem{DBLP:journals/jcss/CohenJG08}
+Cohen, D.A., Jeavons, P., Gyssens, M.: A unified theory of structural
+  tractability for constraint satisfaction problems.
+\newblock J. Comput. Syst. Sci. \textbf{74}(5), 721--743 (2008)
+
+\bibitem{cohen2008trusses}
+Cohen, J.: Trusses: Cohesive subgraphs for social network analysis.
+\newblock National security agency technical report \textbf{16}(3.1), 1--29
+  (2008)
+
+\bibitem{DBLP:journals/corr/abs-2204-05646}
+Contisciani, M., Battiston, F., Bacco, C.D.: Principled inference of hyperedges
+  and overlapping communities in hypergraphs.
+\newblock CoRR \textbf{abs/2204.05646} (2022)
+
+\bibitem{DBLP:conf/cikm/DaiLQWYZ021}
+Dai, Q., Li, R., Qin, L., Wang, G., Yang, W., Zhang, Z., Yuan, Y.: Scaling up
+  distance-generalized core decomposition.
+\newblock In: CIKM, pp. 312--321 (2021)
+
+\bibitem{abcore}
+Ding, D., Li, H., Huang, Z., Mamoulis, N.: Efficient fault-tolerant group
+  recommendation using alpha-beta-core.
+\newblock In: CIKM, p. 2047–2050 (2017)
+
+\bibitem{DBLP:conf/icde/GaoLQCYW22}
+Gao, S., Li, R., Qin, H., Chen, H., Yuan, Y., Wang, G.: Colorful h-star core
+  decomposition.
+\newblock In: ICDE, pp. 2588--2601 (2022)
+
+\bibitem{DBLP:journals/pvldb/GaoQLH23}
+Gao, S., Qin, H., Li, R., He, B.: Parallel colorful h-star core maintenance in
+  dynamic graphs.
+\newblock VLDB \textbf{16}(10), 2538--2550 (2023)
+
+\bibitem{goldberg1984finding}
+Goldberg, A.V.: Finding a maximum density subgraph.
+\newblock Tech. Rep. UCB/CSD-84-171, EECS Department, University of California,
+  Berkeley (1984)
+
+\bibitem{gottlob2021complexity}
+Gottlob, G., Lanzinger, M., Pichler, R., Razgon, I.: Complexity analysis of
+  generalized and fractional hypertree decompositions.
+\newblock J. {ACM} \textbf{68}(5), 38:1--38:50 (2021)
+
+\bibitem{DBLP:journals/jcss/GottlobLS02}
+Gottlob, G., Leone, N., Scarcello, F.: Hypertree decompositions and tractable
+  queries.
+\newblock J. Comput. Syst. Sci. \textbf{64}(3), 579--627 (2002)
+
+\bibitem{DBLP:journals/corr/abs-1711-04506}
+Grohe, M., Marx, D.: Constraint solving via fractional edge covers.
+\newblock {ACM} Trans. Algorithms \textbf{11}(1), 4:1--4:20 (2014)
+
+\bibitem{DBLP:conf/cikm/HuWC17}
+Hu, S., Wu, X., Chan, T.H.: Maintaining densest subsets efficiently in evolving
+  hypergraphs.
+\newblock In: CIKM, pp. 929--938 (2017)
+
+\bibitem{DBLP:conf/sigmod/HuangCQTY14}
+Huang, X., Cheng, H., Qin, L., Tian, W., Yu, J.X.: Querying k-truss community
+  in large and dynamic graphs.
+\newblock In: SIGMOD, pp. 1311--1322 (2014)
+
+\bibitem{huang2024densest}
+Huang, Y., Gleich, D.F., Veldt, N.: Densest subhypergraph: Negative
+  supermodular functions and strongly localized methods.
+\newblock In: WWW, pp. 881--892 (2024)
+
+\bibitem{jeavons1994structural}
+Jeavons, P., Cohen, D., Gyssens, M.: A structural decomposition for
+  hypergraphs.
+\newblock Contemporary Mathematics \textbf{178}, 161--177 (1994)
+
+\bibitem{DBLP:journals/kbs/KimKKKKLL26}
+Kim, D., Kim, H., Kim, S., Kim, M., Kim, J., Lee, Y., Lim, S.: Uncovering
+  high-order cohesive structures: Efficient $(k,g)$-core computation and
+  decomposition for large hypergraphs.
+\newblock Knowl. Based Syst. \textbf{335}, 115,195 (2026)
+
+\bibitem{DBLP:conf/cikm/KimKLJ23}
+Kim, D., Kim, J., Lim, S., Jeong, H.J.: Exploring cohesive subgraphs in
+  hypergraphs: The (k, g)-core approach.
+\newblock In: CIKM, pp. 4013--4017 (2023)
+
+\bibitem{DBLP:conf/cikm/KimKKK25}
+Kim, H., Kim, M., Kim, D., Kim, J.: When user engagement meets structural
+  cohesiveness: A decay-driven approach to hypergraph cores.
+\newblock In: {CIKM}, pp. 4879--4883 (2025)
+
+\bibitem{DBLP:conf/edbt/KimKHKJK26}
+Kim, S., Kim, D., Han, T., Kim, J., Jeong, H.J., Kim, J.: Efficient
+  locality-based indexing for cohesive subgraphs discovery in hypergraphs.
+\newblock In: {EDBT}, pp. 170--182 (2026)
+
+\bibitem{xgiDblp2026}
+Landry, N.: {coauth-dblp}: {HIF} dataset, version 0.2.
+\newblock Zenodo (2026)
+
+\bibitem{xgiMath2026}
+Landry, N.: {threads-math-sx}: {HIF} dataset, version 0.1.
+\newblock Zenodo (2026)
+
+\bibitem{lee2023k}
+Lee, J., Goh, K.I., Lee, D.S., Kahng, B.: (k, q)-core decomposition of
+  hypergraphs.
+\newblock Chaos, Solitons \& Fractals \textbf{173}, 113,645 (2023)
+
+\bibitem{DBLP:journals/tkde/LiYM14}
+Li, R., Yu, J.X., Mao, R.: Efficient core maintenance in large dynamic graphs.
+\newblock {IEEE} Trans. Knowl. Data Eng. \textbf{26}(10), 2453--2465 (2014)
+
+\bibitem{DBLP:journals/www/LiuLZCY25}
+Liu, Y., Luo, Q., Zheng, Y., Cai, Z., Yu, D.: Efficient traversal for core
+  maintenance in large-scale dynamic hypergraphs.
+\newblock World Wide Web \textbf{28}(4), 45 (2025)
+
+\bibitem{DBLP:conf/edbt/LiuLZ00Y25}
+Liu, Y., Luo, Q., Zheng, Y., Zhang, W., Lin, X., Yu, D.: Effective and
+  efficient community search over large-scale hypergraphs.
+\newblock In: {EDBT}, pp. 722--734 (2025)
+
+\bibitem{DBLP:journals/vldb/LuoYZZYCLG26}
+Luo, Q., Yang, Z., Zhang, W., Zhou, A., Yu, D., Cheng, X., Lin, X., Guo, S.:
+  Hypergraph decomposition with intersection bounds.
+\newblock {VLDB} J. \textbf{35}(4), 34 (2026)
+
+\bibitem{9458645}
+Luo, Q., Yu, D., Cai, Z., Lin, X., Cheng, X.: Hypercore maintenance in dynamic
+  hypergraphs.
+\newblock In: ICDE, pp. 2051--2056 (2021)
+
+\bibitem{DBLP:conf/icde/LuoYLZ0023}
+Luo, Q., Yu, D., Liu, Y., Zheng, Y., Cheng, X., Lin, X.: Finer-grained
+  engagement in hypergraphs.
+\newblock In: ICDE, pp. 423--435 (2023)
+
+\bibitem{DBLP:conf/cikm/Luo0000Y024}
+Luo, Q., Zhang, W., Yang, Z., Wen, D., Wang, X., Yu, D., Lin, X.: Hierarchical
+  structure construction on hypergraphs.
+\newblock In: CIKM, pp. 1597--1606 (2024)
+
+\bibitem{DBLP:journals/vldb/LuoZYYLW25}
+Luo, Q., Zhang, W., Yang, Z., Yu, D., Lin, X., Wang, L.: Efficient indexing and
+  searching of constrained core in hypergraphs.
+\newblock {VLDB} J. \textbf{34}(3), 34 (2025)
+
+\bibitem{DBLP:journals/corr/abs-2301-04235}
+Mancastroppa, M., Iacopini, I., Petri, G., Barrat, A.: Hyper-cores promote
+  localization and efficient seeding in higher-order processes.
+\newblock CoRR \textbf{abs/2301.04235} (2023)
+
+\bibitem{marx2013tractable}
+Marx, D.: Tractable hypergraph properties for constraint satisfaction and
+  conjunctive queries.
+\newblock J. {ACM} \textbf{60}(6), 42:1--42:51 (2013)
+
+\bibitem{DBLP:journals/tpds/MontresorPM13}
+Montresor, A., Pellegrini, F.D., Miorandi, D.: Distributed k-core
+  decomposition.
+\newblock {IEEE} Trans. Parallel Distributed Syst. \textbf{24}(2), 288--300
+  (2013)
+
+\bibitem{DBLP:conf/www/Niu0JL25}
+Niu, Y., Li, Y., Jiang, J., Lakshmanan, L.V.S.: {SANS}: Efficient densest
+  subgraph discovery over relational graphs without materialization.
+\newblock In: {WWW}, pp. 4250--4263 (2025)
+
+\bibitem{DBLP:journals/pvldb/QinZLLYW25}
+Qin, H., Zeng, G., Li, R., Lin, L., Yuan, Y., Wang, G.: Truss decomposition in
+  hypergraphs.
+\newblock Proc. {VLDB} Endow. \textbf{18}(7), 2185--2197 (2025)
+
+\bibitem{DBLP:conf/kdd/QinLCZ15}
+Qin, L., Li, R., Chang, L., Zhang, C.: Locally densest subgraph discovery.
+\newblock In: SIGKDD, pp. 965--974 (2015)
+
+\bibitem{DBLP:conf/ipps/RamadanTP04}
+Ramadan, E.Y., Tarafdar, A., Pothen, A.: A hypergraph model for the yeast
+  protein complex network.
+\newblock In: IPDPS (2004)
+
+\bibitem{DBLP:conf/www/SariyuceSPC15}
+Sariy{\"{u}}ce, A.E., Seshadhri, C., Pinar, A., {\c{C}}ataly{\"{u}}rek,
+  {\"{U}}.V.: Finding the hierarchy of dense subgraphs using nucleus
+  decompositions.
+\newblock In: WWW, pp. 927--937 (2015)
+
+\bibitem{DBLP:journals/pvldb/ShiDS21}
+Shi, J., Dhulipala, L., Shun, J.: Theoretically and practically efficient
+  parallel nucleus decomposition.
+\newblock VLDB \textbf{15}(3), 583--596 (2021)
+
+\bibitem{DBLP:journals/tkdd/Tatti19}
+Tatti, N.: Density-friendly graph decomposition.
+\newblock {ACM} Trans. Knowl. Discov. Data \textbf{13}(5), 54:1--54:29 (2019)
+
+\bibitem{tsourakakis2015k}
+Tsourakakis, C.: The k-clique densest subgraph problem.
+\newblock In: WWW, pp. 1122--1132 (2015)
+
+\bibitem{DBLP:journals/pvldb/WangC12}
+Wang, J., Cheng, J.: Truss decomposition in massive networks.
+\newblock VLDB \textbf{5}(9), 812--823 (2012)
+
+\bibitem{DBLP:journals/pacmmod/ZhangYWLZL25}
+Zhang, W., Yang, Z., Wen, D., Li, W., Zhang, W., Lin, X.: Accelerating core
+  decomposition in billion-scale hypergraphs.
+\newblock Proc. {ACM} Manag. Data \textbf{3}(1), 6:1--6:27 (2025)
+
+\bibitem{DBLP:journals/pacmmod/ZhangLLZQW25}
+Zhang, Y., Li, R., Lin, L., Zhang, Q., Qin, L., Wang, G.: Integral densest
+  subgraph search on directed graphs.
+\newblock Proc. {ACM} Manag. Data \textbf{3}(3), 176:1--176:26 (2025)
+
+\bibitem{DBLP:journals/pacmmod/ZhangLZQQW25}
+Zhang, Y., Li, R., Zhang, Q., Qin, H., Qin, L., Wang, G.: Density decomposition
+  of bipartite graphs.
+\newblock Proc. {ACM} Manag. Data \textbf{3}(1), 30:1--30:25 (2025)
+
+\bibitem{DBLP:journals/pvldb/ZhangLZQW24}
+Zhang, Y., Li, R., Zhang, Q., Qin, H., Wang, G.: Efficient algorithms for
+  density decomposition on large static and dynamic graphs.
+\newblock Proc. {VLDB} Endow. \textbf{17}(11), 2933--2945 (2024)
+
+\bibitem{DBLP:journals/pvldb/ZhouHF26}
+Zhou, Y., Huang, T., Fang, Y.: Efficient locally $h$-clique densest subgraph
+  discovery via divide-and-conquer.
+\newblock Proc. {VLDB} Endow. \textbf{19}(10), 2577--2590 (2026)
+
+\end{thebibliography}

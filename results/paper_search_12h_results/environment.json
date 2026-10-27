@@ -1,0 +1,10 @@
+{
+  "timeout_s": 43200,
+  "repeats": 3,
+  "k": 5,
+  "delta": 5,
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "compiler": "Apple clang version 17.0.0 (clang-1700.0.13.3)\nTarget: arm64-apple-darwin25.6.0\nThread model: posix\nInstalledDir: /Library/Developer/CommandLineTools/usr/bin\n",
+  "flags": "-std=c++17 -O3 -DNDEBUG -pthread",
+  "policy": "retain only verified completed earlier measurements; rerun every short-deadline censor; one timed subprocess at a time; no CPU affinity"
+}

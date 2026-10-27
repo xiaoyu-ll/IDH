@@ -1,0 +1,24 @@
+{
+  "TM": {
+    "n": 176445,
+    "m": 719792,
+    "L": 1610393,
+    "max_size": 21,
+    "min_size": 1,
+    "active_vertices": 176445,
+    "removed_incidences": 0,
+    "ordered_pair_initializations": 2773598,
+    "sha256": "9a478ce90bc1579bfb032624eda8c5b7706aaad914135f0811335eb2b5985c35"
+  },
+  "DBLP": {
+    "n": 1930378,
+    "m": 3700681,
+    "L": 10326773,
+    "max_size": 280,
+    "min_size": 1,
+    "active_vertices": 1930378,
+    "removed_incidences": 0,
+    "ordered_pair_initializations": 29278848,
+    "sha256": "c58d20a5c14d53e831f457e84ad9eb122f31fa15861abfff8247bf4bd608127e"
+  }
+}

@@ -1,0 +1,255 @@
+{
+  "summary": "one process launch per dataset/backend/condition; no aggregation or error bars",
+  "pair_inches": [
+    3.3,
+    2.25
+  ],
+  "measurement_sha256": "b25b00a5f6ae7c130db55c2292bba7bff5588b0b3e1c0838ce5fdaafae97fb2e",
+  "source_sha256": "4d88d6715e51cc8f6ae66ad31bd741a6c5f07fe88b7d0bb95abdc5c503afafaf",
+  "points": [
+    {
+      "panel": 0,
+      "dataset": "SC",
+      "backend": "flow",
+      "condition": "Baseline",
+      "wall_s": 0.49516283301636577,
+      "repeats": 1,
+      "status": "ok",
+      "output_sha256": "5a67958ae20a63cd092fbc100381a5f29b34761c2bf7b833491660598913dd7d"
+    },
+    {
+      "panel": 0,
+      "dataset": "HC",
+      "backend": "flow",
+      "condition": "Baseline",
+      "wall_s": 0.013229584088549018,
+      "repeats": 1,
+      "status": "ok",
+      "output_sha256": "b5ac841e4393d73c78c9715264f0f758daab2b7dea5adad911ffec42684d595c"
+    },
+    {
+      "panel": 0,
+      "dataset": "CP",
+      "backend": "flow",
+      "condition": "Baseline",
+      "wall_s": 0.014238541945815086,
+      "repeats": 1,
+      "status": "ok",
+      "output_sha256": "375e18e79bc1b3e77225f95621e13733fc6b865c6500342c7e4831ed6c332d2c"
+    },
+    {
+      "panel": 0,
+      "dataset": "CH",
+      "backend": "flow",
+      "condition": "Baseline",
+      "wall_s": 0.014350125100463629,
+      "repeats": 1,
+      "status": "ok",
+      "output_sha256": "ae88c764cd44940072edea031edbe50ab7050b96a23afc085975446408f90a99"
+    },
+    {
+      "panel": 0,
+      "dataset": "SB",
+      "backend": "flow",
+      "condition": "Baseline",
+      "wall_s": 1.0274407499236986,
+      "repeats": 1,
+      "status": "ok",
+      "output_sha256": "89c67ae4dc3ef7debe8f9cd103be2b582195acbe4739a0caf998e355d3b67ea1"
+    },
+    {
+      "panel": 0,
+      "dataset": "HB",
+      "backend": "flow",
+      "condition": "Baseline",
+      "wall_s": 3.984552082954906,
+      "repeats": 1,
+      "status": "ok",
+      "output_sha256": "cbae2b4cd5bce2677d7d3de9a18da4c2f1aa7f40ea6192edf0358fd7c3de669e"
+    },
+    {
+      "panel": 0,
+      "dataset": "SC",
+      "backend": "flow",
+      "condition": "Sandwich",
+      "wall_s": 0.37459104193840176,
+      "repeats": 1,
+      "status": "ok",
+      "output_sha256": "5a67958ae20a63cd092fbc100381a5f29b34761c2bf7b833491660598913dd7d"
+    },
+    {
+      "panel": 0,
+      "dataset": "HC",
+      "backend": "flow",
+      "condition": "Sandwich",
+      "wall_s": 0.014434666954912245,
+      "repeats": 1,
+      "status": "ok",
+      "output_sha256": "b5ac841e4393d73c78c9715264f0f758daab2b7dea5adad911ffec42684d595c"
+    },
+    {
+      "panel": 0,
+      "dataset": "CP",
+      "backend": "flow",
+      "condition": "Sandwich",
+      "wall_s": 0.011593041010200977,
+      "repeats": 1,
+      "status": "ok",
+      "output_sha256": "375e18e79bc1b3e77225f95621e13733fc6b865c6500342c7e4831ed6c332d2c"
+    },
+    {
+      "panel": 0,
+      "dataset": "CH",
+      "backend": "flow",
+      "condition": "Sandwich",
+      "wall_s": 0.014100875006988645,
+      "repeats": 1,
+      "status": "ok",
+      "output_sha256": "ae88c764cd44940072edea031edbe50ab7050b96a23afc085975446408f90a99"
+    },
+    {
+      "panel": 0,
+      "dataset": "SB",
+      "backend": "flow",
+      "condition": "Sandwich",
+      "wall_s": 0.27401062508579344,
+      "repeats": 1,
+      "status": "ok",
+      "output_sha256": "89c67ae4dc3ef7debe8f9cd103be2b582195acbe4739a0caf998e355d3b67ea1"
+    },
+    {
+      "panel": 0,
+      "dataset": "HB",
+      "backend": "flow",
+      "condition": "Sandwich",
+      "wall_s": 1.2697251250501722,
+      "repeats": 1,
+      "status": "ok",
+      "output_sha256": "cbae2b4cd5bce2677d7d3de9a18da4c2f1aa7f40ea6192edf0358fd7c3de669e"
+    },
+    {
+      "panel": 1,
+      "dataset": "SC",
+      "backend": "reverse",
+      "condition": "Baseline",
+      "wall_s": 0.3855820420430973,
+      "repeats": 1,
+      "status": "ok",
+      "output_sha256": "5a67958ae20a63cd092fbc100381a5f29b34761c2bf7b833491660598913dd7d"
+    },
+    {
+      "panel": 1,
+      "dataset": "HC",
+      "backend": "reverse",
+      "condition": "Baseline",
+      "wall_s": 0.01132620801217854,
+      "repeats": 1,
+      "status": "ok",
+      "output_sha256": "b5ac841e4393d73c78c9715264f0f758daab2b7dea5adad911ffec42684d595c"
+    },
+    {
+      "panel": 1,
+      "dataset": "CP",
+      "backend": "reverse",
+      "condition": "Baseline",
+      "wall_s": 0.012281875009648502,
+      "repeats": 1,
+      "status": "ok",
+      "output_sha256": "375e18e79bc1b3e77225f95621e13733fc6b865c6500342c7e4831ed6c332d2c"
+    },
+    {
+      "panel": 1,
+      "dataset": "CH",
+      "backend": "reverse",
+      "condition": "Baseline",
+      "wall_s": 0.01427470799535513,
+      "repeats": 1,
+      "status": "ok",
+      "output_sha256": "ae88c764cd44940072edea031edbe50ab7050b96a23afc085975446408f90a99"
+    },
+    {
+      "panel": 1,
+      "dataset": "SB",
+      "backend": "reverse",
+      "condition": "Baseline",
+      "wall_s": 0.33632004202809185,
+      "repeats": 1,
+      "status": "ok",
+      "output_sha256": "89c67ae4dc3ef7debe8f9cd103be2b582195acbe4739a0caf998e355d3b67ea1"
+    },
+    {
+      "panel": 1,
+      "dataset": "HB",
+      "backend": "reverse",
+      "condition": "Baseline",
+      "wall_s": 1.5169771660584956,
+      "repeats": 1,
+      "status": "ok",
+      "output_sha256": "cbae2b4cd5bce2677d7d3de9a18da4c2f1aa7f40ea6192edf0358fd7c3de669e"
+    },
+    {
+      "panel": 1,
+      "dataset": "SC",
+      "backend": "reverse",
+      "condition": "Sandwich",
+      "wall_s": 0.01423733402043581,
+      "repeats": 1,
+      "status": "ok",
+      "output_sha256": "5a67958ae20a63cd092fbc100381a5f29b34761c2bf7b833491660598913dd7d"
+    },
+    {
+      "panel": 1,
+      "dataset": "HC",
+      "backend": "reverse",
+      "condition": "Sandwich",
+      "wall_s": 0.013878957950510085,
+      "repeats": 1,
+      "status": "ok",
+      "output_sha256": "b5ac841e4393d73c78c9715264f0f758daab2b7dea5adad911ffec42684d595c"
+    },
+    {
+      "panel": 1,
+      "dataset": "CP",
+      "backend": "reverse",
+      "condition": "Sandwich",
+      "wall_s": 0.013850249932147563,
+      "repeats": 1,
+      "status": "ok",
+      "output_sha256": "375e18e79bc1b3e77225f95621e13733fc6b865c6500342c7e4831ed6c332d2c"
+    },
+    {
+      "panel": 1,
+      "dataset": "CH",
+      "backend": "reverse",
+      "condition": "Sandwich",
+      "wall_s": 0.014204457984305918,
+      "repeats": 1,
+      "status": "ok",
+      "output_sha256": "ae88c764cd44940072edea031edbe50ab7050b96a23afc085975446408f90a99"
+    },
+    {
+      "panel": 1,
+      "dataset": "SB",
+      "backend": "reverse",
+      "condition": "Sandwich",
+      "wall_s": 0.2621549169998616,
+      "repeats": 1,
+      "status": "ok",
+      "output_sha256": "89c67ae4dc3ef7debe8f9cd103be2b582195acbe4739a0caf998e355d3b67ea1"
+    },
+    {
+      "panel": 1,
+      "dataset": "HB",
+      "backend": "reverse",
+      "condition": "Sandwich",
+      "wall_s": 1.279638584004715,
+      "repeats": 1,
+      "status": "ok",
+      "output_sha256": "cbae2b4cd5bce2677d7d3de9a18da4c2f1aa7f40ea6192edf0358fd7c3de669e"
+    }
+  ],
+  "legend": [
+    "Baseline",
+    "Sandwich"
+  ]
+}

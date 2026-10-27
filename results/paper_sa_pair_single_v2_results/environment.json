@@ -1,0 +1,10 @@
+{
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "compiler": "Apple clang version 17.0.0 (clang-1700.0.13.3)\nTarget: arm64-apple-darwin25.6.0\nThread model: posix\nInstalledDir: /Library/Developer/CommandLineTools/usr/bin\n",
+  "flags": "-std=c++17 -O3 -DNDEBUG -pthread",
+  "repeats": 1,
+  "timeout_s": 180,
+  "cpu": "Apple M4 Pro",
+  "ram_bytes": 25769803776,
+  "protocol": "serial; one launch per method; end-to-end wall time; full score output"
+}

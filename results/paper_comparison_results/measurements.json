@@ -1,0 +1,2126 @@
+[
+  {
+    "key": "SC_cocore_0",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/senate-committees.txt",
+      "cocore",
+      "5",
+      "282"
+    ],
+    "status": "ok",
+    "wall_s": 0.5482859159819782,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 3.25,
+    "output_sha256": "546ceb2c987b6dcbc6105769f734124f1ec46842681ae8c26ca9ca15107137bd",
+    "dataset": "SC",
+    "method": "cocore",
+    "trial": 0,
+    "input_sha256": "cdb6c44832e9ba94549cd48e0807f448ef8b6d8266da3f88e0a07794af4b5b65"
+  },
+  {
+    "key": "SC_hgd_flow_0",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/hgd_flow",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/senate-committees.txt",
+      "5",
+      "282"
+    ],
+    "status": "ok",
+    "wall_s": 0.42193570802919567,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 2.640625,
+    "output_sha256": "5a67958ae20a63cd092fbc100381a5f29b34761c2bf7b833491660598913dd7d",
+    "dataset": "SC",
+    "method": "hgd_flow",
+    "trial": 0,
+    "input_sha256": "cdb6c44832e9ba94549cd48e0807f448ef8b6d8266da3f88e0a07794af4b5b65"
+  },
+  {
+    "key": "SC_abcore_0",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/senate-committees.txt",
+      "abcore",
+      "5",
+      "282"
+    ],
+    "status": "ok",
+    "wall_s": 0.00416962499730289,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 1.78125,
+    "output_sha256": "640f04f395f72e2a6339c7668788ec1a445666365a34001790fa0bee661ea26a",
+    "dataset": "SC",
+    "method": "abcore",
+    "trial": 0,
+    "input_sha256": "cdb6c44832e9ba94549cd48e0807f448ef8b6d8266da3f88e0a07794af4b5b65"
+  },
+  {
+    "key": "SC_hgd_reverse_0",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/hgd_reverse",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/senate-committees.txt",
+      "5",
+      "282"
+    ],
+    "status": "ok",
+    "wall_s": 0.3981218339758925,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 2.46875,
+    "output_sha256": "5a67958ae20a63cd092fbc100381a5f29b34761c2bf7b833491660598913dd7d",
+    "dataset": "SC",
+    "method": "hgd_reverse",
+    "trial": 0,
+    "input_sha256": "cdb6c44832e9ba94549cd48e0807f448ef8b6d8266da3f88e0a07794af4b5b65"
+  },
+  {
+    "key": "SC_core_0",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/senate-committees.txt",
+      "core",
+      "1",
+      "282"
+    ],
+    "status": "ok",
+    "wall_s": 0.006205624958965927,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 1.875,
+    "output_sha256": "546ceb2c987b6dcbc6105769f734124f1ec46842681ae8c26ca9ca15107137bd",
+    "dataset": "SC",
+    "method": "core",
+    "trial": 0,
+    "input_sha256": "cdb6c44832e9ba94549cd48e0807f448ef8b6d8266da3f88e0a07794af4b5b65"
+  },
+  {
+    "key": "SC_neighbor_0",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/senate-committees.txt",
+      "neighbor",
+      "1",
+      "282"
+    ],
+    "status": "ok",
+    "wall_s": 0.009855000011157244,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 3.234375,
+    "output_sha256": "3b3ac5187416184275d7173307d5881553f37d1dbf78c2a6f07476c7315cc466",
+    "dataset": "SC",
+    "method": "neighbor",
+    "trial": 0,
+    "input_sha256": "cdb6c44832e9ba94549cd48e0807f448ef8b6d8266da3f88e0a07794af4b5b65"
+  },
+  {
+    "key": "SC_abcore_1",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/senate-committees.txt",
+      "abcore",
+      "5",
+      "282"
+    ],
+    "status": "ok",
+    "wall_s": 0.004397750017233193,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 1.78125,
+    "output_sha256": "640f04f395f72e2a6339c7668788ec1a445666365a34001790fa0bee661ea26a",
+    "dataset": "SC",
+    "method": "abcore",
+    "trial": 1,
+    "input_sha256": "cdb6c44832e9ba94549cd48e0807f448ef8b6d8266da3f88e0a07794af4b5b65"
+  },
+  {
+    "key": "SC_core_1",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/senate-committees.txt",
+      "core",
+      "1",
+      "282"
+    ],
+    "status": "ok",
+    "wall_s": 0.004469624953344464,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 1.859375,
+    "output_sha256": "546ceb2c987b6dcbc6105769f734124f1ec46842681ae8c26ca9ca15107137bd",
+    "dataset": "SC",
+    "method": "core",
+    "trial": 1,
+    "input_sha256": "cdb6c44832e9ba94549cd48e0807f448ef8b6d8266da3f88e0a07794af4b5b65"
+  },
+  {
+    "key": "SC_hgd_reverse_1",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/hgd_reverse",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/senate-committees.txt",
+      "5",
+      "282"
+    ],
+    "status": "ok",
+    "wall_s": 0.005282583995722234,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 2.4375,
+    "output_sha256": "5a67958ae20a63cd092fbc100381a5f29b34761c2bf7b833491660598913dd7d",
+    "dataset": "SC",
+    "method": "hgd_reverse",
+    "trial": 1,
+    "input_sha256": "cdb6c44832e9ba94549cd48e0807f448ef8b6d8266da3f88e0a07794af4b5b65"
+  },
+  {
+    "key": "SC_hgd_flow_1",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/hgd_flow",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/senate-committees.txt",
+      "5",
+      "282"
+    ],
+    "status": "ok",
+    "wall_s": 0.006695625022985041,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 2.609375,
+    "output_sha256": "5a67958ae20a63cd092fbc100381a5f29b34761c2bf7b833491660598913dd7d",
+    "dataset": "SC",
+    "method": "hgd_flow",
+    "trial": 1,
+    "input_sha256": "cdb6c44832e9ba94549cd48e0807f448ef8b6d8266da3f88e0a07794af4b5b65"
+  },
+  {
+    "key": "SC_neighbor_1",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/senate-committees.txt",
+      "neighbor",
+      "1",
+      "282"
+    ],
+    "status": "ok",
+    "wall_s": 0.007611875014845282,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 3.21875,
+    "output_sha256": "3b3ac5187416184275d7173307d5881553f37d1dbf78c2a6f07476c7315cc466",
+    "dataset": "SC",
+    "method": "neighbor",
+    "trial": 1,
+    "input_sha256": "cdb6c44832e9ba94549cd48e0807f448ef8b6d8266da3f88e0a07794af4b5b65"
+  },
+  {
+    "key": "SC_cocore_1",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/senate-committees.txt",
+      "cocore",
+      "5",
+      "282"
+    ],
+    "status": "ok",
+    "wall_s": 0.007183959009125829,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 3.203125,
+    "output_sha256": "546ceb2c987b6dcbc6105769f734124f1ec46842681ae8c26ca9ca15107137bd",
+    "dataset": "SC",
+    "method": "cocore",
+    "trial": 1,
+    "input_sha256": "cdb6c44832e9ba94549cd48e0807f448ef8b6d8266da3f88e0a07794af4b5b65"
+  },
+  {
+    "key": "SC_hgd_reverse_2",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/hgd_reverse",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/senate-committees.txt",
+      "5",
+      "282"
+    ],
+    "status": "ok",
+    "wall_s": 0.004671708040405065,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 2.421875,
+    "output_sha256": "5a67958ae20a63cd092fbc100381a5f29b34761c2bf7b833491660598913dd7d",
+    "dataset": "SC",
+    "method": "hgd_reverse",
+    "trial": 2,
+    "input_sha256": "cdb6c44832e9ba94549cd48e0807f448ef8b6d8266da3f88e0a07794af4b5b65"
+  },
+  {
+    "key": "SC_neighbor_2",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/senate-committees.txt",
+      "neighbor",
+      "1",
+      "282"
+    ],
+    "status": "ok",
+    "wall_s": 0.006241666967980564,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 3.21875,
+    "output_sha256": "3b3ac5187416184275d7173307d5881553f37d1dbf78c2a6f07476c7315cc466",
+    "dataset": "SC",
+    "method": "neighbor",
+    "trial": 2,
+    "input_sha256": "cdb6c44832e9ba94549cd48e0807f448ef8b6d8266da3f88e0a07794af4b5b65"
+  },
+  {
+    "key": "SC_hgd_flow_2",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/hgd_flow",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/senate-committees.txt",
+      "5",
+      "282"
+    ],
+    "status": "ok",
+    "wall_s": 0.005680583999492228,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 2.640625,
+    "output_sha256": "5a67958ae20a63cd092fbc100381a5f29b34761c2bf7b833491660598913dd7d",
+    "dataset": "SC",
+    "method": "hgd_flow",
+    "trial": 2,
+    "input_sha256": "cdb6c44832e9ba94549cd48e0807f448ef8b6d8266da3f88e0a07794af4b5b65"
+  },
+  {
+    "key": "SC_cocore_2",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/senate-committees.txt",
+      "cocore",
+      "5",
+      "282"
+    ],
+    "status": "ok",
+    "wall_s": 0.006457458017393947,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 3.21875,
+    "output_sha256": "546ceb2c987b6dcbc6105769f734124f1ec46842681ae8c26ca9ca15107137bd",
+    "dataset": "SC",
+    "method": "cocore",
+    "trial": 2,
+    "input_sha256": "cdb6c44832e9ba94549cd48e0807f448ef8b6d8266da3f88e0a07794af4b5b65"
+  },
+  {
+    "key": "SC_core_2",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/senate-committees.txt",
+      "core",
+      "1",
+      "282"
+    ],
+    "status": "ok",
+    "wall_s": 0.003982042020652443,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 1.875,
+    "output_sha256": "546ceb2c987b6dcbc6105769f734124f1ec46842681ae8c26ca9ca15107137bd",
+    "dataset": "SC",
+    "method": "core",
+    "trial": 2,
+    "input_sha256": "cdb6c44832e9ba94549cd48e0807f448ef8b6d8266da3f88e0a07794af4b5b65"
+  },
+  {
+    "key": "SC_abcore_2",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/senate-committees.txt",
+      "abcore",
+      "5",
+      "282"
+    ],
+    "status": "ok",
+    "wall_s": 0.0030561250168830156,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 1.78125,
+    "output_sha256": "640f04f395f72e2a6339c7668788ec1a445666365a34001790fa0bee661ea26a",
+    "dataset": "SC",
+    "method": "abcore",
+    "trial": 2,
+    "input_sha256": "cdb6c44832e9ba94549cd48e0807f448ef8b6d8266da3f88e0a07794af4b5b65"
+  },
+  {
+    "key": "HC_cocore_0",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/house-committees.txt",
+      "cocore",
+      "5",
+      "1290"
+    ],
+    "status": "ok",
+    "wall_s": 0.023938207945320755,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 13.75,
+    "output_sha256": "fd0e1509728268f552a33aba883670c29b058fb8ba7620ad864d4d19a17598f9",
+    "dataset": "HC",
+    "method": "cocore",
+    "trial": 0,
+    "input_sha256": "d45b8b4532034c78232e6a1abb71b28777818b51035de84c5c14d9de2264432d"
+  },
+  {
+    "key": "HC_hgd_flow_0",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/hgd_flow",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/house-committees.txt",
+      "5",
+      "1290"
+    ],
+    "status": "ok",
+    "wall_s": 0.009196957980748266,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 3.6875,
+    "output_sha256": "b5ac841e4393d73c78c9715264f0f758daab2b7dea5adad911ffec42684d595c",
+    "dataset": "HC",
+    "method": "hgd_flow",
+    "trial": 0,
+    "input_sha256": "d45b8b4532034c78232e6a1abb71b28777818b51035de84c5c14d9de2264432d"
+  },
+  {
+    "key": "HC_abcore_0",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/house-committees.txt",
+      "abcore",
+      "5",
+      "1290"
+    ],
+    "status": "ok",
+    "wall_s": 0.004367499961517751,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 2.109375,
+    "output_sha256": "9d7bcf134151f7dc4a556753160a8086f71330986d884498d0497df5e49589e3",
+    "dataset": "HC",
+    "method": "abcore",
+    "trial": 0,
+    "input_sha256": "d45b8b4532034c78232e6a1abb71b28777818b51035de84c5c14d9de2264432d"
+  },
+  {
+    "key": "HC_hgd_reverse_0",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/hgd_reverse",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/house-committees.txt",
+      "5",
+      "1290"
+    ],
+    "status": "ok",
+    "wall_s": 0.006391625036485493,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 3.40625,
+    "output_sha256": "b5ac841e4393d73c78c9715264f0f758daab2b7dea5adad911ffec42684d595c",
+    "dataset": "HC",
+    "method": "hgd_reverse",
+    "trial": 0,
+    "input_sha256": "d45b8b4532034c78232e6a1abb71b28777818b51035de84c5c14d9de2264432d"
+  },
+  {
+    "key": "HC_core_0",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/house-committees.txt",
+      "core",
+      "1",
+      "1290"
+    ],
+    "status": "ok",
+    "wall_s": 0.005073000036645681,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 2.328125,
+    "output_sha256": "080272fbaadfd75c3bf6dc97b636b933abaa5abce1fcaaaf8ac4e568ceadd442",
+    "dataset": "HC",
+    "method": "core",
+    "trial": 0,
+    "input_sha256": "d45b8b4532034c78232e6a1abb71b28777818b51035de84c5c14d9de2264432d"
+  },
+  {
+    "key": "HC_neighbor_0",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/house-committees.txt",
+      "neighbor",
+      "1",
+      "1290"
+    ],
+    "status": "ok",
+    "wall_s": 0.02351587498560548,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 13.75,
+    "output_sha256": "2a3f5441de83e26895f365878475f0ad3ba5408c1f010f89fda7e5085665eb0f",
+    "dataset": "HC",
+    "method": "neighbor",
+    "trial": 0,
+    "input_sha256": "d45b8b4532034c78232e6a1abb71b28777818b51035de84c5c14d9de2264432d"
+  },
+  {
+    "key": "HC_abcore_1",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/house-committees.txt",
+      "abcore",
+      "5",
+      "1290"
+    ],
+    "status": "ok",
+    "wall_s": 0.0044437500182539225,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 2.09375,
+    "output_sha256": "9d7bcf134151f7dc4a556753160a8086f71330986d884498d0497df5e49589e3",
+    "dataset": "HC",
+    "method": "abcore",
+    "trial": 1,
+    "input_sha256": "d45b8b4532034c78232e6a1abb71b28777818b51035de84c5c14d9de2264432d"
+  },
+  {
+    "key": "HC_core_1",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/house-committees.txt",
+      "core",
+      "1",
+      "1290"
+    ],
+    "status": "ok",
+    "wall_s": 0.004720208002254367,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 2.34375,
+    "output_sha256": "080272fbaadfd75c3bf6dc97b636b933abaa5abce1fcaaaf8ac4e568ceadd442",
+    "dataset": "HC",
+    "method": "core",
+    "trial": 1,
+    "input_sha256": "d45b8b4532034c78232e6a1abb71b28777818b51035de84c5c14d9de2264432d"
+  },
+  {
+    "key": "HC_hgd_reverse_1",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/hgd_reverse",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/house-committees.txt",
+      "5",
+      "1290"
+    ],
+    "status": "ok",
+    "wall_s": 0.006013875012286007,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 3.328125,
+    "output_sha256": "b5ac841e4393d73c78c9715264f0f758daab2b7dea5adad911ffec42684d595c",
+    "dataset": "HC",
+    "method": "hgd_reverse",
+    "trial": 1,
+    "input_sha256": "d45b8b4532034c78232e6a1abb71b28777818b51035de84c5c14d9de2264432d"
+  },
+  {
+    "key": "HC_hgd_flow_1",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/hgd_flow",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/house-committees.txt",
+      "5",
+      "1290"
+    ],
+    "status": "ok",
+    "wall_s": 0.008828916994389147,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 3.578125,
+    "output_sha256": "b5ac841e4393d73c78c9715264f0f758daab2b7dea5adad911ffec42684d595c",
+    "dataset": "HC",
+    "method": "hgd_flow",
+    "trial": 1,
+    "input_sha256": "d45b8b4532034c78232e6a1abb71b28777818b51035de84c5c14d9de2264432d"
+  },
+  {
+    "key": "HC_neighbor_1",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/house-committees.txt",
+      "neighbor",
+      "1",
+      "1290"
+    ],
+    "status": "ok",
+    "wall_s": 0.023170583008322865,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 13.6875,
+    "output_sha256": "2a3f5441de83e26895f365878475f0ad3ba5408c1f010f89fda7e5085665eb0f",
+    "dataset": "HC",
+    "method": "neighbor",
+    "trial": 1,
+    "input_sha256": "d45b8b4532034c78232e6a1abb71b28777818b51035de84c5c14d9de2264432d"
+  },
+  {
+    "key": "HC_cocore_1",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/house-committees.txt",
+      "cocore",
+      "5",
+      "1290"
+    ],
+    "status": "ok",
+    "wall_s": 0.023251459002494812,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 13.765625,
+    "output_sha256": "fd0e1509728268f552a33aba883670c29b058fb8ba7620ad864d4d19a17598f9",
+    "dataset": "HC",
+    "method": "cocore",
+    "trial": 1,
+    "input_sha256": "d45b8b4532034c78232e6a1abb71b28777818b51035de84c5c14d9de2264432d"
+  },
+  {
+    "key": "HC_hgd_reverse_2",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/hgd_reverse",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/house-committees.txt",
+      "5",
+      "1290"
+    ],
+    "status": "ok",
+    "wall_s": 0.006373540963977575,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 3.359375,
+    "output_sha256": "b5ac841e4393d73c78c9715264f0f758daab2b7dea5adad911ffec42684d595c",
+    "dataset": "HC",
+    "method": "hgd_reverse",
+    "trial": 2,
+    "input_sha256": "d45b8b4532034c78232e6a1abb71b28777818b51035de84c5c14d9de2264432d"
+  },
+  {
+    "key": "HC_neighbor_2",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/house-committees.txt",
+      "neighbor",
+      "1",
+      "1290"
+    ],
+    "status": "ok",
+    "wall_s": 0.022690667014103383,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 13.734375,
+    "output_sha256": "2a3f5441de83e26895f365878475f0ad3ba5408c1f010f89fda7e5085665eb0f",
+    "dataset": "HC",
+    "method": "neighbor",
+    "trial": 2,
+    "input_sha256": "d45b8b4532034c78232e6a1abb71b28777818b51035de84c5c14d9de2264432d"
+  },
+  {
+    "key": "HC_hgd_flow_2",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/hgd_flow",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/house-committees.txt",
+      "5",
+      "1290"
+    ],
+    "status": "ok",
+    "wall_s": 0.008844333002343774,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 3.59375,
+    "output_sha256": "b5ac841e4393d73c78c9715264f0f758daab2b7dea5adad911ffec42684d595c",
+    "dataset": "HC",
+    "method": "hgd_flow",
+    "trial": 2,
+    "input_sha256": "d45b8b4532034c78232e6a1abb71b28777818b51035de84c5c14d9de2264432d"
+  },
+  {
+    "key": "HC_cocore_2",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/house-committees.txt",
+      "cocore",
+      "5",
+      "1290"
+    ],
+    "status": "ok",
+    "wall_s": 0.023237082990817726,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 13.734375,
+    "output_sha256": "fd0e1509728268f552a33aba883670c29b058fb8ba7620ad864d4d19a17598f9",
+    "dataset": "HC",
+    "method": "cocore",
+    "trial": 2,
+    "input_sha256": "d45b8b4532034c78232e6a1abb71b28777818b51035de84c5c14d9de2264432d"
+  },
+  {
+    "key": "HC_core_2",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/house-committees.txt",
+      "core",
+      "1",
+      "1290"
+    ],
+    "status": "ok",
+    "wall_s": 0.004857833031564951,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 2.34375,
+    "output_sha256": "080272fbaadfd75c3bf6dc97b636b933abaa5abce1fcaaaf8ac4e568ceadd442",
+    "dataset": "HC",
+    "method": "core",
+    "trial": 2,
+    "input_sha256": "d45b8b4532034c78232e6a1abb71b28777818b51035de84c5c14d9de2264432d"
+  },
+  {
+    "key": "HC_abcore_2",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/house-committees.txt",
+      "abcore",
+      "5",
+      "1290"
+    ],
+    "status": "ok",
+    "wall_s": 0.003982416004873812,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 2.125,
+    "output_sha256": "9d7bcf134151f7dc4a556753160a8086f71330986d884498d0497df5e49589e3",
+    "dataset": "HC",
+    "method": "abcore",
+    "trial": 2,
+    "input_sha256": "d45b8b4532034c78232e6a1abb71b28777818b51035de84c5c14d9de2264432d"
+  },
+  {
+    "key": "CP_cocore_0",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/contact-primary.txt",
+      "cocore",
+      "5",
+      "242"
+    ],
+    "status": "ok",
+    "wall_s": 0.0087893339805305,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 4.640625,
+    "output_sha256": "a40d934dcc653aaa24f3100088be36e06060602ee603ab962d8fbe2f2a67784d",
+    "dataset": "CP",
+    "method": "cocore",
+    "trial": 0,
+    "input_sha256": "b3aa6d27740665bcbd2b7c26ce82878be26a46e58b130112c22e37657eb22bae"
+  },
+  {
+    "key": "CP_hgd_flow_0",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/hgd_flow",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/contact-primary.txt",
+      "5",
+      "242"
+    ],
+    "status": "ok",
+    "wall_s": 0.009129250014666468,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 4.671875,
+    "output_sha256": "375e18e79bc1b3e77225f95621e13733fc6b865c6500342c7e4831ed6c332d2c",
+    "dataset": "CP",
+    "method": "hgd_flow",
+    "trial": 0,
+    "input_sha256": "b3aa6d27740665bcbd2b7c26ce82878be26a46e58b130112c22e37657eb22bae"
+  },
+  {
+    "key": "CP_abcore_0",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/contact-primary.txt",
+      "abcore",
+      "5",
+      "242"
+    ],
+    "status": "ok",
+    "wall_s": 0.005100083013530821,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 3.390625,
+    "output_sha256": "b07259667518c3bbdffe5e19c95f3f7c56de32f6adfd5dc0454942fe61a5bfca",
+    "dataset": "CP",
+    "method": "abcore",
+    "trial": 0,
+    "input_sha256": "b3aa6d27740665bcbd2b7c26ce82878be26a46e58b130112c22e37657eb22bae"
+  },
+  {
+    "key": "CP_hgd_reverse_0",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/hgd_reverse",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/contact-primary.txt",
+      "5",
+      "242"
+    ],
+    "status": "ok",
+    "wall_s": 0.004796624998562038,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 3.453125,
+    "output_sha256": "375e18e79bc1b3e77225f95621e13733fc6b865c6500342c7e4831ed6c332d2c",
+    "dataset": "CP",
+    "method": "hgd_reverse",
+    "trial": 0,
+    "input_sha256": "b3aa6d27740665bcbd2b7c26ce82878be26a46e58b130112c22e37657eb22bae"
+  },
+  {
+    "key": "CP_core_0",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/contact-primary.txt",
+      "core",
+      "1",
+      "242"
+    ],
+    "status": "ok",
+    "wall_s": 0.006049540999811143,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 3.75,
+    "output_sha256": "a40d934dcc653aaa24f3100088be36e06060602ee603ab962d8fbe2f2a67784d",
+    "dataset": "CP",
+    "method": "core",
+    "trial": 0,
+    "input_sha256": "b3aa6d27740665bcbd2b7c26ce82878be26a46e58b130112c22e37657eb22bae"
+  },
+  {
+    "key": "CP_neighbor_0",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/contact-primary.txt",
+      "neighbor",
+      "1",
+      "242"
+    ],
+    "status": "ok",
+    "wall_s": 0.00782295799581334,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 4.640625,
+    "output_sha256": "ea3d74025100a920fa2656b543e23dfc39ac5faf365630b489cdf65cf6a20311",
+    "dataset": "CP",
+    "method": "neighbor",
+    "trial": 0,
+    "input_sha256": "b3aa6d27740665bcbd2b7c26ce82878be26a46e58b130112c22e37657eb22bae"
+  },
+  {
+    "key": "CP_abcore_1",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/contact-primary.txt",
+      "abcore",
+      "5",
+      "242"
+    ],
+    "status": "ok",
+    "wall_s": 0.004476749978493899,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 3.390625,
+    "output_sha256": "b07259667518c3bbdffe5e19c95f3f7c56de32f6adfd5dc0454942fe61a5bfca",
+    "dataset": "CP",
+    "method": "abcore",
+    "trial": 1,
+    "input_sha256": "b3aa6d27740665bcbd2b7c26ce82878be26a46e58b130112c22e37657eb22bae"
+  },
+  {
+    "key": "CP_core_1",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/contact-primary.txt",
+      "core",
+      "1",
+      "242"
+    ],
+    "status": "ok",
+    "wall_s": 0.006365666980855167,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 3.75,
+    "output_sha256": "a40d934dcc653aaa24f3100088be36e06060602ee603ab962d8fbe2f2a67784d",
+    "dataset": "CP",
+    "method": "core",
+    "trial": 1,
+    "input_sha256": "b3aa6d27740665bcbd2b7c26ce82878be26a46e58b130112c22e37657eb22bae"
+  },
+  {
+    "key": "CP_hgd_reverse_1",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/hgd_reverse",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/contact-primary.txt",
+      "5",
+      "242"
+    ],
+    "status": "ok",
+    "wall_s": 0.005792125011794269,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 3.453125,
+    "output_sha256": "375e18e79bc1b3e77225f95621e13733fc6b865c6500342c7e4831ed6c332d2c",
+    "dataset": "CP",
+    "method": "hgd_reverse",
+    "trial": 1,
+    "input_sha256": "b3aa6d27740665bcbd2b7c26ce82878be26a46e58b130112c22e37657eb22bae"
+  },
+  {
+    "key": "CP_hgd_flow_1",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/hgd_flow",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/contact-primary.txt",
+      "5",
+      "242"
+    ],
+    "status": "ok",
+    "wall_s": 0.00964095798553899,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 4.65625,
+    "output_sha256": "375e18e79bc1b3e77225f95621e13733fc6b865c6500342c7e4831ed6c332d2c",
+    "dataset": "CP",
+    "method": "hgd_flow",
+    "trial": 1,
+    "input_sha256": "b3aa6d27740665bcbd2b7c26ce82878be26a46e58b130112c22e37657eb22bae"
+  },
+  {
+    "key": "CP_neighbor_1",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/contact-primary.txt",
+      "neighbor",
+      "1",
+      "242"
+    ],
+    "status": "ok",
+    "wall_s": 0.00870820804266259,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 4.625,
+    "output_sha256": "ea3d74025100a920fa2656b543e23dfc39ac5faf365630b489cdf65cf6a20311",
+    "dataset": "CP",
+    "method": "neighbor",
+    "trial": 1,
+    "input_sha256": "b3aa6d27740665bcbd2b7c26ce82878be26a46e58b130112c22e37657eb22bae"
+  },
+  {
+    "key": "CP_cocore_1",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/contact-primary.txt",
+      "cocore",
+      "5",
+      "242"
+    ],
+    "status": "ok",
+    "wall_s": 0.008382125000935048,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 4.640625,
+    "output_sha256": "a40d934dcc653aaa24f3100088be36e06060602ee603ab962d8fbe2f2a67784d",
+    "dataset": "CP",
+    "method": "cocore",
+    "trial": 1,
+    "input_sha256": "b3aa6d27740665bcbd2b7c26ce82878be26a46e58b130112c22e37657eb22bae"
+  },
+  {
+    "key": "CP_hgd_reverse_2",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/hgd_reverse",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/contact-primary.txt",
+      "5",
+      "242"
+    ],
+    "status": "ok",
+    "wall_s": 0.0051020829705521464,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 3.453125,
+    "output_sha256": "375e18e79bc1b3e77225f95621e13733fc6b865c6500342c7e4831ed6c332d2c",
+    "dataset": "CP",
+    "method": "hgd_reverse",
+    "trial": 2,
+    "input_sha256": "b3aa6d27740665bcbd2b7c26ce82878be26a46e58b130112c22e37657eb22bae"
+  },
+  {
+    "key": "CP_neighbor_2",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/contact-primary.txt",
+      "neighbor",
+      "1",
+      "242"
+    ],
+    "status": "ok",
+    "wall_s": 0.008826417033560574,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 4.65625,
+    "output_sha256": "ea3d74025100a920fa2656b543e23dfc39ac5faf365630b489cdf65cf6a20311",
+    "dataset": "CP",
+    "method": "neighbor",
+    "trial": 2,
+    "input_sha256": "b3aa6d27740665bcbd2b7c26ce82878be26a46e58b130112c22e37657eb22bae"
+  },
+  {
+    "key": "CP_hgd_flow_2",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/hgd_flow",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/contact-primary.txt",
+      "5",
+      "242"
+    ],
+    "status": "ok",
+    "wall_s": 0.009523499989882112,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 5.921875,
+    "output_sha256": "375e18e79bc1b3e77225f95621e13733fc6b865c6500342c7e4831ed6c332d2c",
+    "dataset": "CP",
+    "method": "hgd_flow",
+    "trial": 2,
+    "input_sha256": "b3aa6d27740665bcbd2b7c26ce82878be26a46e58b130112c22e37657eb22bae"
+  },
+  {
+    "key": "CP_cocore_2",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/contact-primary.txt",
+      "cocore",
+      "5",
+      "242"
+    ],
+    "status": "ok",
+    "wall_s": 0.008527332975063473,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 4.640625,
+    "output_sha256": "a40d934dcc653aaa24f3100088be36e06060602ee603ab962d8fbe2f2a67784d",
+    "dataset": "CP",
+    "method": "cocore",
+    "trial": 2,
+    "input_sha256": "b3aa6d27740665bcbd2b7c26ce82878be26a46e58b130112c22e37657eb22bae"
+  },
+  {
+    "key": "CP_core_2",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/contact-primary.txt",
+      "core",
+      "1",
+      "242"
+    ],
+    "status": "ok",
+    "wall_s": 0.006574457976967096,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 3.75,
+    "output_sha256": "a40d934dcc653aaa24f3100088be36e06060602ee603ab962d8fbe2f2a67784d",
+    "dataset": "CP",
+    "method": "core",
+    "trial": 2,
+    "input_sha256": "b3aa6d27740665bcbd2b7c26ce82878be26a46e58b130112c22e37657eb22bae"
+  },
+  {
+    "key": "CP_abcore_2",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/contact-primary.txt",
+      "abcore",
+      "5",
+      "242"
+    ],
+    "status": "ok",
+    "wall_s": 0.0045770000433549285,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 3.390625,
+    "output_sha256": "b07259667518c3bbdffe5e19c95f3f7c56de32f6adfd5dc0454942fe61a5bfca",
+    "dataset": "CP",
+    "method": "abcore",
+    "trial": 2,
+    "input_sha256": "b3aa6d27740665bcbd2b7c26ce82878be26a46e58b130112c22e37657eb22bae"
+  },
+  {
+    "key": "CH_cocore_0",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/contact-high.txt",
+      "cocore",
+      "5",
+      "327"
+    ],
+    "status": "ok",
+    "wall_s": 0.006508540944196284,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 3.453125,
+    "output_sha256": "37344b6d9a1d9b2ab3f968d8680522626754a2c79e477fa968538f4d1d980fd7",
+    "dataset": "CH",
+    "method": "cocore",
+    "trial": 0,
+    "input_sha256": "487d6f265f69706fd926cfbcfaea9eebafab8abc35e4fac574a72544118563b6"
+  },
+  {
+    "key": "CH_hgd_flow_0",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/hgd_flow",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/contact-high.txt",
+      "5",
+      "327"
+    ],
+    "status": "ok",
+    "wall_s": 0.0072713749832473695,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 3.40625,
+    "output_sha256": "ae88c764cd44940072edea031edbe50ab7050b96a23afc085975446408f90a99",
+    "dataset": "CH",
+    "method": "hgd_flow",
+    "trial": 0,
+    "input_sha256": "487d6f265f69706fd926cfbcfaea9eebafab8abc35e4fac574a72544118563b6"
+  },
+  {
+    "key": "CH_abcore_0",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/contact-high.txt",
+      "abcore",
+      "5",
+      "327"
+    ],
+    "status": "ok",
+    "wall_s": 0.0047869590343907475,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 2.578125,
+    "output_sha256": "24a6e237c1627c03eaecdc6a3f829d3e3e13f984c1165ddede3e12f387dd6de8",
+    "dataset": "CH",
+    "method": "abcore",
+    "trial": 0,
+    "input_sha256": "487d6f265f69706fd926cfbcfaea9eebafab8abc35e4fac574a72544118563b6"
+  },
+  {
+    "key": "CH_hgd_reverse_0",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/hgd_reverse",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/contact-high.txt",
+      "5",
+      "327"
+    ],
+    "status": "ok",
+    "wall_s": 0.004465457983314991,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 2.578125,
+    "output_sha256": "ae88c764cd44940072edea031edbe50ab7050b96a23afc085975446408f90a99",
+    "dataset": "CH",
+    "method": "hgd_reverse",
+    "trial": 0,
+    "input_sha256": "487d6f265f69706fd926cfbcfaea9eebafab8abc35e4fac574a72544118563b6"
+  },
+  {
+    "key": "CH_core_0",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/contact-high.txt",
+      "core",
+      "1",
+      "327"
+    ],
+    "status": "ok",
+    "wall_s": 0.005369791993871331,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 2.8125,
+    "output_sha256": "61af35c0dbc35adac01c4e512dfbd1d01d77ffdae48f2c069c733bef8bb48bdf",
+    "dataset": "CH",
+    "method": "core",
+    "trial": 0,
+    "input_sha256": "487d6f265f69706fd926cfbcfaea9eebafab8abc35e4fac574a72544118563b6"
+  },
+  {
+    "key": "CH_neighbor_0",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/contact-high.txt",
+      "neighbor",
+      "1",
+      "327"
+    ],
+    "status": "ok",
+    "wall_s": 0.006582666013855487,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 3.421875,
+    "output_sha256": "7282cd48a0d1ef809953a1b99b7b82f761aff0dd6abe6a29290af64d441a37c3",
+    "dataset": "CH",
+    "method": "neighbor",
+    "trial": 0,
+    "input_sha256": "487d6f265f69706fd926cfbcfaea9eebafab8abc35e4fac574a72544118563b6"
+  },
+  {
+    "key": "CH_abcore_1",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/contact-high.txt",
+      "abcore",
+      "5",
+      "327"
+    ],
+    "status": "ok",
+    "wall_s": 0.004482832970097661,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 2.59375,
+    "output_sha256": "24a6e237c1627c03eaecdc6a3f829d3e3e13f984c1165ddede3e12f387dd6de8",
+    "dataset": "CH",
+    "method": "abcore",
+    "trial": 1,
+    "input_sha256": "487d6f265f69706fd926cfbcfaea9eebafab8abc35e4fac574a72544118563b6"
+  },
+  {
+    "key": "CH_core_1",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/contact-high.txt",
+      "core",
+      "1",
+      "327"
+    ],
+    "status": "ok",
+    "wall_s": 0.005483084009028971,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 2.828125,
+    "output_sha256": "61af35c0dbc35adac01c4e512dfbd1d01d77ffdae48f2c069c733bef8bb48bdf",
+    "dataset": "CH",
+    "method": "core",
+    "trial": 1,
+    "input_sha256": "487d6f265f69706fd926cfbcfaea9eebafab8abc35e4fac574a72544118563b6"
+  },
+  {
+    "key": "CH_hgd_reverse_1",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/hgd_reverse",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/contact-high.txt",
+      "5",
+      "327"
+    ],
+    "status": "ok",
+    "wall_s": 0.005103458010125905,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 2.625,
+    "output_sha256": "ae88c764cd44940072edea031edbe50ab7050b96a23afc085975446408f90a99",
+    "dataset": "CH",
+    "method": "hgd_reverse",
+    "trial": 1,
+    "input_sha256": "487d6f265f69706fd926cfbcfaea9eebafab8abc35e4fac574a72544118563b6"
+  },
+  {
+    "key": "CH_hgd_flow_1",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/hgd_flow",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/contact-high.txt",
+      "5",
+      "327"
+    ],
+    "status": "ok",
+    "wall_s": 0.007117707980796695,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 3.4375,
+    "output_sha256": "ae88c764cd44940072edea031edbe50ab7050b96a23afc085975446408f90a99",
+    "dataset": "CH",
+    "method": "hgd_flow",
+    "trial": 1,
+    "input_sha256": "487d6f265f69706fd926cfbcfaea9eebafab8abc35e4fac574a72544118563b6"
+  },
+  {
+    "key": "CH_neighbor_1",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/contact-high.txt",
+      "neighbor",
+      "1",
+      "327"
+    ],
+    "status": "ok",
+    "wall_s": 0.006686125008855015,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 3.4375,
+    "output_sha256": "7282cd48a0d1ef809953a1b99b7b82f761aff0dd6abe6a29290af64d441a37c3",
+    "dataset": "CH",
+    "method": "neighbor",
+    "trial": 1,
+    "input_sha256": "487d6f265f69706fd926cfbcfaea9eebafab8abc35e4fac574a72544118563b6"
+  },
+  {
+    "key": "CH_cocore_1",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/contact-high.txt",
+      "cocore",
+      "5",
+      "327"
+    ],
+    "status": "ok",
+    "wall_s": 0.006493708002381027,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 3.421875,
+    "output_sha256": "37344b6d9a1d9b2ab3f968d8680522626754a2c79e477fa968538f4d1d980fd7",
+    "dataset": "CH",
+    "method": "cocore",
+    "trial": 1,
+    "input_sha256": "487d6f265f69706fd926cfbcfaea9eebafab8abc35e4fac574a72544118563b6"
+  },
+  {
+    "key": "CH_hgd_reverse_2",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/hgd_reverse",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/contact-high.txt",
+      "5",
+      "327"
+    ],
+    "status": "ok",
+    "wall_s": 0.0045168750220909715,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 2.625,
+    "output_sha256": "ae88c764cd44940072edea031edbe50ab7050b96a23afc085975446408f90a99",
+    "dataset": "CH",
+    "method": "hgd_reverse",
+    "trial": 2,
+    "input_sha256": "487d6f265f69706fd926cfbcfaea9eebafab8abc35e4fac574a72544118563b6"
+  },
+  {
+    "key": "CH_neighbor_2",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/contact-high.txt",
+      "neighbor",
+      "1",
+      "327"
+    ],
+    "status": "ok",
+    "wall_s": 0.006538374989759177,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 3.4375,
+    "output_sha256": "7282cd48a0d1ef809953a1b99b7b82f761aff0dd6abe6a29290af64d441a37c3",
+    "dataset": "CH",
+    "method": "neighbor",
+    "trial": 2,
+    "input_sha256": "487d6f265f69706fd926cfbcfaea9eebafab8abc35e4fac574a72544118563b6"
+  },
+  {
+    "key": "CH_hgd_flow_2",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/hgd_flow",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/contact-high.txt",
+      "5",
+      "327"
+    ],
+    "status": "ok",
+    "wall_s": 0.007172040990553796,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 3.453125,
+    "output_sha256": "ae88c764cd44940072edea031edbe50ab7050b96a23afc085975446408f90a99",
+    "dataset": "CH",
+    "method": "hgd_flow",
+    "trial": 2,
+    "input_sha256": "487d6f265f69706fd926cfbcfaea9eebafab8abc35e4fac574a72544118563b6"
+  },
+  {
+    "key": "CH_cocore_2",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/contact-high.txt",
+      "cocore",
+      "5",
+      "327"
+    ],
+    "status": "ok",
+    "wall_s": 0.008946124988142401,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 3.453125,
+    "output_sha256": "37344b6d9a1d9b2ab3f968d8680522626754a2c79e477fa968538f4d1d980fd7",
+    "dataset": "CH",
+    "method": "cocore",
+    "trial": 2,
+    "input_sha256": "487d6f265f69706fd926cfbcfaea9eebafab8abc35e4fac574a72544118563b6"
+  },
+  {
+    "key": "CH_core_2",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/contact-high.txt",
+      "core",
+      "1",
+      "327"
+    ],
+    "status": "ok",
+    "wall_s": 0.005791583971586078,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 2.84375,
+    "output_sha256": "61af35c0dbc35adac01c4e512dfbd1d01d77ffdae48f2c069c733bef8bb48bdf",
+    "dataset": "CH",
+    "method": "core",
+    "trial": 2,
+    "input_sha256": "487d6f265f69706fd926cfbcfaea9eebafab8abc35e4fac574a72544118563b6"
+  },
+  {
+    "key": "CH_abcore_2",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/contact-high.txt",
+      "abcore",
+      "5",
+      "327"
+    ],
+    "status": "ok",
+    "wall_s": 0.004346916975919157,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 2.578125,
+    "output_sha256": "24a6e237c1627c03eaecdc6a3f829d3e3e13f984c1165ddede3e12f387dd6de8",
+    "dataset": "CH",
+    "method": "abcore",
+    "trial": 2,
+    "input_sha256": "487d6f265f69706fd926cfbcfaea9eebafab8abc35e4fac574a72544118563b6"
+  },
+  {
+    "key": "SB_cocore_0",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/senate-bills.txt",
+      "cocore",
+      "5",
+      "294"
+    ],
+    "status": "ok",
+    "wall_s": 0.06435483298264444,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 13.640625,
+    "output_sha256": "921bfe2d5a188ef401d14121beaf102e0a9b12cd86fe896ccc3eb6731127f695",
+    "dataset": "SB",
+    "method": "cocore",
+    "trial": 0,
+    "input_sha256": "cf45aa9f7dcf3c8bc4e41846f7ed805e8fc6eaa60d9e11dd6582f1dbef57c420"
+  },
+  {
+    "key": "SB_hgd_flow_0",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/hgd_flow",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/senate-bills.txt",
+      "5",
+      "294"
+    ],
+    "status": "ok",
+    "wall_s": 0.9594479580409825,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 25.828125,
+    "output_sha256": "89c67ae4dc3ef7debe8f9cd103be2b582195acbe4739a0caf998e355d3b67ea1",
+    "dataset": "SB",
+    "method": "hgd_flow",
+    "trial": 0,
+    "input_sha256": "cf45aa9f7dcf3c8bc4e41846f7ed805e8fc6eaa60d9e11dd6582f1dbef57c420"
+  },
+  {
+    "key": "SB_abcore_0",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/senate-bills.txt",
+      "abcore",
+      "5",
+      "294"
+    ],
+    "status": "ok",
+    "wall_s": 0.02220062504056841,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 8.765625,
+    "output_sha256": "3bdc1fccb4eb7d10fdff85a8f63b432e8f32c725d995844f5bd9e885bb419260",
+    "dataset": "SB",
+    "method": "abcore",
+    "trial": 0,
+    "input_sha256": "cf45aa9f7dcf3c8bc4e41846f7ed805e8fc6eaa60d9e11dd6582f1dbef57c420"
+  },
+  {
+    "key": "SB_hgd_reverse_0",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/hgd_reverse",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/senate-bills.txt",
+      "5",
+      "294"
+    ],
+    "status": "ok",
+    "wall_s": 0.2964621249702759,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 22.21875,
+    "output_sha256": "89c67ae4dc3ef7debe8f9cd103be2b582195acbe4739a0caf998e355d3b67ea1",
+    "dataset": "SB",
+    "method": "hgd_reverse",
+    "trial": 0,
+    "input_sha256": "cf45aa9f7dcf3c8bc4e41846f7ed805e8fc6eaa60d9e11dd6582f1dbef57c420"
+  },
+  {
+    "key": "SB_core_0",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/senate-bills.txt",
+      "core",
+      "1",
+      "294"
+    ],
+    "status": "ok",
+    "wall_s": 0.03348695795284584,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 11.578125,
+    "output_sha256": "b53ee29fb8b8eefe8649095dbedf0878b05a2188d51069e478c8d3a0038025a0",
+    "dataset": "SB",
+    "method": "core",
+    "trial": 0,
+    "input_sha256": "cf45aa9f7dcf3c8bc4e41846f7ed805e8fc6eaa60d9e11dd6582f1dbef57c420"
+  },
+  {
+    "key": "SB_neighbor_0",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/senate-bills.txt",
+      "neighbor",
+      "1",
+      "294"
+    ],
+    "status": "ok",
+    "wall_s": 0.06197016703663394,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 13.640625,
+    "output_sha256": "11080779b5de31396dbcba0fe7a40811f2c77f4d4deca06747696c5c447060da",
+    "dataset": "SB",
+    "method": "neighbor",
+    "trial": 0,
+    "input_sha256": "cf45aa9f7dcf3c8bc4e41846f7ed805e8fc6eaa60d9e11dd6582f1dbef57c420"
+  },
+  {
+    "key": "SB_abcore_1",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/senate-bills.txt",
+      "abcore",
+      "5",
+      "294"
+    ],
+    "status": "ok",
+    "wall_s": 0.02201175002846867,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 8.84375,
+    "output_sha256": "3bdc1fccb4eb7d10fdff85a8f63b432e8f32c725d995844f5bd9e885bb419260",
+    "dataset": "SB",
+    "method": "abcore",
+    "trial": 1,
+    "input_sha256": "cf45aa9f7dcf3c8bc4e41846f7ed805e8fc6eaa60d9e11dd6582f1dbef57c420"
+  },
+  {
+    "key": "SB_core_1",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/senate-bills.txt",
+      "core",
+      "1",
+      "294"
+    ],
+    "status": "ok",
+    "wall_s": 0.03470045799622312,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 11.53125,
+    "output_sha256": "b53ee29fb8b8eefe8649095dbedf0878b05a2188d51069e478c8d3a0038025a0",
+    "dataset": "SB",
+    "method": "core",
+    "trial": 1,
+    "input_sha256": "cf45aa9f7dcf3c8bc4e41846f7ed805e8fc6eaa60d9e11dd6582f1dbef57c420"
+  },
+  {
+    "key": "SB_hgd_reverse_1",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/hgd_reverse",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/senate-bills.txt",
+      "5",
+      "294"
+    ],
+    "status": "ok",
+    "wall_s": 0.32720062497537583,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 22.71875,
+    "output_sha256": "89c67ae4dc3ef7debe8f9cd103be2b582195acbe4739a0caf998e355d3b67ea1",
+    "dataset": "SB",
+    "method": "hgd_reverse",
+    "trial": 1,
+    "input_sha256": "cf45aa9f7dcf3c8bc4e41846f7ed805e8fc6eaa60d9e11dd6582f1dbef57c420"
+  },
+  {
+    "key": "SB_hgd_flow_1",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/hgd_flow",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/senate-bills.txt",
+      "5",
+      "294"
+    ],
+    "status": "ok",
+    "wall_s": 1.0020194579847157,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 30.6875,
+    "output_sha256": "89c67ae4dc3ef7debe8f9cd103be2b582195acbe4739a0caf998e355d3b67ea1",
+    "dataset": "SB",
+    "method": "hgd_flow",
+    "trial": 1,
+    "input_sha256": "cf45aa9f7dcf3c8bc4e41846f7ed805e8fc6eaa60d9e11dd6582f1dbef57c420"
+  },
+  {
+    "key": "SB_neighbor_1",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/senate-bills.txt",
+      "neighbor",
+      "1",
+      "294"
+    ],
+    "status": "ok",
+    "wall_s": 0.06349029095144942,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 13.671875,
+    "output_sha256": "11080779b5de31396dbcba0fe7a40811f2c77f4d4deca06747696c5c447060da",
+    "dataset": "SB",
+    "method": "neighbor",
+    "trial": 1,
+    "input_sha256": "cf45aa9f7dcf3c8bc4e41846f7ed805e8fc6eaa60d9e11dd6582f1dbef57c420"
+  },
+  {
+    "key": "SB_cocore_1",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/senate-bills.txt",
+      "cocore",
+      "5",
+      "294"
+    ],
+    "status": "ok",
+    "wall_s": 0.06592100003035739,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 13.828125,
+    "output_sha256": "921bfe2d5a188ef401d14121beaf102e0a9b12cd86fe896ccc3eb6731127f695",
+    "dataset": "SB",
+    "method": "cocore",
+    "trial": 1,
+    "input_sha256": "cf45aa9f7dcf3c8bc4e41846f7ed805e8fc6eaa60d9e11dd6582f1dbef57c420"
+  },
+  {
+    "key": "SB_hgd_reverse_2",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/hgd_reverse",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/senate-bills.txt",
+      "5",
+      "294"
+    ],
+    "status": "ok",
+    "wall_s": 0.3217462920001708,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 22.5625,
+    "output_sha256": "89c67ae4dc3ef7debe8f9cd103be2b582195acbe4739a0caf998e355d3b67ea1",
+    "dataset": "SB",
+    "method": "hgd_reverse",
+    "trial": 2,
+    "input_sha256": "cf45aa9f7dcf3c8bc4e41846f7ed805e8fc6eaa60d9e11dd6582f1dbef57c420"
+  },
+  {
+    "key": "SB_neighbor_2",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/senate-bills.txt",
+      "neighbor",
+      "1",
+      "294"
+    ],
+    "status": "ok",
+    "wall_s": 0.07152729097288102,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 14.453125,
+    "output_sha256": "11080779b5de31396dbcba0fe7a40811f2c77f4d4deca06747696c5c447060da",
+    "dataset": "SB",
+    "method": "neighbor",
+    "trial": 2,
+    "input_sha256": "cf45aa9f7dcf3c8bc4e41846f7ed805e8fc6eaa60d9e11dd6582f1dbef57c420"
+  },
+  {
+    "key": "SB_hgd_flow_2",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/hgd_flow",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/senate-bills.txt",
+      "5",
+      "294"
+    ],
+    "status": "ok",
+    "wall_s": 1.096175124985166,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 32.125,
+    "output_sha256": "89c67ae4dc3ef7debe8f9cd103be2b582195acbe4739a0caf998e355d3b67ea1",
+    "dataset": "SB",
+    "method": "hgd_flow",
+    "trial": 2,
+    "input_sha256": "cf45aa9f7dcf3c8bc4e41846f7ed805e8fc6eaa60d9e11dd6582f1dbef57c420"
+  },
+  {
+    "key": "SB_cocore_2",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/senate-bills.txt",
+      "cocore",
+      "5",
+      "294"
+    ],
+    "status": "ok",
+    "wall_s": 0.06553562503540888,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 13.09375,
+    "output_sha256": "921bfe2d5a188ef401d14121beaf102e0a9b12cd86fe896ccc3eb6731127f695",
+    "dataset": "SB",
+    "method": "cocore",
+    "trial": 2,
+    "input_sha256": "cf45aa9f7dcf3c8bc4e41846f7ed805e8fc6eaa60d9e11dd6582f1dbef57c420"
+  },
+  {
+    "key": "SB_core_2",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/senate-bills.txt",
+      "core",
+      "1",
+      "294"
+    ],
+    "status": "ok",
+    "wall_s": 0.03849016601452604,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 12.390625,
+    "output_sha256": "b53ee29fb8b8eefe8649095dbedf0878b05a2188d51069e478c8d3a0038025a0",
+    "dataset": "SB",
+    "method": "core",
+    "trial": 2,
+    "input_sha256": "cf45aa9f7dcf3c8bc4e41846f7ed805e8fc6eaa60d9e11dd6582f1dbef57c420"
+  },
+  {
+    "key": "SB_abcore_2",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/senate-bills.txt",
+      "abcore",
+      "5",
+      "294"
+    ],
+    "status": "ok",
+    "wall_s": 0.024791125033516437,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 8.875,
+    "output_sha256": "3bdc1fccb4eb7d10fdff85a8f63b432e8f32c725d995844f5bd9e885bb419260",
+    "dataset": "SB",
+    "method": "abcore",
+    "trial": 2,
+    "input_sha256": "cf45aa9f7dcf3c8bc4e41846f7ed805e8fc6eaa60d9e11dd6582f1dbef57c420"
+  },
+  {
+    "key": "HB_cocore_0",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/house-bills.txt",
+      "cocore",
+      "5",
+      "1494"
+    ],
+    "status": "ok",
+    "wall_s": 1.153394875000231,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 92.6875,
+    "output_sha256": "594ece141c5139f178f41846d13cf9858c2237fcb1d8abc0ccb27e0c94a0f949",
+    "dataset": "HB",
+    "method": "cocore",
+    "trial": 0,
+    "input_sha256": "53884bd3a3af6d7d315486afc034796c66721ddc43a0c310268e7b26b3340c12"
+  },
+  {
+    "key": "HB_hgd_flow_0",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/hgd_flow",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/house-bills.txt",
+      "5",
+      "1494"
+    ],
+    "status": "ok",
+    "wall_s": 4.0058953749830835,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 149.015625,
+    "output_sha256": "cbae2b4cd5bce2677d7d3de9a18da4c2f1aa7f40ea6192edf0358fd7c3de669e",
+    "dataset": "HB",
+    "method": "hgd_flow",
+    "trial": 0,
+    "input_sha256": "53884bd3a3af6d7d315486afc034796c66721ddc43a0c310268e7b26b3340c12"
+  },
+  {
+    "key": "HB_abcore_0",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/house-bills.txt",
+      "abcore",
+      "5",
+      "1494"
+    ],
+    "status": "ok",
+    "wall_s": 0.09109300002455711,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 24.90625,
+    "output_sha256": "ee472396a0f7908f9061bc99dc0928b7d6b8c79366cf0432c8d93466b14fa495",
+    "dataset": "HB",
+    "method": "abcore",
+    "trial": 0,
+    "input_sha256": "53884bd3a3af6d7d315486afc034796c66721ddc43a0c310268e7b26b3340c12"
+  },
+  {
+    "key": "HB_hgd_reverse_0",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/hgd_reverse",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/house-bills.txt",
+      "5",
+      "1494"
+    ],
+    "status": "ok",
+    "wall_s": 1.6459261249983683,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 116.46875,
+    "output_sha256": "cbae2b4cd5bce2677d7d3de9a18da4c2f1aa7f40ea6192edf0358fd7c3de669e",
+    "dataset": "HB",
+    "method": "hgd_reverse",
+    "trial": 0,
+    "input_sha256": "53884bd3a3af6d7d315486afc034796c66721ddc43a0c310268e7b26b3340c12"
+  },
+  {
+    "key": "HB_core_0",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/house-bills.txt",
+      "core",
+      "1",
+      "1494"
+    ],
+    "status": "ok",
+    "wall_s": 0.19561916700331494,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 48.21875,
+    "output_sha256": "e7b437dab23a2a9bf8f8ba344df6aec67a625e1088bb1c49a2286b4839e6c57a",
+    "dataset": "HB",
+    "method": "core",
+    "trial": 0,
+    "input_sha256": "53884bd3a3af6d7d315486afc034796c66721ddc43a0c310268e7b26b3340c12"
+  },
+  {
+    "key": "HB_neighbor_0",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/house-bills.txt",
+      "neighbor",
+      "1",
+      "1494"
+    ],
+    "status": "ok",
+    "wall_s": 0.9585442910320126,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 90.8125,
+    "output_sha256": "27f48e999a4c40f836d1e53239e2e185f5f86a6d804b5dd566de84da149eded2",
+    "dataset": "HB",
+    "method": "neighbor",
+    "trial": 0,
+    "input_sha256": "53884bd3a3af6d7d315486afc034796c66721ddc43a0c310268e7b26b3340c12"
+  },
+  {
+    "key": "HB_abcore_1",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/house-bills.txt",
+      "abcore",
+      "5",
+      "1494"
+    ],
+    "status": "ok",
+    "wall_s": 0.09262454201234505,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 24.734375,
+    "output_sha256": "ee472396a0f7908f9061bc99dc0928b7d6b8c79366cf0432c8d93466b14fa495",
+    "dataset": "HB",
+    "method": "abcore",
+    "trial": 1,
+    "input_sha256": "53884bd3a3af6d7d315486afc034796c66721ddc43a0c310268e7b26b3340c12"
+  },
+  {
+    "key": "HB_core_1",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/house-bills.txt",
+      "core",
+      "1",
+      "1494"
+    ],
+    "status": "ok",
+    "wall_s": 0.18994833301985636,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 48.3125,
+    "output_sha256": "e7b437dab23a2a9bf8f8ba344df6aec67a625e1088bb1c49a2286b4839e6c57a",
+    "dataset": "HB",
+    "method": "core",
+    "trial": 1,
+    "input_sha256": "53884bd3a3af6d7d315486afc034796c66721ddc43a0c310268e7b26b3340c12"
+  },
+  {
+    "key": "HB_hgd_reverse_1",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/hgd_reverse",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/house-bills.txt",
+      "5",
+      "1494"
+    ],
+    "status": "ok",
+    "wall_s": 1.792818832967896,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 117.359375,
+    "output_sha256": "cbae2b4cd5bce2677d7d3de9a18da4c2f1aa7f40ea6192edf0358fd7c3de669e",
+    "dataset": "HB",
+    "method": "hgd_reverse",
+    "trial": 1,
+    "input_sha256": "53884bd3a3af6d7d315486afc034796c66721ddc43a0c310268e7b26b3340c12"
+  },
+  {
+    "key": "HB_hgd_flow_1",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/hgd_flow",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/house-bills.txt",
+      "5",
+      "1494"
+    ],
+    "status": "ok",
+    "wall_s": 3.9383035830105655,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 147.5625,
+    "output_sha256": "cbae2b4cd5bce2677d7d3de9a18da4c2f1aa7f40ea6192edf0358fd7c3de669e",
+    "dataset": "HB",
+    "method": "hgd_flow",
+    "trial": 1,
+    "input_sha256": "53884bd3a3af6d7d315486afc034796c66721ddc43a0c310268e7b26b3340c12"
+  },
+  {
+    "key": "HB_neighbor_1",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/house-bills.txt",
+      "neighbor",
+      "1",
+      "1494"
+    ],
+    "status": "ok",
+    "wall_s": 0.8522178750135936,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 93.90625,
+    "output_sha256": "27f48e999a4c40f836d1e53239e2e185f5f86a6d804b5dd566de84da149eded2",
+    "dataset": "HB",
+    "method": "neighbor",
+    "trial": 1,
+    "input_sha256": "53884bd3a3af6d7d315486afc034796c66721ddc43a0c310268e7b26b3340c12"
+  },
+  {
+    "key": "HB_cocore_1",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/house-bills.txt",
+      "cocore",
+      "5",
+      "1494"
+    ],
+    "status": "ok",
+    "wall_s": 0.9156333329738118,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 92.703125,
+    "output_sha256": "594ece141c5139f178f41846d13cf9858c2237fcb1d8abc0ccb27e0c94a0f949",
+    "dataset": "HB",
+    "method": "cocore",
+    "trial": 1,
+    "input_sha256": "53884bd3a3af6d7d315486afc034796c66721ddc43a0c310268e7b26b3340c12"
+  },
+  {
+    "key": "HB_hgd_reverse_2",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/hgd_reverse",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/house-bills.txt",
+      "5",
+      "1494"
+    ],
+    "status": "ok",
+    "wall_s": 1.4927583750104532,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 117.34375,
+    "output_sha256": "cbae2b4cd5bce2677d7d3de9a18da4c2f1aa7f40ea6192edf0358fd7c3de669e",
+    "dataset": "HB",
+    "method": "hgd_reverse",
+    "trial": 2,
+    "input_sha256": "53884bd3a3af6d7d315486afc034796c66721ddc43a0c310268e7b26b3340c12"
+  },
+  {
+    "key": "HB_neighbor_2",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/house-bills.txt",
+      "neighbor",
+      "1",
+      "1494"
+    ],
+    "status": "ok",
+    "wall_s": 0.870476916024927,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 92.234375,
+    "output_sha256": "27f48e999a4c40f836d1e53239e2e185f5f86a6d804b5dd566de84da149eded2",
+    "dataset": "HB",
+    "method": "neighbor",
+    "trial": 2,
+    "input_sha256": "53884bd3a3af6d7d315486afc034796c66721ddc43a0c310268e7b26b3340c12"
+  },
+  {
+    "key": "HB_hgd_flow_2",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/hgd_flow",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/house-bills.txt",
+      "5",
+      "1494"
+    ],
+    "status": "ok",
+    "wall_s": 3.867818416969385,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 144.890625,
+    "output_sha256": "cbae2b4cd5bce2677d7d3de9a18da4c2f1aa7f40ea6192edf0358fd7c3de669e",
+    "dataset": "HB",
+    "method": "hgd_flow",
+    "trial": 2,
+    "input_sha256": "53884bd3a3af6d7d315486afc034796c66721ddc43a0c310268e7b26b3340c12"
+  },
+  {
+    "key": "HB_cocore_2",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/house-bills.txt",
+      "cocore",
+      "5",
+      "1494"
+    ],
+    "status": "ok",
+    "wall_s": 0.8838622500188649,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 91.34375,
+    "output_sha256": "594ece141c5139f178f41846d13cf9858c2237fcb1d8abc0ccb27e0c94a0f949",
+    "dataset": "HB",
+    "method": "cocore",
+    "trial": 2,
+    "input_sha256": "53884bd3a3af6d7d315486afc034796c66721ddc43a0c310268e7b26b3340c12"
+  },
+  {
+    "key": "HB_core_2",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/house-bills.txt",
+      "core",
+      "1",
+      "1494"
+    ],
+    "status": "ok",
+    "wall_s": 0.18652133300201967,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 48.21875,
+    "output_sha256": "e7b437dab23a2a9bf8f8ba344df6aec67a625e1088bb1c49a2286b4839e6c57a",
+    "dataset": "HB",
+    "method": "core",
+    "trial": 2,
+    "input_sha256": "53884bd3a3af6d7d315486afc034796c66721ddc43a0c310268e7b26b3340c12"
+  },
+  {
+    "key": "HB_abcore_2",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_comparison_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset/house-bills.txt",
+      "abcore",
+      "5",
+      "1494"
+    ],
+    "status": "ok",
+    "wall_s": 0.09375458298018202,
+    "returncode": 0,
+    "timeout_s": 120,
+    "peak_rss_mib": 26.890625,
+    "output_sha256": "ee472396a0f7908f9061bc99dc0928b7d6b8c79366cf0432c8d93466b14fa495",
+    "dataset": "HB",
+    "method": "abcore",
+    "trial": 2,
+    "input_sha256": "53884bd3a3af6d7d315486afc034796c66721ddc43a0c310268e7b26b3340c12"
+  }
+]
