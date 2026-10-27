@@ -1,0 +1,38 @@
+{
+  "SC": {
+    "sha256": "cdb6c44832e9ba94549cd48e0807f448ef8b6d8266da3f88e0a07794af4b5b65",
+    "n": 282,
+    "m": 315,
+    "max_size": 31
+  },
+  "HC": {
+    "sha256": "d45b8b4532034c78232e6a1abb71b28777818b51035de84c5c14d9de2264432d",
+    "n": 1290,
+    "m": 341,
+    "max_size": 81
+  },
+  "CP": {
+    "sha256": "b3aa6d27740665bcbd2b7c26ce82878be26a46e58b130112c22e37657eb22bae",
+    "n": 242,
+    "m": 12704,
+    "max_size": 5
+  },
+  "CH": {
+    "sha256": "487d6f265f69706fd926cfbcfaea9eebafab8abc35e4fac574a72544118563b6",
+    "n": 327,
+    "m": 7818,
+    "max_size": 5
+  },
+  "SB": {
+    "sha256": "cf45aa9f7dcf3c8bc4e41846f7ed805e8fc6eaa60d9e11dd6582f1dbef57c420",
+    "n": 294,
+    "m": 29157,
+    "max_size": 99
+  },
+  "HB": {
+    "sha256": "53884bd3a3af6d7d315486afc034796c66721ddc43a0c310268e7b26b3340c12",
+    "n": 1494,
+    "m": 60987,
+    "max_size": 399
+  }
+}

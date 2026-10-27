@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the accompanying paper."
+title: "Density Decomposition on Hypergraphs"
+type: software
+authors:
+  - family-names: Leng
+    given-names: Xiaoyu
+  - family-names: Qin
+    given-names: Hongchao
+  - family-names: Li
+    given-names: Rong-Hua
+  - family-names: Wang
+    given-names: Guoren
+repository-code: "https://github.com/xiaoyu-ll/IDH"
+date-released: 2026-10-28
+preferred-citation:
+  type: article
+  title: "Density Decomposition on Hypergraphs"
+  authors:
+    - family-names: Leng
+      given-names: Xiaoyu
+    - family-names: Qin
+      given-names: Hongchao
+    - family-names: Li
+      given-names: Rong-Hua
+    - family-names: Wang
+      given-names: Guoren
+  year: 2026

@@ -1,0 +1,13 @@
+{
+  "protocol": "one serial DBLP Flow-Decomp execution continued until process exit",
+  "repeats": 1,
+  "deadline_s": null,
+  "delta": 5,
+  "n": 1930378,
+  "flags": "-std=c++17 -O3 -DNDEBUG -pthread",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "binary_sha256": "d42481c04df0fb294cd4706d29004165064ae2b75c8f2d456e43b083b4d3031a",
+  "input_sha256": "c58d20a5c14d53e831f457e84ad9eb122f31fa15861abfff8247bf4bd608127e",
+  "expected_output_sha256": "630da69addc2174356a0bf67e5b6d2006b53d49fa507174f03377cf4c224c563",
+  "started": "2026-10-27 17:59:10 +0800"
+}

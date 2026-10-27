@@ -1,0 +1,11 @@
+{
+  "protocol": "one serial launch per missing figure condition; complete IDN output checked",
+  "repeats": 1,
+  "scale_timeout_s": 60,
+  "large_timeout_s": 180,
+  "delta": 5,
+  "flags": "-std=c++17 -O3 -DNDEBUG -pthread",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "compiler": "Apple clang version 17.0.0 (clang-1700.0.13.3)\nTarget: arm64-apple-darwin25.6.0\nThread model: posix\nInstalledDir: /Library/Developer/CommandLineTools/usr/bin\n",
+  "binary_sha256": "391210eec71a0bcbb5d56807bbb895c9000188a898cdddff0a5c59a4e26f36ea"
+}

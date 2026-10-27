@@ -1,3 +1,4 @@
+#include <filesystem>
 #include<iostream>
 #include<fstream>
 #include<sstream>
@@ -14,6 +15,7 @@
 #include <cstring>
 #include <numeric>
 #include <unordered_set>
+#include <unordered_map>
 #include <limits>
 #include <random>
 
@@ -145,7 +147,11 @@ int main(int argc,char**argv){
     double alpha  = (argc>=8? atof(argv[7]) : 0.7);
     double beta   = (argc>=9? atof(argv[8]) : 0.40);
     double gamma  = (argc>=10? atof(argv[9]) : 0.10);
-    system((string("mkdir -p ")+OUTDIR).c_str());
+    // Avoid shell interpolation of the user-supplied output directory.
+    try { std::filesystem::create_directories(OUTDIR); }
+    catch(const std::filesystem::filesystem_error& ex){
+        cerr<<"cannot create output directory: "<<ex.what()<<"\n";return 2;
+    }
 
     // 1) 读账户真值（可选 CUSTOMER_ID）
     unordered_map<long long,int> y; y.reserve(1<<22);

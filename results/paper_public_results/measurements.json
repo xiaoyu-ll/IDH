@@ -1,0 +1,710 @@
+[
+  {
+    "key": "DBLP_abcore_0",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_public_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset_large/coauth-dblp.txt",
+      "abcore",
+      "5",
+      "1930378"
+    ],
+    "status": "ok",
+    "wall_s": 2.0512397079728544,
+    "returncode": 0,
+    "timeout_s": 180,
+    "peak_rss_mib": 619.4375,
+    "output_sha256": "9a7facfeb29a6cfc076bbd2377bf5027490e520b54c725054a20c0282e88b1d8",
+    "dataset": "DBLP",
+    "method": "abcore",
+    "trial": 0,
+    "input_sha256": "c58d20a5c14d53e831f457e84ad9eb122f31fa15861abfff8247bf4bd608127e"
+  },
+  {
+    "key": "DBLP_abcore_1",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_public_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset_large/coauth-dblp.txt",
+      "abcore",
+      "5",
+      "1930378"
+    ],
+    "status": "ok",
+    "wall_s": 2.0782350830268115,
+    "returncode": 0,
+    "timeout_s": 180,
+    "peak_rss_mib": 619.453125,
+    "output_sha256": "9a7facfeb29a6cfc076bbd2377bf5027490e520b54c725054a20c0282e88b1d8",
+    "dataset": "DBLP",
+    "method": "abcore",
+    "trial": 1,
+    "input_sha256": "c58d20a5c14d53e831f457e84ad9eb122f31fa15861abfff8247bf4bd608127e"
+  },
+  {
+    "key": "DBLP_abcore_2",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_public_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset_large/coauth-dblp.txt",
+      "abcore",
+      "5",
+      "1930378"
+    ],
+    "status": "ok",
+    "wall_s": 1.9931545840227045,
+    "returncode": 0,
+    "timeout_s": 180,
+    "peak_rss_mib": 615.953125,
+    "output_sha256": "9a7facfeb29a6cfc076bbd2377bf5027490e520b54c725054a20c0282e88b1d8",
+    "dataset": "DBLP",
+    "method": "abcore",
+    "trial": 2,
+    "input_sha256": "c58d20a5c14d53e831f457e84ad9eb122f31fa15861abfff8247bf4bd608127e"
+  },
+  {
+    "key": "DBLP_cocore_0",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_public_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset_large/coauth-dblp.txt",
+      "cocore",
+      "5",
+      "1930378"
+    ],
+    "status": "ok",
+    "wall_s": 8.68561237497488,
+    "returncode": 0,
+    "timeout_s": 180,
+    "peak_rss_mib": 1447.078125,
+    "output_sha256": "d03080686ab48dec992e7f5889430860c5950635c6124200030f464e1d4edec6",
+    "dataset": "DBLP",
+    "method": "cocore",
+    "trial": 0,
+    "input_sha256": "c58d20a5c14d53e831f457e84ad9eb122f31fa15861abfff8247bf4bd608127e"
+  },
+  {
+    "key": "DBLP_cocore_1",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_public_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset_large/coauth-dblp.txt",
+      "cocore",
+      "5",
+      "1930378"
+    ],
+    "status": "ok",
+    "wall_s": 8.543888042040635,
+    "returncode": 0,
+    "timeout_s": 180,
+    "peak_rss_mib": 1447.15625,
+    "output_sha256": "d03080686ab48dec992e7f5889430860c5950635c6124200030f464e1d4edec6",
+    "dataset": "DBLP",
+    "method": "cocore",
+    "trial": 1,
+    "input_sha256": "c58d20a5c14d53e831f457e84ad9eb122f31fa15861abfff8247bf4bd608127e"
+  },
+  {
+    "key": "DBLP_cocore_2",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_public_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset_large/coauth-dblp.txt",
+      "cocore",
+      "5",
+      "1930378"
+    ],
+    "status": "ok",
+    "wall_s": 8.412928292003926,
+    "returncode": 0,
+    "timeout_s": 180,
+    "peak_rss_mib": 1447.140625,
+    "output_sha256": "d03080686ab48dec992e7f5889430860c5950635c6124200030f464e1d4edec6",
+    "dataset": "DBLP",
+    "method": "cocore",
+    "trial": 2,
+    "input_sha256": "c58d20a5c14d53e831f457e84ad9eb122f31fa15861abfff8247bf4bd608127e"
+  },
+  {
+    "key": "DBLP_core_0",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_public_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset_large/coauth-dblp.txt",
+      "core",
+      "1",
+      "1930378"
+    ],
+    "status": "ok",
+    "wall_s": 3.6651432079961523,
+    "returncode": 0,
+    "timeout_s": 180,
+    "peak_rss_mib": 695.1875,
+    "output_sha256": "a1d8acec1bb40d439f0a6c1d0c29fabc0c70d15885e97b5322cf08002f8bdf57",
+    "dataset": "DBLP",
+    "method": "core",
+    "trial": 0,
+    "input_sha256": "c58d20a5c14d53e831f457e84ad9eb122f31fa15861abfff8247bf4bd608127e"
+  },
+  {
+    "key": "DBLP_core_1",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_public_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset_large/coauth-dblp.txt",
+      "core",
+      "1",
+      "1930378"
+    ],
+    "status": "ok",
+    "wall_s": 3.8000393339898437,
+    "returncode": 0,
+    "timeout_s": 180,
+    "peak_rss_mib": 691.71875,
+    "output_sha256": "a1d8acec1bb40d439f0a6c1d0c29fabc0c70d15885e97b5322cf08002f8bdf57",
+    "dataset": "DBLP",
+    "method": "core",
+    "trial": 1,
+    "input_sha256": "c58d20a5c14d53e831f457e84ad9eb122f31fa15861abfff8247bf4bd608127e"
+  },
+  {
+    "key": "DBLP_core_2",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_public_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset_large/coauth-dblp.txt",
+      "core",
+      "1",
+      "1930378"
+    ],
+    "status": "ok",
+    "wall_s": 3.6123396669863723,
+    "returncode": 0,
+    "timeout_s": 180,
+    "peak_rss_mib": 691.734375,
+    "output_sha256": "a1d8acec1bb40d439f0a6c1d0c29fabc0c70d15885e97b5322cf08002f8bdf57",
+    "dataset": "DBLP",
+    "method": "core",
+    "trial": 2,
+    "input_sha256": "c58d20a5c14d53e831f457e84ad9eb122f31fa15861abfff8247bf4bd608127e"
+  },
+  {
+    "key": "DBLP_hgd_flow_0",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_public_build/hgd_flow",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset_large/coauth-dblp.txt",
+      "5",
+      "1930378"
+    ],
+    "status": "timeout",
+    "wall_s": 180.03347633295925,
+    "returncode": -9,
+    "timeout_s": 180,
+    "peak_rss_mib": 2866.296875,
+    "output_sha256": "",
+    "dataset": "DBLP",
+    "method": "hgd_flow",
+    "trial": 0,
+    "input_sha256": "c58d20a5c14d53e831f457e84ad9eb122f31fa15861abfff8247bf4bd608127e"
+  },
+  {
+    "key": "DBLP_hgd_flow_1",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_public_build/hgd_flow",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset_large/coauth-dblp.txt",
+      "5",
+      "1930378"
+    ],
+    "status": "timeout",
+    "wall_s": 180.0317344579962,
+    "returncode": -9,
+    "timeout_s": 180,
+    "peak_rss_mib": 2798.203125,
+    "output_sha256": "",
+    "dataset": "DBLP",
+    "method": "hgd_flow",
+    "trial": 1,
+    "input_sha256": "c58d20a5c14d53e831f457e84ad9eb122f31fa15861abfff8247bf4bd608127e"
+  },
+  {
+    "key": "DBLP_hgd_flow_2",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_public_build/hgd_flow",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset_large/coauth-dblp.txt",
+      "5",
+      "1930378"
+    ],
+    "status": "timeout",
+    "wall_s": 180.02270533301635,
+    "returncode": -9,
+    "timeout_s": 180,
+    "peak_rss_mib": 2642.09375,
+    "output_sha256": "",
+    "dataset": "DBLP",
+    "method": "hgd_flow",
+    "trial": 2,
+    "input_sha256": "c58d20a5c14d53e831f457e84ad9eb122f31fa15861abfff8247bf4bd608127e"
+  },
+  {
+    "key": "DBLP_hgd_reverse_0",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_public_build/hgd_reverse",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset_large/coauth-dblp.txt",
+      "5",
+      "1930378"
+    ],
+    "status": "ok",
+    "wall_s": 54.68158733303426,
+    "returncode": 0,
+    "timeout_s": 180,
+    "peak_rss_mib": 854.703125,
+    "output_sha256": "630da69addc2174356a0bf67e5b6d2006b53d49fa507174f03377cf4c224c563",
+    "dataset": "DBLP",
+    "method": "hgd_reverse",
+    "trial": 0,
+    "input_sha256": "c58d20a5c14d53e831f457e84ad9eb122f31fa15861abfff8247bf4bd608127e"
+  },
+  {
+    "key": "DBLP_hgd_reverse_1",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_public_build/hgd_reverse",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset_large/coauth-dblp.txt",
+      "5",
+      "1930378"
+    ],
+    "status": "ok",
+    "wall_s": 56.65804345801007,
+    "returncode": 0,
+    "timeout_s": 180,
+    "peak_rss_mib": 852.265625,
+    "output_sha256": "630da69addc2174356a0bf67e5b6d2006b53d49fa507174f03377cf4c224c563",
+    "dataset": "DBLP",
+    "method": "hgd_reverse",
+    "trial": 1,
+    "input_sha256": "c58d20a5c14d53e831f457e84ad9eb122f31fa15861abfff8247bf4bd608127e"
+  },
+  {
+    "key": "DBLP_hgd_reverse_2",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_public_build/hgd_reverse",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset_large/coauth-dblp.txt",
+      "5",
+      "1930378"
+    ],
+    "status": "ok",
+    "wall_s": 54.001167999987956,
+    "returncode": 0,
+    "timeout_s": 180,
+    "peak_rss_mib": 855.578125,
+    "output_sha256": "630da69addc2174356a0bf67e5b6d2006b53d49fa507174f03377cf4c224c563",
+    "dataset": "DBLP",
+    "method": "hgd_reverse",
+    "trial": 2,
+    "input_sha256": "c58d20a5c14d53e831f457e84ad9eb122f31fa15861abfff8247bf4bd608127e"
+  },
+  {
+    "key": "DBLP_neighbor_0",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_public_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset_large/coauth-dblp.txt",
+      "neighbor",
+      "1",
+      "1930378"
+    ],
+    "status": "ok",
+    "wall_s": 9.009669540973846,
+    "returncode": 0,
+    "timeout_s": 180,
+    "peak_rss_mib": 1347.15625,
+    "output_sha256": "7502c67213aa6dd7689c2f56f19fa1d316255aa601fffe8bfb0063a2d62c33fa",
+    "dataset": "DBLP",
+    "method": "neighbor",
+    "trial": 0,
+    "input_sha256": "c58d20a5c14d53e831f457e84ad9eb122f31fa15861abfff8247bf4bd608127e"
+  },
+  {
+    "key": "DBLP_neighbor_1",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_public_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset_large/coauth-dblp.txt",
+      "neighbor",
+      "1",
+      "1930378"
+    ],
+    "status": "ok",
+    "wall_s": 8.444154250028078,
+    "returncode": 0,
+    "timeout_s": 180,
+    "peak_rss_mib": 1442.03125,
+    "output_sha256": "7502c67213aa6dd7689c2f56f19fa1d316255aa601fffe8bfb0063a2d62c33fa",
+    "dataset": "DBLP",
+    "method": "neighbor",
+    "trial": 1,
+    "input_sha256": "c58d20a5c14d53e831f457e84ad9eb122f31fa15861abfff8247bf4bd608127e"
+  },
+  {
+    "key": "DBLP_neighbor_2",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_public_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset_large/coauth-dblp.txt",
+      "neighbor",
+      "1",
+      "1930378"
+    ],
+    "status": "ok",
+    "wall_s": 8.445579707971774,
+    "returncode": 0,
+    "timeout_s": 180,
+    "peak_rss_mib": 1442.0,
+    "output_sha256": "7502c67213aa6dd7689c2f56f19fa1d316255aa601fffe8bfb0063a2d62c33fa",
+    "dataset": "DBLP",
+    "method": "neighbor",
+    "trial": 2,
+    "input_sha256": "c58d20a5c14d53e831f457e84ad9eb122f31fa15861abfff8247bf4bd608127e"
+  },
+  {
+    "key": "TM_abcore_0",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_public_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset_large/threads-math-sx.txt",
+      "abcore",
+      "5",
+      "176445"
+    ],
+    "status": "ok",
+    "wall_s": 0.17915483401156962,
+    "returncode": 0,
+    "timeout_s": 180,
+    "peak_rss_mib": 123.0625,
+    "output_sha256": "241d35ac92b49c10eb4254cbbfc74108f8b80d94275321ab6fea12f584e7e1d9",
+    "dataset": "TM",
+    "method": "abcore",
+    "trial": 0,
+    "input_sha256": "9a478ce90bc1579bfb032624eda8c5b7706aaad914135f0811335eb2b5985c35"
+  },
+  {
+    "key": "TM_abcore_1",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_public_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset_large/threads-math-sx.txt",
+      "abcore",
+      "5",
+      "176445"
+    ],
+    "status": "ok",
+    "wall_s": 0.18074704200262204,
+    "returncode": 0,
+    "timeout_s": 180,
+    "peak_rss_mib": 123.0625,
+    "output_sha256": "241d35ac92b49c10eb4254cbbfc74108f8b80d94275321ab6fea12f584e7e1d9",
+    "dataset": "TM",
+    "method": "abcore",
+    "trial": 1,
+    "input_sha256": "9a478ce90bc1579bfb032624eda8c5b7706aaad914135f0811335eb2b5985c35"
+  },
+  {
+    "key": "TM_abcore_2",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_public_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset_large/threads-math-sx.txt",
+      "abcore",
+      "5",
+      "176445"
+    ],
+    "status": "ok",
+    "wall_s": 0.18441270798211917,
+    "returncode": 0,
+    "timeout_s": 180,
+    "peak_rss_mib": 123.15625,
+    "output_sha256": "241d35ac92b49c10eb4254cbbfc74108f8b80d94275321ab6fea12f584e7e1d9",
+    "dataset": "TM",
+    "method": "abcore",
+    "trial": 2,
+    "input_sha256": "9a478ce90bc1579bfb032624eda8c5b7706aaad914135f0811335eb2b5985c35"
+  },
+  {
+    "key": "TM_cocore_0",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_public_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset_large/threads-math-sx.txt",
+      "cocore",
+      "5",
+      "176445"
+    ],
+    "status": "ok",
+    "wall_s": 1.6174171249731444,
+    "returncode": 0,
+    "timeout_s": 180,
+    "peak_rss_mib": 240.15625,
+    "output_sha256": "13066825feda7e1a43902921e85d8020873f886e833035aaf647a35aa32440e7",
+    "dataset": "TM",
+    "method": "cocore",
+    "trial": 0,
+    "input_sha256": "9a478ce90bc1579bfb032624eda8c5b7706aaad914135f0811335eb2b5985c35"
+  },
+  {
+    "key": "TM_cocore_1",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_public_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset_large/threads-math-sx.txt",
+      "cocore",
+      "5",
+      "176445"
+    ],
+    "status": "ok",
+    "wall_s": 1.0458880409714766,
+    "returncode": 0,
+    "timeout_s": 180,
+    "peak_rss_mib": 238.34375,
+    "output_sha256": "13066825feda7e1a43902921e85d8020873f886e833035aaf647a35aa32440e7",
+    "dataset": "TM",
+    "method": "cocore",
+    "trial": 1,
+    "input_sha256": "9a478ce90bc1579bfb032624eda8c5b7706aaad914135f0811335eb2b5985c35"
+  },
+  {
+    "key": "TM_cocore_2",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_public_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset_large/threads-math-sx.txt",
+      "cocore",
+      "5",
+      "176445"
+    ],
+    "status": "ok",
+    "wall_s": 1.0467518749646842,
+    "returncode": 0,
+    "timeout_s": 180,
+    "peak_rss_mib": 238.359375,
+    "output_sha256": "13066825feda7e1a43902921e85d8020873f886e833035aaf647a35aa32440e7",
+    "dataset": "TM",
+    "method": "cocore",
+    "trial": 2,
+    "input_sha256": "9a478ce90bc1579bfb032624eda8c5b7706aaad914135f0811335eb2b5985c35"
+  },
+  {
+    "key": "TM_core_0",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_public_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset_large/threads-math-sx.txt",
+      "core",
+      "1",
+      "176445"
+    ],
+    "status": "ok",
+    "wall_s": 0.34584125003311783,
+    "returncode": 0,
+    "timeout_s": 180,
+    "peak_rss_mib": 140.265625,
+    "output_sha256": "2424a8cc0c4f7b2bcc6b52f5b00b045dd2d27b9cc34a5a2766827cfaba227a56",
+    "dataset": "TM",
+    "method": "core",
+    "trial": 0,
+    "input_sha256": "9a478ce90bc1579bfb032624eda8c5b7706aaad914135f0811335eb2b5985c35"
+  },
+  {
+    "key": "TM_core_1",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_public_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset_large/threads-math-sx.txt",
+      "core",
+      "1",
+      "176445"
+    ],
+    "status": "ok",
+    "wall_s": 0.3565336659667082,
+    "returncode": 0,
+    "timeout_s": 180,
+    "peak_rss_mib": 136.703125,
+    "output_sha256": "2424a8cc0c4f7b2bcc6b52f5b00b045dd2d27b9cc34a5a2766827cfaba227a56",
+    "dataset": "TM",
+    "method": "core",
+    "trial": 1,
+    "input_sha256": "9a478ce90bc1579bfb032624eda8c5b7706aaad914135f0811335eb2b5985c35"
+  },
+  {
+    "key": "TM_core_2",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_public_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset_large/threads-math-sx.txt",
+      "core",
+      "1",
+      "176445"
+    ],
+    "status": "ok",
+    "wall_s": 0.3492369999876246,
+    "returncode": 0,
+    "timeout_s": 180,
+    "peak_rss_mib": 136.75,
+    "output_sha256": "2424a8cc0c4f7b2bcc6b52f5b00b045dd2d27b9cc34a5a2766827cfaba227a56",
+    "dataset": "TM",
+    "method": "core",
+    "trial": 2,
+    "input_sha256": "9a478ce90bc1579bfb032624eda8c5b7706aaad914135f0811335eb2b5985c35"
+  },
+  {
+    "key": "TM_hgd_flow_0",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_public_build/hgd_flow",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset_large/threads-math-sx.txt",
+      "5",
+      "176445"
+    ],
+    "status": "ok",
+    "wall_s": 16.59933891700348,
+    "returncode": 0,
+    "timeout_s": 180,
+    "peak_rss_mib": 217.421875,
+    "output_sha256": "789f6d5232528b7a75bc29b843d6b616465f99574d3d6fab79c96f7012155bc9",
+    "dataset": "TM",
+    "method": "hgd_flow",
+    "trial": 0,
+    "input_sha256": "9a478ce90bc1579bfb032624eda8c5b7706aaad914135f0811335eb2b5985c35"
+  },
+  {
+    "key": "TM_hgd_flow_1",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_public_build/hgd_flow",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset_large/threads-math-sx.txt",
+      "5",
+      "176445"
+    ],
+    "status": "ok",
+    "wall_s": 17.518284083984327,
+    "returncode": 0,
+    "timeout_s": 180,
+    "peak_rss_mib": 218.4375,
+    "output_sha256": "789f6d5232528b7a75bc29b843d6b616465f99574d3d6fab79c96f7012155bc9",
+    "dataset": "TM",
+    "method": "hgd_flow",
+    "trial": 1,
+    "input_sha256": "9a478ce90bc1579bfb032624eda8c5b7706aaad914135f0811335eb2b5985c35"
+  },
+  {
+    "key": "TM_hgd_flow_2",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_public_build/hgd_flow",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset_large/threads-math-sx.txt",
+      "5",
+      "176445"
+    ],
+    "status": "ok",
+    "wall_s": 17.897226875007618,
+    "returncode": 0,
+    "timeout_s": 180,
+    "peak_rss_mib": 219.9375,
+    "output_sha256": "789f6d5232528b7a75bc29b843d6b616465f99574d3d6fab79c96f7012155bc9",
+    "dataset": "TM",
+    "method": "hgd_flow",
+    "trial": 2,
+    "input_sha256": "9a478ce90bc1579bfb032624eda8c5b7706aaad914135f0811335eb2b5985c35"
+  },
+  {
+    "key": "TM_hgd_reverse_0",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_public_build/hgd_reverse",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset_large/threads-math-sx.txt",
+      "5",
+      "176445"
+    ],
+    "status": "ok",
+    "wall_s": 1.1678668329841457,
+    "returncode": 0,
+    "timeout_s": 180,
+    "peak_rss_mib": 145.25,
+    "output_sha256": "789f6d5232528b7a75bc29b843d6b616465f99574d3d6fab79c96f7012155bc9",
+    "dataset": "TM",
+    "method": "hgd_reverse",
+    "trial": 0,
+    "input_sha256": "9a478ce90bc1579bfb032624eda8c5b7706aaad914135f0811335eb2b5985c35"
+  },
+  {
+    "key": "TM_hgd_reverse_1",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_public_build/hgd_reverse",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset_large/threads-math-sx.txt",
+      "5",
+      "176445"
+    ],
+    "status": "ok",
+    "wall_s": 0.7548498330288567,
+    "returncode": 0,
+    "timeout_s": 180,
+    "peak_rss_mib": 146.8125,
+    "output_sha256": "789f6d5232528b7a75bc29b843d6b616465f99574d3d6fab79c96f7012155bc9",
+    "dataset": "TM",
+    "method": "hgd_reverse",
+    "trial": 1,
+    "input_sha256": "9a478ce90bc1579bfb032624eda8c5b7706aaad914135f0811335eb2b5985c35"
+  },
+  {
+    "key": "TM_hgd_reverse_2",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_public_build/hgd_reverse",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset_large/threads-math-sx.txt",
+      "5",
+      "176445"
+    ],
+    "status": "ok",
+    "wall_s": 0.7347129579866305,
+    "returncode": 0,
+    "timeout_s": 180,
+    "peak_rss_mib": 146.84375,
+    "output_sha256": "789f6d5232528b7a75bc29b843d6b616465f99574d3d6fab79c96f7012155bc9",
+    "dataset": "TM",
+    "method": "hgd_reverse",
+    "trial": 2,
+    "input_sha256": "9a478ce90bc1579bfb032624eda8c5b7706aaad914135f0811335eb2b5985c35"
+  },
+  {
+    "key": "TM_neighbor_0",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_public_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset_large/threads-math-sx.txt",
+      "neighbor",
+      "1",
+      "176445"
+    ],
+    "status": "ok",
+    "wall_s": 1.100076499977149,
+    "returncode": 0,
+    "timeout_s": 180,
+    "peak_rss_mib": 237.828125,
+    "output_sha256": "e9f148621a30942fe6ea090d48ad2f5f1983d3e616a0839ac76ea5dcb6a7f0d4",
+    "dataset": "TM",
+    "method": "neighbor",
+    "trial": 0,
+    "input_sha256": "9a478ce90bc1579bfb032624eda8c5b7706aaad914135f0811335eb2b5985c35"
+  },
+  {
+    "key": "TM_neighbor_1",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_public_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset_large/threads-math-sx.txt",
+      "neighbor",
+      "1",
+      "176445"
+    ],
+    "status": "ok",
+    "wall_s": 1.0645653340034187,
+    "returncode": 0,
+    "timeout_s": 180,
+    "peak_rss_mib": 237.890625,
+    "output_sha256": "e9f148621a30942fe6ea090d48ad2f5f1983d3e616a0839ac76ea5dcb6a7f0d4",
+    "dataset": "TM",
+    "method": "neighbor",
+    "trial": 1,
+    "input_sha256": "9a478ce90bc1579bfb032624eda8c5b7706aaad914135f0811335eb2b5985c35"
+  },
+  {
+    "key": "TM_neighbor_2",
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_public_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset_large/threads-math-sx.txt",
+      "neighbor",
+      "1",
+      "176445"
+    ],
+    "status": "ok",
+    "wall_s": 1.0643560420139693,
+    "returncode": 0,
+    "timeout_s": 180,
+    "peak_rss_mib": 237.78125,
+    "output_sha256": "e9f148621a30942fe6ea090d48ad2f5f1983d3e616a0839ac76ea5dcb6a7f0d4",
+    "dataset": "TM",
+    "method": "neighbor",
+    "trial": 2,
+    "input_sha256": "9a478ce90bc1579bfb032624eda8c5b7706aaad914135f0811335eb2b5985c35"
+  }
+]

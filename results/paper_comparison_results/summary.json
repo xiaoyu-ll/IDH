@@ -1,0 +1,32 @@
+{
+  "SC": {
+    "time_ratio": 1.2674904986663853,
+    "flow_rss": 2.640625,
+    "reverse_rss": 2.4375
+  },
+  "HC": {
+    "time_ratio": 1.3876639457298217,
+    "flow_rss": 3.59375,
+    "reverse_rss": 3.359375
+  },
+  "CP": {
+    "time_ratio": 1.8665905758195618,
+    "flow_rss": 4.671875,
+    "reverse_rss": 3.453125
+  },
+  "CH": {
+    "time_ratio": 1.5878325070932966,
+    "flow_rss": 3.4375,
+    "reverse_rss": 2.625
+  },
+  "SB": {
+    "time_ratio": 3.114315480546964,
+    "flow_rss": 30.6875,
+    "reverse_rss": 22.5625
+  },
+  "HB": {
+    "time_ratio": 2.3927584131483846,
+    "flow_rss": 147.5625,
+    "reverse_rss": 117.34375
+  }
+}

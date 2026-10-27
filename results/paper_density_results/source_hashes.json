@@ -1,0 +1,7 @@
+{
+  "verified/paper_density.cpp": "60d55d967aa81bc8a412e32e7fde3dc80818a012bbc99fd3fac136960b0f1f95",
+  "verified/hgd_optimized.hpp": "9114ed9fd2550e639b8aceaa557a42e6f8b923c7e096b8f336a270f4e26ca0df",
+  "verified/hgd_exact.cpp": "2d643db7f8e901942f3fd856bf532baecf20383fa1aeef580fde38b37ee570de",
+  "scripts/paper_density_experiments.py": "4790a5131940f9bc49f864caeacfd47b32a03689632c9349b50626f75ae68916",
+  "scripts/paper_experiments.py": "c9d3bbd697ece8c408e38c9ed8201ade9471c22eb8a839942b169ddb261b8e46"
+}

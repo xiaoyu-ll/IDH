@@ -7,6 +7,7 @@
 #include <fstream>
 #include <iomanip>
 #include <iostream>
+#include <limits>
 #include <random>
 #include <string>
 #include <unordered_map>
@@ -34,7 +35,8 @@ static inline vector<string> split_comma(const string& line){
 static inline bool to_int(const string& s, int& v){
     if(s.empty()) return false; char* e=nullptr;
     long x=strtol(s.c_str(), &e, 10);
-    if(*e!='\0') return false; v=(int)x; return true;
+    if(*e!='\0' || x<0 || x>std::numeric_limits<int>::max()) return false;
+    v=(int)x; return true;
 }
 
 struct PairHash{
@@ -53,6 +55,8 @@ static void read_edges(const string& path, vector<vector<int>>& bills, int& max_
         line=trim(line); if(line.empty()) continue;
         auto t=split_comma(line); vector<int> e;
         for(auto& s: t){ if(to_int(s,x)){ e.push_back(x); max_id=max(max_id,x);} }
+        std::sort(e.begin(),e.end());
+        e.erase(std::unique(e.begin(),e.end()),e.end());
         if(!e.empty()) bills.push_back(std::move(e));
     }
 }

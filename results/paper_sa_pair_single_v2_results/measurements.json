@@ -1,0 +1,46 @@
+[
+  {
+    "key": "SA_neighbor_single",
+    "dataset": "SA",
+    "method": "neighbor",
+    "trial": 0,
+    "repeats": 1,
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_sa_pair_single_v2_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset_large/stackoverflow-answers.txt",
+      "neighbor",
+      "1",
+      "15211989"
+    ],
+    "status": "oom",
+    "wall_s": 118.34331699996255,
+    "returncode": -9,
+    "timeout_s": 180,
+    "peak_rss_mib": 2529.265625,
+    "input_sha256": "f0f350d3e77caa6f938fb6dc9dec5e25f218058b55c200bcf0ddc459e9faf31c",
+    "output_sha256": "",
+    "stderr": ""
+  },
+  {
+    "key": "SA_cocore_single",
+    "dataset": "SA",
+    "method": "cocore",
+    "trial": 0,
+    "repeats": 1,
+    "command": [
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/paper_sa_pair_single_v2_build/paper_baselines",
+      "/Users/xiaoyu/ky/hgdnew/round5/ihgd/dataset_large/stackoverflow-answers.txt",
+      "cocore",
+      "5",
+      "15211989"
+    ],
+    "status": "oom",
+    "wall_s": 124.59415575000457,
+    "returncode": -9,
+    "timeout_s": 180,
+    "peak_rss_mib": 6026.5,
+    "input_sha256": "f0f350d3e77caa6f938fb6dc9dec5e25f218058b55c200bcf0ddc459e9faf31c",
+    "output_sha256": "",
+    "stderr": ""
+  }
+]

@@ -1,0 +1,6 @@
+#define HGD_REVERSE_REACH
+#define HGD_REVERSE_CSR
+#define HGD_SPARSE_RESIDUAL_SYNC
+#define HGD_SCC_CACHE_FLOW
+#define HGD_SCC_GREEDY_INITIALIZATION
+#include "scc_all.cpp"

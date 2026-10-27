@@ -1,0 +1,12 @@
+{
+  "hgd_flow.cpp": "8e5c4cfe10431491eaf90ae92a8c1b724cd252ae4762812e539c17c9156a7436",
+  "hgd_reverse.cpp": "066fd71776f2fc8f0201fec3a049d8b65aba7d4e1e1a0a2b0de34fa33aeb1f97",
+  "scc_cached_plus.cpp": "b5baf23939114dd77d8eb9ad2153ade19c01acfc766778dccd6dbec397bfc751",
+  "scc_reverse_csr_plus.cpp": "7e82ad77c392451683b19ee3948a8bbaba68ee7fc3753740d71330f6328d518f",
+  "scc_all.cpp": "4d437079ab0e49806b654af8e8b55cf257c27e68fd9a1ba41bb5263907ed5d01",
+  "verified/paper_baselines.cpp": "52c8c6caa04465cc142524074b80abbf56e27377093b46b4c77f4d675accbd10",
+  "verified/hgd_optimized.hpp": "9114ed9fd2550e639b8aceaa557a42e6f8b923c7e096b8f336a270f4e26ca0df",
+  "verified/hgd_exact.cpp": "2d643db7f8e901942f3fd856bf532baecf20383fa1aeef580fde38b37ee570de",
+  "scripts/paper_experiments.py": "c9d3bbd697ece8c408e38c9ed8201ade9471c22eb8a839942b169ddb261b8e46",
+  "scripts/paper_comparisons.py": "9b561da9acdf9a452ecb1c266f21aea19203c421a3f892176ca0903f183cc257"
+}

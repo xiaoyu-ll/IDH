@@ -1,0 +1,22 @@
+{
+  "n": 176445,
+  "m": 719792,
+  "L": 1610393,
+  "max_size": 21,
+  "min_size": 1,
+  "declared_nodes": 0,
+  "active_vertices": 176445,
+  "removed_incidences": 0,
+  "ordered_pair_initializations": 2773598,
+  "sha256": "9a478ce90bc1579bfb032624eda8c5b7706aaad914135f0811335eb2b5985c35",
+  "dataset": "TM",
+  "raw_md5": "756dc8548abfc3333a4fab2cb8fb16be",
+  "raw_sha256": "55c10fec7d2ec07eb2e882c34ac7269d655779a2d4c2f4314093c86ec7b7e766",
+  "source_url": "https://zenodo.org/records/21938817/files/threads-math-sx.json?download=1",
+  "doi": "10.5281/zenodo.21938817",
+  "converter_sha256": "73fd66ae128300a187c34ae797c5413c5dbf7b6a2dde1cf844ea9a61b9528412",
+  "mappings": {
+    "nodes": "3ab9862438aba1aec5ffd3a3eb99257f0d3b4506375c0e24cbc388fab26a42c5",
+    "edges": "b5083a71d688f1759eb75f5cb92aebefeb972a075b3f33e6b14292420a1bd2ae"
+  }
+}
